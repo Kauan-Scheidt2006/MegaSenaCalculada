@@ -1,0 +1,8 @@
+interface:
+  display_name: "Domínio da Mega-Sena"
+  short_description: "Modela regras e processa o histórico"
+  default_prompt: "Use $dominio-mega-sena para desenvolver esta regra de negócio incrementalmente."
+
+policy:
+  allow_implicit_invocation: true
+

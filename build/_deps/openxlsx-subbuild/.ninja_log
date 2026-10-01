@@ -1,0 +1,37 @@
+# ninja log v6
+3	112	8123247663602010	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-mkdir	f7b053d7ef71e46
+3	112	8123247663602010	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-mkdir	f7b053d7ef71e46
+201	282	8123453337500082	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-patch	3ecf965734e7ff77
+4	4214	8123247860291299	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-download	ce0295c6936a3817
+4	4214	8123247860291299	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-download	ce0295c6936a3817
+11	201	8123453334880593	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-update	82b99ec3ec511ce4
+601	702	8123453341710786	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-done	66ba4dca3f7e3c21
+11	201	8123453334880593	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-update	82b99ec3ec511ce4
+201	282	8123453337500082	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-patch	3ecf965734e7ff77
+368	440	8123453339045646	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-build	1b6b320b92f2eba6
+282	367	8123453338375977	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-configure	b26c2eccb490a331
+282	367	8123453338375977	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-configure	b26c2eccb490a331
+368	440	8123453339045646	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-build	1b6b320b92f2eba6
+440	518	8123453339877513	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-install	845c2091ba601151
+518	600	8123453340710179	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-test	84e47a8df25e0537
+440	518	8123453339877513	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-install	845c2091ba601151
+518	600	8123453340710179	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-test	84e47a8df25e0537
+601	702	8123453341710786	CMakeFiles/openxlsx-populate-complete	66ba4dca3f7e3c21
+601	702	8123453341710786	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/CMakeFiles/openxlsx-populate-complete	66ba4dca3f7e3c21
+601	702	8123453341710786	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-done	66ba4dca3f7e3c21
+10	208	8125789589616609	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-update	82b99ec3ec511ce4
+10	208	8125789589616609	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-update	82b99ec3ec511ce4
+208	305	8125789592481565	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-patch	3ecf965734e7ff77
+208	305	8125789592481565	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-patch	3ecf965734e7ff77
+305	388	8125789593314304	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-configure	b26c2eccb490a331
+305	388	8125789593314304	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-configure	b26c2eccb490a331
+388	469	8125789594123050	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-build	1b6b320b92f2eba6
+388	469	8125789594123050	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-build	1b6b320b92f2eba6
+469	546	8125789594902713	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-install	845c2091ba601151
+469	546	8125789594902713	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-install	845c2091ba601151
+546	625	8125789595689951	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-test	84e47a8df25e0537
+546	625	8125789595689951	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-test	84e47a8df25e0537
+625	734	8125789596756968	CMakeFiles/openxlsx-populate-complete	66ba4dca3f7e3c21
+625	734	8125789596756968	openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-done	66ba4dca3f7e3c21
+625	734	8125789596756968	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/CMakeFiles/openxlsx-populate-complete	66ba4dca3f7e3c21
+625	734	8125789596756968	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-done	66ba4dca3f7e3c21

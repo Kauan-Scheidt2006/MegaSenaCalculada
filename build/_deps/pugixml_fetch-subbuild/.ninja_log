@@ -1,0 +1,37 @@
+# ninja log v6
+2	83	8123247977404228	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-mkdir	49f27bba8f56416e
+2	83	8123247977404228	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-mkdir	49f27bba8f56416e
+84	2930	8123248005884295	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-download	223af707810c4c30
+84	2930	8123248005884295	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-download	223af707810c4c30
+9	195	8123453369368953	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-update	f4840f914d224967
+196	267	8123453371869246	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-patch	9434f76f9f09ecb6
+9	195	8123453369368953	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-update	f4840f914d224967
+196	267	8123453371869246	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-patch	9434f76f9f09ecb6
+267	337	8123453372536383	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-configure	6a3e61b022b9296b
+267	337	8123453372536383	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-configure	6a3e61b022b9296b
+337	406	8123453373205444	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-build	8ebbb8c33f4d92c3
+337	406	8123453373205444	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-build	8ebbb8c33f4d92c3
+546	640	8123453375604977	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-done	8ec575d0758e1eec
+406	478	8123453373875793	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-install	de555afdaf9a3e40
+406	478	8123453373875793	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-install	de555afdaf9a3e40
+478	546	8123453374647888	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-test	7ee7899ef8090a48
+478	546	8123453374647888	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-test	7ee7899ef8090a48
+546	640	8123453375604977	CMakeFiles/pugixml_fetch-populate-complete	8ec575d0758e1eec
+546	640	8123453375604977	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/CMakeFiles/pugixml_fetch-populate-complete	8ec575d0758e1eec
+546	640	8123453375604977	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-done	8ec575d0758e1eec
+12	224	8125789628371326	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-update	f4840f914d224967
+12	224	8125789628371326	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-update	f4840f914d224967
+224	305	8125789631217218	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-patch	9434f76f9f09ecb6
+224	305	8125789631217218	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-patch	9434f76f9f09ecb6
+305	382	8125789631998098	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-configure	6a3e61b022b9296b
+305	382	8125789631998098	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-configure	6a3e61b022b9296b
+382	453	8125789632697070	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-build	8ebbb8c33f4d92c3
+382	453	8125789632697070	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-build	8ebbb8c33f4d92c3
+454	531	8125789633487638	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-install	de555afdaf9a3e40
+454	531	8125789633487638	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-install	de555afdaf9a3e40
+531	604	8125789634201727	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-test	7ee7899ef8090a48
+531	604	8125789634201727	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-test	7ee7899ef8090a48
+604	705	8125789635217728	CMakeFiles/pugixml_fetch-populate-complete	8ec575d0758e1eec
+604	705	8125789635217728	pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-done	8ec575d0758e1eec
+604	705	8125789635217728	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/CMakeFiles/pugixml_fetch-populate-complete	8ec575d0758e1eec
+604	705	8125789635217728	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/pugixml_fetch-subbuild/pugixml_fetch-populate-prefix/src/pugixml_fetch-populate-stamp/pugixml_fetch-populate-done	8ec575d0758e1eec

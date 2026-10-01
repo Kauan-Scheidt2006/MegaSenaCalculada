@@ -1,0 +1,8 @@
+interface:
+  display_name: "Experimentos com Árvores"
+  short_description: "Valida comparadores, árvores e métricas"
+  default_prompt: "Use $experimentos-arvores para implementar ou revisar este experimento com árvores."
+
+policy:
+  allow_implicit_invocation: true
+
