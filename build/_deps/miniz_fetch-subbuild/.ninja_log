@@ -1,0 +1,37 @@
+# ninja log v6
+585	686	8123453362881339	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-done	2f9d0d3aea5e1326
+3	122	8123247921652700	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-mkdir	5f2c548a729f74a1
+123	2550	8123247946017472	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-download	709915bde66b4287
+12	198	8123453356240971	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-update	6dc025915532960a
+3	122	8123247921652700	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-mkdir	5f2c548a729f74a1
+198	275	8123453358708816	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-patch	61a26e6a96ceffa4
+123	2550	8123247946017472	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-download	709915bde66b4287
+506	585	8123453361875680	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-test	16546ea20999be76
+198	275	8123453358708816	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-patch	61a26e6a96ceffa4
+12	198	8123453356240971	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-update	6dc025915532960a
+275	353	8123453359581410	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-configure	844abe6247590917
+275	353	8123453359581410	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-configure	844abe6247590917
+354	430	8123453360326587	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-build	e8a600d2cc08448b
+354	430	8123453360326587	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-build	e8a600d2cc08448b
+430	506	8123453361100317	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-install	ac8d9098486049ed
+585	686	8123453362881339	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-done	2f9d0d3aea5e1326
+430	506	8123453361100317	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-install	ac8d9098486049ed
+506	585	8123453361875680	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-test	16546ea20999be76
+585	686	8123453362881339	CMakeFiles/miniz_fetch-populate-complete	2f9d0d3aea5e1326
+585	686	8123453362881339	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/CMakeFiles/miniz_fetch-populate-complete	2f9d0d3aea5e1326
+19	278	8125789612660675	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-update	6dc025915532960a
+19	278	8125789612660675	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-update	6dc025915532960a
+279	360	8125789615989855	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-patch	61a26e6a96ceffa4
+279	360	8125789615989855	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-patch	61a26e6a96ceffa4
+361	451	8125789616884599	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-configure	844abe6247590917
+361	451	8125789616884599	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-configure	844abe6247590917
+452	538	8125789617752886	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-build	e8a600d2cc08448b
+452	538	8125789617752886	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-build	e8a600d2cc08448b
+538	633	8125789618709444	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-install	ac8d9098486049ed
+538	633	8125789618709444	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-install	ac8d9098486049ed
+633	719	8125789619573326	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-test	16546ea20999be76
+633	719	8125789619573326	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-test	16546ea20999be76
+719	843	8125789620792414	CMakeFiles/miniz_fetch-populate-complete	2f9d0d3aea5e1326
+719	843	8125789620792414	miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-done	2f9d0d3aea5e1326
+719	843	8125789620792414	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/CMakeFiles/miniz_fetch-populate-complete	2f9d0d3aea5e1326
+719	843	8125789620792414	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/miniz_fetch-subbuild/miniz_fetch-populate-prefix/src/miniz_fetch-populate-stamp/miniz_fetch-populate-done	2f9d0d3aea5e1326

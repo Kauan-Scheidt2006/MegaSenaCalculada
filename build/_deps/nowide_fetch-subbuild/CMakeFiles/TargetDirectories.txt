@@ -1,0 +1,3 @@
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/CMakeFiles/nowide_fetch-populate.dir
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,14 @@
+# Target labels
+ openxlsx-populate
+# Source files and their labels
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/CMakeFiles/openxlsx-populate
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/CMakeFiles/openxlsx-populate.rule
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/CMakeFiles/openxlsx-populate-complete.rule
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-build.rule
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-configure.rule
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-download.rule
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-install.rule
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-mkdir.rule
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-patch.rule
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-test.rule
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-update.rule

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Arquitetura da GUI Desktop"
+  short_description: "Projeta apresentação, estados e acessibilidade"
+  default_prompt: "Use $arquitetura-gui-desktop para projetar ou revisar este incremento da interface."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+Objetivo:
+O que desejo obter.
+
+Escopo:
+O que está incluído neste incremento.
+
+Fora do escopo:
+O que ainda não deve ser implementado.
+
+Agentes e skills:
+Quem deve participar ou qual skill deve ser usada.
+
+Critérios de aceitação:
+Como saberei que o trabalho terminou corretamente.

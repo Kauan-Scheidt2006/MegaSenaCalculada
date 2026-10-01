@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/CMakeFiles/openxlsx-populate"
+		},
+		{
+			"file" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/CMakeFiles/openxlsx-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/CMakeFiles/openxlsx-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/openxlsx-subbuild/openxlsx-populate-prefix/src/openxlsx-populate-stamp/openxlsx-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"openxlsx-populate"
+		],
+		"name" : "openxlsx-populate"
+	}
+}

@@ -1,0 +1,21 @@
+# ninja log v6
+1498	1588	8123247893424331	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-build	6058fa3bd01dc4b6
+3	101	8123247878594723	nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-mkdir	b74ec0eac98738c4
+3	101	8123247878594723	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-mkdir	b74ec0eac98738c4
+102	1178	8123247889329421	nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-download	9850714ba73ba553
+1302	1400	8123247891571763	nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-patch	7f40e7688a1c2d70
+102	1178	8123247889329421	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-download	9850714ba73ba553
+1178	1302	8123247890573690	nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-update	691e1974463bdaef
+1302	1400	8123247891571763	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-patch	7f40e7688a1c2d70
+1178	1302	8123247890573690	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-update	691e1974463bdaef
+1400	1498	8123247892564455	nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-configure	e488f515141202d5
+1400	1498	8123247892564455	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-configure	e488f515141202d5
+1498	1588	8123247893424331	nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-build	6058fa3bd01dc4b6
+1588	1684	8123247894426173	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-install	14da4644c11e774b
+1588	1684	8123247894426173	nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-install	14da4644c11e774b
+1684	1778	8123247895367737	nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-test	13819359f375c5c4
+1778	1920	8123247896757420	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/CMakeFiles/nowide_fetch-populate-complete	ba14971fc78e0928
+1684	1778	8123247895367737	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-test	13819359f375c5c4
+1778	1920	8123247896757420	CMakeFiles/nowide_fetch-populate-complete	ba14971fc78e0928
+1778	1920	8123247896757420	nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-done	ba14971fc78e0928
+1778	1920	8123247896757420	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/_deps/nowide_fetch-subbuild/nowide_fetch-populate-prefix/src/nowide_fetch-populate-stamp/nowide_fetch-populate-done	ba14971fc78e0928

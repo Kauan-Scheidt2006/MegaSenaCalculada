@@ -1,0 +1,8 @@
+interface:
+  display_name: "Análise Histórica da Mega-Sena"
+  short_description: "Analisa concursos e dezenas sem previsão"
+  default_prompt: "Use $analise-historica-mega-sena para produzir esta análise descritiva do histórico."
+
+policy:
+  allow_implicit_invocation: true
+

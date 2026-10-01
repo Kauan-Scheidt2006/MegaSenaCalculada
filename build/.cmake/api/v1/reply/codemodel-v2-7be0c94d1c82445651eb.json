@@ -1,0 +1,240 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MegaSenaCalculada",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "InfraestruturaJson::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InfraestruturaJson-Debug-7f754b05d88baab953f6.json",
+					"name" : "InfraestruturaJson",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InfraestruturaJson_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InfraestruturaJson_autogen-Debug-5d959458c934ede04650.json",
+					"name" : "InfraestruturaJson_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InfraestruturaJson_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InfraestruturaJson_autogen_timestamp_deps-Debug-8b04e9d222e8d06a892a.json",
+					"name" : "InfraestruturaJson_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InterfaceMegaSena::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InterfaceMegaSena-Debug-491f9a0342ee41d630b4.json",
+					"name" : "InterfaceMegaSena",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InterfaceMegaSena_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InterfaceMegaSena_autogen-Debug-6bcfe90ae1359dbeb08e.json",
+					"name" : "InterfaceMegaSena_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InterfaceMegaSena_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InterfaceMegaSena_autogen_timestamp_deps-Debug-0d4d4e22d96fa8c4843f.json",
+					"name" : "InterfaceMegaSena_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MegaSenaCalculada::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MegaSenaCalculada-Debug-5debdaefef1845ac1944.json",
+					"name" : "MegaSenaCalculada",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MegaSenaCalculada_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MegaSenaCalculada_autogen-Debug-79abb28f22fad1f0e82d.json",
+					"name" : "MegaSenaCalculada_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MegaSenaCalculada_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MegaSenaCalculada_autogen_timestamp_deps-Debug-dd28f3f5bd0b64353faf.json",
+					"name" : "MegaSenaCalculada_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TesteVisualizacaoArvore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TesteVisualizacaoArvore-Debug-35c3015d7e9a42277193.json",
+					"name" : "TesteVisualizacaoArvore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TesteVisualizacaoArvore_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TesteVisualizacaoArvore_autogen-Debug-90738512b9d0a0663fff.json",
+					"name" : "TesteVisualizacaoArvore_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TesteVisualizacaoArvore_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TesteVisualizacaoArvore_autogen_timestamp_deps-Debug-03ccb2f8bdf365f3b788.json",
+					"name" : "TesteVisualizacaoArvore_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesEstruturaInicial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesEstruturaInicial-Debug-0bd8b247091977a37f40.json",
+					"name" : "TestesEstruturaInicial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesEstruturaInicial_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesEstruturaInicial_autogen-Debug-7e007065b4429ec5824c.json",
+					"name" : "TestesEstruturaInicial_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesEstruturaInicial_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesEstruturaInicial_autogen_timestamp_deps-Debug-04c7991efa69a2eb371f.json",
+					"name" : "TestesEstruturaInicial_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesInterfaceInicial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesInterfaceInicial-Debug-b23327c9a7b04a4ebe20.json",
+					"name" : "TestesInterfaceInicial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesInterfaceInicial_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesInterfaceInicial_autogen-Debug-83b6ca83fbe2198c08d3.json",
+					"name" : "TestesInterfaceInicial_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesInterfaceInicial_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesInterfaceInicial_autogen_timestamp_deps-Debug-58ecad387f2529eed2ca.json",
+					"name" : "TestesInterfaceInicial_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesLeitorConcursosJson::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesLeitorConcursosJson-Debug-7edcca9af87895c4ab4a.json",
+					"name" : "TestesLeitorConcursosJson",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesLeitorConcursosJson_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesLeitorConcursosJson_autogen-Debug-146ac74fbaeee9681d0e.json",
+					"name" : "TestesLeitorConcursosJson_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesLeitorConcursosJson_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesLeitorConcursosJson_autogen_timestamp_deps-Debug-f50d29d0e12d6ba8f926.json",
+					"name" : "TestesLeitorConcursosJson_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+		"source" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
