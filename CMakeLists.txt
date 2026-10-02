@@ -5,6 +5,7 @@ project(MegaSenaCalculada LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_AUTORCC ON)
 
 set(CMAKE_PREFIX_PATH "C:/Qt/6.11.1/mingw_64")
 
@@ -37,6 +38,8 @@ add_library(InterfaceMegaSena STATIC
     src/interface/componentes/basicos/Texto.hpp
     src/interface/componentes/basicos/Titulo.cpp
     src/interface/componentes/basicos/Titulo.hpp
+    src/interface/estilos/EstiloAplicacao.cpp
+    src/interface/estilos/EstiloAplicacao.hpp
     src/interface/fundamentos/Barra.cpp
     src/interface/fundamentos/Barra.hpp
     src/interface/fundamentos/BaseContainer.cpp
@@ -52,6 +55,15 @@ add_library(InterfaceMegaSena STATIC
     src/interface/parametros/ParametrosComponente.hpp
     src/interface/parametros/ParametrosContainer.hpp
     src/interface/parametros/TipoDisposicao.hpp
+    src/interface/paginas/arvore/CabecalhoPaginaArvore.cpp
+    src/interface/paginas/arvore/CabecalhoPaginaArvore.hpp
+    src/interface/paginas/arvore/ConteudoPaginaArvore.cpp
+    src/interface/paginas/arvore/ConteudoPaginaArvore.hpp
+    src/interface/paginas/arvore/PaginaArvore.cpp
+    src/interface/paginas/arvore/PaginaArvore.hpp
+    src/interface/paginas/arvore/PainelVisualizacaoArvore.cpp
+    src/interface/paginas/arvore/PainelVisualizacaoArvore.hpp
+    recursos/recursos.qrc
 )
 target_include_directories(InterfaceMegaSena PUBLIC
     "${CMAKE_CURRENT_SOURCE_DIR}/src"

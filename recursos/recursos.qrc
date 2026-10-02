@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="estilos/tema-padrao.qss">estilos/tema-padrao.qss</file>
+    </qresource>
+</RCC>

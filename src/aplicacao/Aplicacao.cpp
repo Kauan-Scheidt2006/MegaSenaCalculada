@@ -1,6 +1,8 @@
 #include "aplicacao/Aplicacao.hpp"
 
 #include "interface/ambiente/Ambiente.hpp"
+#include "interface/ambiente/AreaPaginas.hpp"
+#include "interface/paginas/arvore/PaginaArvore.hpp"
 
 #include <QCoreApplication>
 
@@ -24,4 +26,7 @@ void Aplicacao::iniciar()
 void Aplicacao::criarInterface()
 {
     ambiente_ = std::make_unique<Ambiente>();
+    paginaArvore_ = new PaginaArvore(&ambiente_->areaPaginas());
+    ambiente_->areaPaginas().adicionarPagina(*paginaArvore_);
+    ambiente_->areaPaginas().exibirPagina(*paginaArvore_);
 }

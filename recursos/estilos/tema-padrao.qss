@@ -1,0 +1,71 @@
+/*
+ * Tema visual fixo do Mega Sena Calculada.
+ * Toda regra possui seletor explícito e valores visuais literais; não são
+ * permitidas referências à paleta do sistema.
+ */
+
+#ambiente {
+    background-color: #F4F8FC;
+    color: #102A43;
+    font-family: "Segoe UI";
+    font-size: 10pt;
+}
+
+#estruturaAmbiente {
+    background-color: transparent;
+}
+
+#areaPaginas {
+    background-color: transparent;
+}
+
+#paginaArvore {
+    background-color: transparent;
+}
+
+#painelMenuEstruturas {
+    background-color: #EAF3F8;
+    border: 0;
+    border-right: 1px solid #B8C9D9;
+}
+
+#conteudoPaginaArvore {
+    background-color: transparent;
+}
+
+#cabecalhoPaginaArvore {
+    background-color: transparent;
+}
+
+#tituloPaginaArvore {
+    background-color: transparent;
+    color: #102A43;
+    font-size: 25pt;
+    font-weight: 700;
+}
+
+#subtituloPaginaArvore {
+    background-color: transparent;
+    color: #526D82;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+#painelVisualizacaoArvore {
+    background-color: #FFFFFF;
+    border: 1px solid #B8C9D9;
+    border-radius: 8px;
+}
+
+#barraEstado {
+    background-color: #EDF4F8;
+    border: 0;
+    border-top: 1px solid #B8C9D9;
+}
+
+#mensagemEstado {
+    background-color: transparent;
+    color: #486581;
+    font-size: 10pt;
+    font-weight: 400;
+}

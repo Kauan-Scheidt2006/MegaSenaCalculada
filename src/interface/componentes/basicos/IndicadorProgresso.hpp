@@ -7,7 +7,7 @@
 class IndicadorProgresso final : public QProgressBar
 {
 public:
-    explicit IndicadorProgresso(const ParametrosComponente& parametros = {}, QWidget* pai = nullptr);
+    explicit IndicadorProgresso(const ParametrosComponente& parametros, QWidget* pai = nullptr);
 
     void definirProgresso(int atual, int total);
     void definirIndeterminado();

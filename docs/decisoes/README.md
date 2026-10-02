@@ -41,3 +41,4 @@ Não registre conversas, planos temporários, detalhes evidentes da implementaç
 | [0007](0007-encapsulamento-da-leitura-xlsx.md) | Encapsulamento da leitura XLSX | Substituída |
 | [0008](0008-arquivo-json-como-fonte-dos-concursos.md) | Arquivo JSON como fonte dos concursos | Aceita |
 | [0009](0009-arquitetura-inicial-da-interface-qt.md) | Arquitetura inicial da interface Qt | Aceita |
+| [0010](0010-estilos-visuais-exclusivamente-em-qss.md) | Estilos visuais exclusivamente em QSS | Aceita |

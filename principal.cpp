@@ -1,4 +1,5 @@
 #include "aplicacao/Aplicacao.hpp"
+#include "interface/estilos/EstiloAplicacao.hpp"
 
 #include <QApplication>
 #include <QDebug>
@@ -13,6 +14,7 @@ int main(int quantidadeArgumentos, char* argumentos[])
     QApplication::setOrganizationName(QStringLiteral("Mega Sena Calculada"));
 
     try {
+        EstiloAplicacao::aplicar(aplicacaoQt);
         Aplicacao aplicacao;
         aplicacao.iniciar();
         return aplicacaoQt.exec();

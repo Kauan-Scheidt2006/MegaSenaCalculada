@@ -4,7 +4,8 @@
 #include "interface/ambiente/BarraEstado.hpp"
 
 EstruturaAmbiente::EstruturaAmbiente(QWidget* pai)
-    : BaseContainer({.componente = {.nome = QStringLiteral("estruturaAmbiente")},
+    : BaseContainer({.componente = {.nomeObjeto = QStringLiteral("estruturaAmbiente"),
+                                    .fundoEstilizado = false},
                      .disposicao = TipoDisposicao::Vertical}, pai),
       areaPaginas_(new AreaPaginas(this)),
       barraEstado_(new BarraEstado(this))

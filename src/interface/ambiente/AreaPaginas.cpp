@@ -3,7 +3,8 @@
 #include "interface/fundamentos/BasePagina.hpp"
 
 AreaPaginas::AreaPaginas(QWidget* pai)
-    : BaseContainer({.componente = {.nome = QStringLiteral("areaPaginas")},
+    : BaseContainer({.componente = {.nomeObjeto = QStringLiteral("areaPaginas"),
+                                    .fundoEstilizado = false},
                      .disposicao = TipoDisposicao::Empilhada}, pai)
 {
 }

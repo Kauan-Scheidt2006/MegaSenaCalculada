@@ -135,7 +135,7 @@ Critérios de conclusão:
 - `Ambiente` não lê JSON nem cria árvores;
 - redimensionamento estrutural ocorre por layouts, sem geometria manual geral.
 
-### [ ] Etapa 5 — Criar o esqueleto da página da árvore
+### [x] Etapa 5 — Criar o esqueleto da página da árvore
 
 Áreas previstas:
 
@@ -337,5 +337,5 @@ Papéis previstos conforme a necessidade:
 
 ## Próxima etapa
 
-A próxima entrega é a **Etapa 5 — Criar o esqueleto da página da árvore**. Ela deverá compor somente especializações do
-projeto e apresentar inicialmente o estado vazio, sem antecipar a construção ou a visualização gráfica da árvore.
+A próxima entrega é a **Etapa 6 — Implementar o menu contextual de estruturas**. Ela deverá introduzir a seleção entre
+BST e AVL sem construir árvores nem conhecer suas implementações internas.

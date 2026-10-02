@@ -5,7 +5,7 @@
 class BotaoNavegacao final : public Botao
 {
 public:
-    explicit BotaoNavegacao(const QString& texto, const ParametrosComponente& parametros = {},
+    explicit BotaoNavegacao(const QString& texto, const ParametrosComponente& parametros,
                             QWidget* pai = nullptr);
 
     void definirSelecionado(bool selecionado);

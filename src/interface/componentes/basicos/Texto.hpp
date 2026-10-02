@@ -7,7 +7,7 @@
 class Texto : public QLabel
 {
 public:
-    explicit Texto(const QString& conteudo, const ParametrosComponente& parametros = {}, QWidget* pai = nullptr);
+    explicit Texto(const QString& conteudo, const ParametrosComponente& parametros, QWidget* pai = nullptr);
     ~Texto() override = default;
 
     void definirConteudo(const QString& conteudo);

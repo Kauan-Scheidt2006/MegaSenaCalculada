@@ -4,10 +4,19 @@
 
 #include <QWidget>
 
+#include <stdexcept>
+
 void ConfiguradorComponente::aplicar(QWidget& componente, const ParametrosComponente& parametros)
 {
-    componente.setObjectName(parametros.nome);
-    componente.setAttribute(Qt::WA_StyledBackground, parametros.fundoEstilizado);
+    if (parametros.nomeObjeto.isEmpty()) {
+        throw std::invalid_argument("O nomeObjeto do componente deve ser definido.");
+    }
+    if (!parametros.fundoEstilizado.has_value()) {
+        throw std::invalid_argument("O fundoEstilizado do componente deve ser definido.");
+    }
+
+    componente.setObjectName(parametros.nomeObjeto);
+    componente.setAttribute(Qt::WA_StyledBackground, *parametros.fundoEstilizado);
     componente.setVisible(parametros.visivel);
 
     if (!parametros.nomeAcessivel.isEmpty()) {

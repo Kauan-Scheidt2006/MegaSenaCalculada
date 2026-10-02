@@ -3,6 +3,7 @@
 #include <memory>
 
 class Ambiente;
+class PaginaArvore;
 
 /**
  * Raiz de composição e proprietária dos componentes de alto nível do programa.
@@ -26,4 +27,5 @@ private:
     void criarInterface();
 
     std::unique_ptr<Ambiente> ambiente_;
+    PaginaArvore* paginaArvore_ = nullptr;
 };

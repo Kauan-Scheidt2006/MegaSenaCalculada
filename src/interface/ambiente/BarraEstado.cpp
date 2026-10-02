@@ -3,13 +3,15 @@
 #include "interface/componentes/basicos/Texto.hpp"
 
 BarraEstado::BarraEstado(QWidget* pai)
-    : Barra({.componente = {.nome = QStringLiteral("barraEstado"),
-                            .nomeAcessivel = QStringLiteral("Estado da aplicacao")},
+    : Barra({.componente = {.nomeObjeto = QStringLiteral("barraEstado"),
+                            .nomeAcessivel = QStringLiteral("Estado da aplicacao"),
+                            .fundoEstilizado = false},
              .disposicao = TipoDisposicao::Horizontal,
              .margens = {16, 8, 16, 8},
              .espacamento = 8}, pai),
       mensagem_(new Texto(QStringLiteral("Interface iniciada."),
-                          {.nome = QStringLiteral("mensagemEstado")}, this))
+                          {.nomeObjeto = QStringLiteral("mensagemEstado"),
+                           .fundoEstilizado = false}, this))
 {
     adicionarComponente(*mensagem_, 1);
 }

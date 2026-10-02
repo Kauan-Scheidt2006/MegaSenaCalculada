@@ -5,5 +5,5 @@
 class Subtitulo final : public Texto
 {
 public:
-    explicit Subtitulo(const QString& conteudo, ParametrosComponente parametros = {}, QWidget* pai = nullptr);
+    explicit Subtitulo(const QString& conteudo, ParametrosComponente parametros, QWidget* pai = nullptr);
 };
