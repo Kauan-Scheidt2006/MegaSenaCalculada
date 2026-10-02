@@ -271,7 +271,8 @@
 		"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in",
-		"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in"
+		"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/recursos/recursos.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada",
 	"CROSS_CONFIG" : false,
@@ -352,6 +353,12 @@
 			null
 		],
 		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/estilos/EstiloAplicacao.hpp",
+			"MU",
+			"QODQINQVBZ/moc_EstiloAplicacao.cpp",
+			null
+		],
+		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/fundamentos/Barra.hpp",
 			"MU",
 			"ZOK3L27VZF/moc_Barra.cpp",
@@ -385,6 +392,30 @@
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/fundamentos/Painel.hpp",
 			"MU",
 			"ZOK3L27VZF/moc_Painel.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/CabecalhoPaginaArvore.hpp",
+			"MU",
+			"N4TGSUYMF2/moc_CabecalhoPaginaArvore.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/ConteudoPaginaArvore.hpp",
+			"MU",
+			"N4TGSUYMF2/moc_ConteudoPaginaArvore.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/PaginaArvore.hpp",
+			"MU",
+			"N4TGSUYMF2/moc_PaginaArvore.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/PainelVisualizacaoArvore.hpp",
+			"MU",
+			"N4TGSUYMF2/moc_PainelVisualizacaoArvore.cpp",
 			null
 		],
 		[
@@ -538,6 +569,11 @@
 			null
 		],
 		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/estilos/EstiloAplicacao.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/fundamentos/Barra.cpp",
 			"MU",
 			null
@@ -564,6 +600,26 @@
 		],
 		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/fundamentos/Painel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/CabecalhoPaginaArvore.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/ConteudoPaginaArvore.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/PaginaArvore.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/PainelVisualizacaoArvore.cpp",
 			"MU",
 			null
 		]

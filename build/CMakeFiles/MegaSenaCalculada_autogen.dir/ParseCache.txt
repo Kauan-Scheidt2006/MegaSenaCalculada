@@ -5,9 +5,9 @@ C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/inter
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/parametros/ParametrosComponente.hpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/fundamentos/BaseContainer.hpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/fundamentos/BasePagina.hpp
-C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/fundamentos/Painel.hpp
-C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/basicos/Imagem.cpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/parametros/ParametrosContainer.hpp
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/basicos/Imagem.cpp
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/fundamentos/Painel.hpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/fundamentos/HospedagemRaiz.cpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/parametros/TipoDisposicao.hpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/ambiente/EstruturaAmbiente.hpp

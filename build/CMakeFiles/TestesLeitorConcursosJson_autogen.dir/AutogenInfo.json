@@ -271,7 +271,8 @@
 		"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in",
-		"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in"
+		"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/recursos/recursos.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada",
 	"CROSS_CONFIG" : false,
@@ -324,6 +325,7 @@
 	"MOC_SKIP" : 
 	[
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/mocs_compilation.cpp",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteVisualizacaoArvore_autogen/mocs_compilation.cpp",
@@ -350,6 +352,7 @@
 	"UIC_SKIP" : 
 	[
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/mocs_compilation.cpp",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteVisualizacaoArvore_autogen/mocs_compilation.cpp",

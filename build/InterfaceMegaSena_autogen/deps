@@ -209,6 +209,7 @@ InterfaceMegaSena_autogen/timestamp: \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/build/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/build/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/recursos/recursos.qrc \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/ambiente/Ambiente.cpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/ambiente/Ambiente.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/ambiente/AreaPaginas.cpp \
@@ -233,6 +234,8 @@ InterfaceMegaSena_autogen/timestamp: \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/componentes/basicos/Texto.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/componentes/basicos/Titulo.cpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/componentes/basicos/Titulo.hpp \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/estilos/EstiloAplicacao.cpp \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/estilos/EstiloAplicacao.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/fundamentos/Barra.cpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/fundamentos/Barra.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/fundamentos/BaseContainer.cpp \
@@ -245,6 +248,14 @@ InterfaceMegaSena_autogen/timestamp: \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/fundamentos/HospedagemRaiz.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/fundamentos/Painel.cpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/fundamentos/Painel.hpp \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/paginas/arvore/CabecalhoPaginaArvore.cpp \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/paginas/arvore/CabecalhoPaginaArvore.hpp \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/paginas/arvore/ConteudoPaginaArvore.cpp \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/paginas/arvore/ConteudoPaginaArvore.hpp \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/paginas/arvore/PaginaArvore.cpp \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/paginas/arvore/PaginaArvore.hpp \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/paginas/arvore/PainelVisualizacaoArvore.cpp \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/paginas/arvore/PainelVisualizacaoArvore.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/parametros/ParametrosComponente.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/parametros/ParametrosContainer.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/parametros/TipoDisposicao.hpp \

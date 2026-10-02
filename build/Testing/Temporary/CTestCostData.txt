@@ -1,5 +1,5 @@
 estrutura_inicial 17 0.00200037
 leitor_planilha_xlsx 2 0.0524565
 leitor_concursos_json 5 0.010421
-interface_inicial 1 0.319731
+interface_inicial 2 0.379493
 ---

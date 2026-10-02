@@ -3,40 +3,44 @@
 22	204	8122613634848138	TestesEstruturaInicial.exe	910f82c776f85075
 585	9947	8125871734939241	CMakeFiles/MegaSenaCalculada.dir/src/interface/fundamentos/BasePagina.cpp.obj	cf81ecb242795514
 416	5650	8119802917338718	CMakeFiles/TesteGraphicsView.dir/teste.cpp.obj	e9b1a283bdaa44de
+580	8299	8126741766028962	CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/BaseContainer.cpp.obj	2b5835cba90e47f4
 108	1056	8123249115967788	_deps/nowide_fetch-build/CMakeFiles/nowide.dir/src/filebuf.cpp.obj	461792628212b2d5
 78	406	8119802913953555	TesteGraphicsView_autogen/timestamp	29f57aeb43403935
+85	519	8126737337056494	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteVisualizacaoArvore_autogen/mocs_compilation.cpp	66186aec6b293682
 78	406	8119802913953555	TesteGraphicsView_autogen/mocs_compilation.cpp	29f57aeb43403935
-65	378	8125865843438257	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteVisualizacaoArvore_autogen/mocs_compilation.cpp	66186aec6b293682
-20	1119	8125872541055249	build.ninja	c5cddab268af32ba
+34	1369	8126800295989509	build.ninja	c5cddab268af32ba
 78	406	8119802913953555	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteGraphicsView_autogen/timestamp	29f57aeb43403935
 7257	7866	8123249187452473	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj	5b567736e6559c70
 8295	9081	8123249197837600	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj	73d79cbdd2dfb08
 78	406	8119802913953555	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteGraphicsView_autogen/mocs_compilation.cpp	29f57aeb43403935
 407	497	8119802917237541	CMakeFiles/TesteGraphicsView.dir/TesteGraphicsView_autogen/mocs_compilation.cpp.obj	9f07c91974a3dcb3
 32	369	8119802988179452	TesteGraphicsView.exe	6487426e49e45ccb
-65	378	8125865843438257	TesteVisualizacaoArvore_autogen/timestamp	66186aec6b293682
-65	378	8125865843438257	TesteVisualizacaoArvore_autogen/mocs_compilation.cpp	66186aec6b293682
+52	327	8126741760747083	InterfaceMegaSena_autogen/timestamp	533b6f501136edb7
+85	519	8126737337056494	TesteVisualizacaoArvore_autogen/timestamp	66186aec6b293682
+85	519	8126737337056494	TesteVisualizacaoArvore_autogen/mocs_compilation.cpp	66186aec6b293682
 912	3980	8123249124006042	_deps/nowide_fetch-build/CMakeFiles/nowide.dir/src/iostream.cpp.obj	1293af9d1b634c3b
-65	378	8125865843438257	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteVisualizacaoArvore_autogen/timestamp	66186aec6b293682
+85	519	8126737337056494	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteVisualizacaoArvore_autogen/timestamp	66186aec6b293682
+13449	13634	8126741894713848	TestesInterfaceInicial_autogen/timestamp	e82f273d93e2ece4
 272	511	8122542496005185	CMakeFiles/TesteVisualizacaoArvore.dir/TesteVisualizacaoArvore_autogen/mocs_compilation.cpp.obj	30fa644f9f676008
 4159	6381	8123249156486022	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj	be0c26fec4667edd
-89	363	8125865843667287	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesEstruturaInicial_autogen/timestamp	999b366fd4d74ced
+100	560	8126737337187329	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesEstruturaInicial_autogen/timestamp	999b366fd4d74ced
 248	7392	8119822011227999	CMakeFiles/TesteVisualizacaoArvore.dir/teste.cpp.obj	a3d1ca7198391730
 11357	13024	8123249228446228	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj	1c5d953445d61e49
 18	323	8122613791251928	TesteVisualizacaoArvore.exe	963f068534c3517
 1057	1274	8123249125451607	_deps/miniz_fetch-build/CMakeFiles/miniz.dir/miniz.c.obj	72219a615b4a7c3a
 20447	20510	8123249319339074	CMakeFiles/InfraestruturaPlanilha.dir/InfraestruturaPlanilha_autogen/mocs_compilation.cpp.obj	5138e3b3de29f352
 2866	3193	8123249143550880	output/libminiz.a	158dfd2498df0d35
-89	363	8125865843667287	TestesEstruturaInicial_autogen/timestamp	999b366fd4d74ced
+100	560	8126737337187329	TestesEstruturaInicial_autogen/timestamp	999b366fd4d74ced
 1274	2862	8123249127632897	_deps/miniz_fetch-build/CMakeFiles/miniz.dir/miniz_zip.c.obj	78585d1148941070
 3980	4159	8123249154686970	output/libnowide.a	a19a43eb685fd136
 3193	5698	8123249146822964	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj	d1f47f8dea6a058e
 3205	5711	8123249146940474	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj	7df163de882c95bc
-89	363	8125865843667287	TestesEstruturaInicial_autogen/mocs_compilation.cpp	999b366fd4d74ced
+100	560	8126737337187329	TestesEstruturaInicial_autogen/mocs_compilation.cpp	999b366fd4d74ced
 11001	13455	8123249224903964	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj	6e2a2780ea6ba31a
 27	1144	8122613562594171	CMakeFiles/TestesEstruturaInicial.dir/testes/testes_estrutura_inicial.cpp.obj	fdeee8e70f9142dc
 368	447	8119822565228548	CMakeFiles/TestesEstruturaInicial.dir/TestesEstruturaInicial_autogen/mocs_compilation.cpp.obj	50bfa5e269cbf09b
-89	363	8125865843667287	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesEstruturaInicial_autogen/mocs_compilation.cpp	999b366fd4d74ced
+100	560	8126737337187329	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesEstruturaInicial_autogen/mocs_compilation.cpp	999b366fd4d74ced
+527	9137	8126741765481899	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Subtitulo.cpp.obj	d55d02db3cc7b90b
 162	5340	8122589315658608	CMakeFiles/TesteVisualizacaoArvore.dir/testeApresentacao.cpp.obj	bd3b979aac7ccbef
 167	5756	8122589315703639	CMakeFiles/TesteVisualizacaoArvore.dir/ArvoreVisualizacao.cpp.obj	bb44559803c5e6af
 5699	7857	8123249171876830	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj	fe836f642aafb597
@@ -47,6 +51,7 @@
 1919	2240	8123249134079170	_deps/miniz_fetch-build/CMakeFiles/miniz.dir/miniz_tdef.c.obj	72bad9a6128ed700
 97	3203	8123249115857304	_deps/nowide_fetch-build/CMakeFiles/nowide.dir/src/cstdlib.cpp.obj	6cdfaaa7394c51ae
 9081	11357	8123249205701000	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj	c30de86c5e2757e5
+570	8854	8126741765927339	CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/Barra.cpp.obj	5214ff1e3e1863bd
 13025	14459	8123249245137894	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.obj	f3e52d6a0cf98a73
 12095	15430	8123249235842251	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj	bc1be2d79da06cfb
 17821	20197	8123249293072617	output/libOpenXLSXd.a	92a047e28cf6c6d9
@@ -61,8 +66,9 @@
 6557	8294	8123249180458166	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj	32d1966c4edc7015
 6381	8604	8123249178705846	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.obj	76ec84bc5db0356
 7866	10195	8123249193547464	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.obj	75dee9f394e43d6e
-8604	10725	8123249200924421	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.obj	25df3734998eaf0e
 15430	16989	8123249269183441	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj	595f4f01a2bd45e8
+8604	10725	8123249200924421	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.obj	25df3734998eaf0e
+13449	13634	8126741894713848	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesInterfaceInicial_autogen/mocs_compilation.cpp	e82f273d93e2ece4
 7857	11001	8123249193458812	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj	873fa54d2a163d2
 10195	12095	8123249216834052	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj	988798eda3c86e20
 14459	16180	8123249259481165	_deps/openxlsx-build/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj	c9d6a2f395d01f54
@@ -80,34 +86,37 @@
 23843	24066	8123249354891319	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesLeitorPlanilhaXlsx_autogen/mocs_compilation.cpp	2c9a664f747ba308
 24067	24138	8123249355544540	CMakeFiles/TestesLeitorPlanilhaXlsx.dir/TestesLeitorPlanilhaXlsx_autogen/mocs_compilation.cpp.obj	2094de4ec42a7532
 4510	8087	8123250118731349	CMakeFiles/TestesLeitorPlanilhaXlsx.dir/testes/testes_leitor_planilha_xlsx.cpp.obj	90b448fe959afcda
-316	572	8125865845933711	TestesLeitorConcursosJson_autogen/timestamp	8b19943540888b31
+303	660	8126737339234401	TestesLeitorConcursosJson_autogen/timestamp	8b19943540888b31
 8087	11284	8123250154507085	TestesLeitorPlanilhaXlsx.exe	85d6437e7ad7cb12
+548	9144	8126741765682987	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Titulo.cpp.obj	542128eab0566a70
 463	8795	8125871733722094	CMakeFiles/MegaSenaCalculada.dir/src/interface/componentes/basicos/IndicadorProgresso.cpp.obj	39af4cecbd7c670a
-46	314	8125865843247169	InfraestruturaJson_autogen/timestamp	290a6847aef3d6e0
-46	314	8125865843247169	InfraestruturaJson_autogen/mocs_compilation.cpp	290a6847aef3d6e0
-46	314	8125865843247169	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/timestamp	290a6847aef3d6e0
-46	314	8125865843247169	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/mocs_compilation.cpp	290a6847aef3d6e0
+68	302	8126737336884695	InfraestruturaJson_autogen/timestamp	290a6847aef3d6e0
+68	302	8126737336884695	InfraestruturaJson_autogen/mocs_compilation.cpp	290a6847aef3d6e0
+68	302	8126737336884695	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/timestamp	290a6847aef3d6e0
+68	302	8126737336884695	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/mocs_compilation.cpp	290a6847aef3d6e0
 447	8830	8125871733556218	CMakeFiles/MegaSenaCalculada.dir/src/interface/componentes/basicos/Imagem.cpp.obj	2880dbde372abe5
 388	759	8125793661866480	CMakeFiles/InfraestruturaJson.dir/InfraestruturaJson_autogen/mocs_compilation.cpp.obj	74e18bfbc3451cf0
 228	5451	8125813302365806	CMakeFiles/InfraestruturaJson.dir/src/infraestrutura/json/LeitorConcursosJson.cpp.obj	165868e1f4e6c8c4
 5451	5710	8125813354592756	libInfraestruturaJson.a	23d991ce37fd8059
-316	572	8125865845933711	TestesLeitorConcursosJson_autogen/mocs_compilation.cpp	8b19943540888b31
-316	572	8125865845933711	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesLeitorConcursosJson_autogen/timestamp	8b19943540888b31
-316	572	8125865845933711	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesLeitorConcursosJson_autogen/mocs_compilation.cpp	8b19943540888b31
+303	660	8126737339234401	TestesLeitorConcursosJson_autogen/mocs_compilation.cpp	8b19943540888b31
+303	660	8126737339234401	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesLeitorConcursosJson_autogen/timestamp	8b19943540888b31
+303	660	8126737339234401	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesLeitorConcursosJson_autogen/mocs_compilation.cpp	8b19943540888b31
 6825	6909	8125793726234016	CMakeFiles/TestesLeitorConcursosJson.dir/TestesLeitorConcursosJson_autogen/mocs_compilation.cpp.obj	aead6e8df33b26e6
 5910	7540	8125813359184990	CMakeFiles/TestesLeitorConcursosJson.dir/testes/testes_leitor_concursos_json.cpp.obj	ff54d0744305a39d
 7540	7919	8125813375491596	TestesLeitorConcursosJson.exe	21e6793423b89283
-47	323	8125871729562802	MegaSenaCalculada_autogen/timestamp	dee7c7c1f9add5ba
-47	323	8125871729562802	MegaSenaCalculada_autogen/mocs_compilation.cpp	dee7c7c1f9add5ba
-47	323	8125871729562802	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/timestamp	dee7c7c1f9add5ba
-47	323	8125871729562802	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/mocs_compilation.cpp	dee7c7c1f9add5ba
+13439	13611	8126741894601509	MegaSenaCalculada_autogen/timestamp	dee7c7c1f9add5ba
+13439	13611	8126741894601509	MegaSenaCalculada_autogen/mocs_compilation.cpp	dee7c7c1f9add5ba
+13439	13611	8126741894601509	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/timestamp	dee7c7c1f9add5ba
+13635	18094	8126741896563843	CMakeFiles/TestesInterfaceInicial.dir/testes/testes_interface_inicial.cpp.obj	e6b20757921bab8e
+13439	13611	8126741894601509	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/mocs_compilation.cpp	dee7c7c1f9add5ba
 452	712	8125865584313529	CMakeFiles/MegaSenaCalculada.dir/MegaSenaCalculada_autogen/mocs_compilation.cpp.obj	d7ad939edd4ddd91
-336	8094	8125871732444725	CMakeFiles/MegaSenaCalculada.dir/src/aplicacao/Aplicacao.cpp.obj	7fa6626b7770626f
+13618	17758	8126741896413052	CMakeFiles/MegaSenaCalculada.dir/src/aplicacao/Aplicacao.cpp.obj	7fa6626b7770626f
 548	8373	8125871734568987	CMakeFiles/MegaSenaCalculada.dir/src/interface/fundamentos/Barra.cpp.obj	aa89506a99060c4f
-325	8274	8125871732335973	CMakeFiles/MegaSenaCalculada.dir/principal.cpp.obj	aa7982b650f9ebbe
+13612	17528	8126741896347497	CMakeFiles/MegaSenaCalculada.dir/principal.cpp.obj	aa7982b650f9ebbe
+559	9844	8126741765805070	CMakeFiles/InterfaceMegaSena.dir/src/interface/estilos/EstiloAplicacao.cpp.obj	b0653b64c3d5031e
 8117	12814	8125871810259232	CMakeFiles/MegaSenaCalculada.dir/src/interface/fundamentos/Painel.cpp.obj	776b85e6d3841099
 567	9215	8125871734749373	CMakeFiles/MegaSenaCalculada.dir/src/interface/fundamentos/BaseContainer.cpp.obj	3ef224261dba1b8a
-12814	13340	8125871857235875	MegaSenaCalculada.exe	29c95a30875cbb97
+14087	14476	8126737477039237	MegaSenaCalculada.exe	669f64cc95505564
 358	8117	8125871732664786	CMakeFiles/MegaSenaCalculada.dir/src/interface/ambiente/AreaPaginas.cpp.obj	60b5d778e8865714
 372	8252	8125871732811874	CMakeFiles/MegaSenaCalculada.dir/src/interface/ambiente/BarraEstado.cpp.obj	d35a28a1da17bfe6
 400	8492	8125871733092369	CMakeFiles/MegaSenaCalculada.dir/src/interface/componentes/basicos/Botao.cpp.obj	2c1aa0752917063
@@ -115,59 +124,54 @@
 496	9137	8125871734054500	CMakeFiles/MegaSenaCalculada.dir/src/interface/componentes/basicos/Texto.cpp.obj	18e0ee1441e39a6f
 602	9198	8125871735109820	CMakeFiles/MegaSenaCalculada.dir/src/interface/fundamentos/ConfiguradorComponente.cpp.obj	9babfd89622228ba
 480	9255	8125871733882759	CMakeFiles/MegaSenaCalculada.dir/src/interface/componentes/basicos/Subtitulo.cpp.obj	f22113103d4b649e
+8049	13041	8126741840725128	CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/CabecalhoPaginaArvore.cpp.obj	3294154208169f63
 415	9403	8125871733240436	CMakeFiles/MegaSenaCalculada.dir/src/interface/componentes/basicos/BotaoIcone.cpp.obj	f26a652546e01e63
 513	9433	8125871734220405	CMakeFiles/MegaSenaCalculada.dir/src/interface/componentes/basicos/Titulo.cpp.obj	bcfa9675bc6a3665
 432	9721	8125871733410557	CMakeFiles/MegaSenaCalculada.dir/src/interface/componentes/basicos/BotaoNavegacao.cpp.obj	44a04a5cf3d066c
 8094	12690	8125871810032451	CMakeFiles/MegaSenaCalculada.dir/src/interface/fundamentos/HospedagemRaiz.cpp.obj	b8dd9805213057e5
-86	346	8125872546284505	InfraestruturaJson_autogen/timestamp	290a6847aef3d6e0
-86	346	8125872546284505	InfraestruturaJson_autogen/mocs_compilation.cpp	290a6847aef3d6e0
-86	346	8125872546284505	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/timestamp	290a6847aef3d6e0
-86	346	8125872546284505	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/mocs_compilation.cpp	290a6847aef3d6e0
-106	380	8125872546503902	TesteVisualizacaoArvore_autogen/timestamp	66186aec6b293682
-106	380	8125872546503902	TesteVisualizacaoArvore_autogen/mocs_compilation.cpp	66186aec6b293682
-106	380	8125872546503902	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteVisualizacaoArvore_autogen/timestamp	66186aec6b293682
-106	380	8125872546503902	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteVisualizacaoArvore_autogen/mocs_compilation.cpp	66186aec6b293682
-125	395	8125872546676149	TestesEstruturaInicial_autogen/timestamp	999b366fd4d74ced
-125	395	8125872546676149	TestesEstruturaInicial_autogen/mocs_compilation.cpp	999b366fd4d74ced
-125	395	8125872546676149	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesEstruturaInicial_autogen/timestamp	999b366fd4d74ced
-125	395	8125872546676149	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesEstruturaInicial_autogen/mocs_compilation.cpp	999b366fd4d74ced
-66	460	8125872548944295	InterfaceMegaSena_autogen/timestamp	533b6f501136edb7
-66	460	8125872548944295	InterfaceMegaSena_autogen/mocs_compilation.cpp	533b6f501136edb7
-66	460	8125872548944295	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/timestamp	533b6f501136edb7
-66	460	8125872548944295	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/mocs_compilation.cpp	533b6f501136edb7
+52	327	8126741760747083	InterfaceMegaSena_autogen/mocs_compilation.cpp	533b6f501136edb7
+52	327	8126741760747083	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/timestamp	533b6f501136edb7
+52	327	8126741760747083	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/mocs_compilation.cpp	533b6f501136edb7
 461	724	8125872550004235	CMakeFiles/InterfaceMegaSena.dir/InterfaceMegaSena_autogen/mocs_compilation.cpp.obj	6e857db0af004c2a
-348	763	8125872548923649	TestesLeitorConcursosJson_autogen/timestamp	8b19943540888b31
-348	763	8125872548923649	TestesLeitorConcursosJson_autogen/mocs_compilation.cpp	8b19943540888b31
-348	763	8125872548923649	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesLeitorConcursosJson_autogen/timestamp	8b19943540888b31
-348	763	8125872548923649	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesLeitorConcursosJson_autogen/mocs_compilation.cpp	8b19943540888b31
-573	8107	8125872551177023	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Imagem.cpp.obj	3bdbb669fd6b67fa
-558	8165	8125872551006373	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/BotaoNavegacao.cpp.obj	53b7ba4268e2f067
-511	8195	8125872550536447	CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/EstruturaAmbiente.cpp.obj	402ba7f84c31a31e
-622	8341	8125872551664488	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Texto.cpp.obj	4fab291e57c6903d
-764	8491	8125872553085281	CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/Painel.cpp.obj	2ee5ccd580e8d19e
-486	8613	8125872550299960	CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/AreaPaginas.cpp.obj	cb96c94fa42f79c2
-673	8815	8125872552152944	CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/BaseContainer.cpp.obj	2b5835cba90e47f4
-589	8898	8125872551330850	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/IndicadorProgresso.cpp.obj	30aa5efbb6fcf8f9
-606	8900	8125872551496143	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Subtitulo.cpp.obj	d55d02db3cc7b90b
-689	8950	8125872552330489	CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/BasePagina.cpp.obj	6e3c00f417e3afc0
-497	9000	8125872550406567	CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/BarraEstado.cpp.obj	17a5c3a6cea99c98
-527	9029	8125872550684345	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Botao.cpp.obj	74bff944ca9678a1
-656	9228	8125872552000915	CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/Barra.cpp.obj	5214ff1e3e1863bd
-542	9229	8125872550853721	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/BotaoIcone.cpp.obj	6b91ad2cb2b34ad9
-639	9269	8125872551823673	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Titulo.cpp.obj	542128eab0566a70
-472	9290	8125872550161429	CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/Ambiente.cpp.obj	f64644e06e5489ad
+508	8409	8126741765317023	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Imagem.cpp.obj	3bdbb669fd6b67fa
+498	8107	8126741765214768	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/BotaoNavegacao.cpp.obj	53b7ba4268e2f067
+467	8498	8126741764911683	CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/EstruturaAmbiente.cpp.obj	402ba7f84c31a31e
+538	8891	8126741765606968	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Texto.cpp.obj	4fab291e57c6903d
+329	442	8126741764512258	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp	5d087b2031d38ae2
+615	8600	8126741766383660	CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/Painel.cpp.obj	2ee5ccd580e8d19e
+452	8128	8126741764727797	CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/AreaPaginas.cpp.obj	cb96c94fa42f79c2
+518	9259	8126741765404679	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/IndicadorProgresso.cpp.obj	30aa5efbb6fcf8f9
+591	9629	8126741766145059	CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/BasePagina.cpp.obj	6e3c00f417e3afc0
+460	9589	8126741764826812	CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/BarraEstado.cpp.obj	17a5c3a6cea99c98
+477	9716	8126741765005796	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Botao.cpp.obj	74bff944ca9678a1
+488	9665	8126741765106551	CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/BotaoIcone.cpp.obj	6b91ad2cb2b34ad9
+442	8421	8126741764662763	CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/Ambiente.cpp.obj	f64644e06e5489ad
 724	9498	8125872552666110	CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/HospedagemRaiz.cpp.obj	3723f85ded0652c6
-706	9668	8125872552491896	CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/ConfiguradorComponente.cpp.obj	356d96e61829fee9
-9668	10026	8125872642113058	libInterfaceMegaSena.a	7cfea88c5e738c24
-10026	10238	8125872645693238	MegaSenaCalculada_autogen/timestamp	dee7c7c1f9add5ba
-10026	10238	8125872645693238	MegaSenaCalculada_autogen/mocs_compilation.cpp	dee7c7c1f9add5ba
-10026	10238	8125872645693238	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/timestamp	dee7c7c1f9add5ba
-10026	10238	8125872645693238	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/mocs_compilation.cpp	dee7c7c1f9add5ba
-10041	10375	8125872647974489	TestesInterfaceInicial_autogen/timestamp	e82f273d93e2ece4
-10041	10375	8125872647974489	TestesInterfaceInicial_autogen/mocs_compilation.cpp	e82f273d93e2ece4
-10041	10375	8125872647974489	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesInterfaceInicial_autogen/timestamp	e82f273d93e2ece4
-10041	10375	8125872647974489	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesInterfaceInicial_autogen/mocs_compilation.cpp	e82f273d93e2ece4
+603	8049	8126741766259845	CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/ConfiguradorComponente.cpp.obj	356d96e61829fee9
+13041	13438	8126741890645061	libInterfaceMegaSena.a	482e823cfa865860
+13449	13634	8126741894713848	TestesInterfaceInicial_autogen/mocs_compilation.cpp	e82f273d93e2ece4
+13449	13634	8126741894713848	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesInterfaceInicial_autogen/timestamp	e82f273d93e2ece4
 10376	10528	8125872649186322	CMakeFiles/TestesInterfaceInicial.dir/TestesInterfaceInicial_autogen/mocs_compilation.cpp.obj	47fda4b00cdd8cf7
-10239	10725	8125872647808821	MegaSenaCalculada.exe	669f64cc95505564
-10389	14372	8125872649320160	CMakeFiles/TestesInterfaceInicial.dir/testes/testes_interface_inicial.cpp.obj	e6b20757921bab8e
-14372	14770	8125872689152750	TestesInterfaceInicial.exe	ac781ccf2818fc0a
+48	805	8126742049257683	TestesInterfaceInicial.exe	ac781ccf2818fc0a
+329	442	8126741764512258	InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp	5d087b2031d38ae2
+8409	8629	8126741844330172	CMakeFiles/InterfaceMegaSena.dir/InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp.obj	acc852824123698
+8108	12943	8126741841306877	CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/ConteudoPaginaArvore.cpp.obj	1d1c32b05e46a8e1
+8128	12952	8126741841514342	CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/PaginaArvore.cpp.obj	ca6b9125967077b0
+8299	13023	8126741843221362	CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/PainelVisualizacaoArvore.cpp.obj	a8a8dc5ea93f92b9
+35	211	8126801966491054	InfraestruturaJson_autogen/timestamp	290a6847aef3d6e0
+35	211	8126801966491054	InfraestruturaJson_autogen/mocs_compilation.cpp	290a6847aef3d6e0
+35	211	8126801966491054	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/timestamp	290a6847aef3d6e0
+35	211	8126801966491054	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/mocs_compilation.cpp	290a6847aef3d6e0
+47	238	8126801966620519	TesteVisualizacaoArvore_autogen/timestamp	66186aec6b293682
+47	238	8126801966620519	TesteVisualizacaoArvore_autogen/mocs_compilation.cpp	66186aec6b293682
+47	238	8126801966620519	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteVisualizacaoArvore_autogen/timestamp	66186aec6b293682
+47	238	8126801966620519	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteVisualizacaoArvore_autogen/mocs_compilation.cpp	66186aec6b293682
+59	249	8126801966737498	TestesEstruturaInicial_autogen/timestamp	999b366fd4d74ced
+59	249	8126801966737498	TestesEstruturaInicial_autogen/mocs_compilation.cpp	999b366fd4d74ced
+59	249	8126801966737498	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesEstruturaInicial_autogen/timestamp	999b366fd4d74ced
+59	249	8126801966737498	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesEstruturaInicial_autogen/mocs_compilation.cpp	999b366fd4d74ced
+213	370	8126801968283060	TestesLeitorConcursosJson_autogen/timestamp	8b19943540888b31
+213	370	8126801968283060	TestesLeitorConcursosJson_autogen/mocs_compilation.cpp	8b19943540888b31
+213	370	8126801968283060	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesLeitorConcursosJson_autogen/timestamp	8b19943540888b31
+213	370	8126801968283060	C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesLeitorConcursosJson_autogen/mocs_compilation.cpp	8b19943540888b31
+74	666	8126801966885951	MegaSenaCalculada.exe	669f64cc95505564

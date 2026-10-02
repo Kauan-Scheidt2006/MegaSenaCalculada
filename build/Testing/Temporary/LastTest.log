@@ -1,48 +1,18 @@
-Start testing: Oct 01 16:47 Hora oficial do Brasil
+Start testing: Oct 02 16:56 Hora oficial do Brasil
 ----------------------------------------------------------
-1/3 Testing: estrutura_inicial
-1/3 Test: estrutura_inicial
-Command: "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesEstruturaInicial.exe"
-Directory: C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build
-"estrutura_inicial" start time: Oct 01 16:47 Hora oficial do Brasil
-Output:
-----------------------------------------------------------
-<end of output>
-Test time =   0.03 sec
-----------------------------------------------------------
-Test Passed.
-"estrutura_inicial" end time: Oct 01 16:47 Hora oficial do Brasil
-"estrutura_inicial" time elapsed: 00:00:00
-----------------------------------------------------------
-
-2/3 Testing: leitor_concursos_json
-2/3 Test: leitor_concursos_json
-Command: "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesLeitorConcursosJson.exe"
-Directory: C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build
-"leitor_concursos_json" start time: Oct 01 16:47 Hora oficial do Brasil
-Output:
-----------------------------------------------------------
-<end of output>
-Test time =   0.05 sec
-----------------------------------------------------------
-Test Passed.
-"leitor_concursos_json" end time: Oct 01 16:47 Hora oficial do Brasil
-"leitor_concursos_json" time elapsed: 00:00:00
-----------------------------------------------------------
-
 3/3 Testing: interface_inicial
 3/3 Test: interface_inicial
 Command: "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesInterfaceInicial.exe"
 Directory: C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build
-"interface_inicial" start time: Oct 01 16:47 Hora oficial do Brasil
+"interface_inicial" start time: Oct 02 16:56 Hora oficial do Brasil
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.32 sec
+Test time =   0.76 sec
 ----------------------------------------------------------
 Test Passed.
-"interface_inicial" end time: Oct 01 16:47 Hora oficial do Brasil
+"interface_inicial" end time: Oct 02 16:56 Hora oficial do Brasil
 "interface_inicial" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 01 16:47 Hora oficial do Brasil
+End testing: Oct 02 16:56 Hora oficial do Brasil
