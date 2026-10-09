@@ -305,6 +305,78 @@
 			null
 		],
 		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/apresentacao/arvore/ModeloApresentacaoArvore.hpp",
+			"MU",
+			"M5CD5JPF2P/moc_ModeloApresentacaoArvore.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/BarraFerramentasArvore.hpp",
+			"MU",
+			"6RA55OEEQP/moc_BarraFerramentasArvore.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/CampoDetalhe.hpp",
+			"MU",
+			"6RA55OEEQP/moc_CampoDetalhe.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ControleExecucaoAvl.hpp",
+			"MU",
+			"6RA55OEEQP/moc_ControleExecucaoAvl.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ControleZoom.hpp",
+			"MU",
+			"6RA55OEEQP/moc_ControleZoom.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/GrupoDezenasConcurso.hpp",
+			"MU",
+			"6RA55OEEQP/moc_GrupoDezenasConcurso.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ItemLigacaoArvore.hpp",
+			"MU",
+			"6RA55OEEQP/moc_ItemLigacaoArvore.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ItemNoArvore.hpp",
+			"MU",
+			"6RA55OEEQP/moc_ItemNoArvore.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/MapaArvore.hpp",
+			"MU",
+			"6RA55OEEQP/moc_MapaArvore.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/MarcadorDezena.hpp",
+			"MU",
+			"6RA55OEEQP/moc_MarcadorDezena.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/PopoverDetalhesRegistro.hpp",
+			"MU",
+			"6RA55OEEQP/moc_PopoverDetalhesRegistro.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/VisualizacaoArvore.hpp",
+			"MU",
+			"6RA55OEEQP/moc_VisualizacaoArvore.cpp",
+			null
+		],
+		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/basicos/Botao.hpp",
 			"MU",
 			"UZJA3N2PQR/moc_Botao.cpp",
@@ -407,6 +479,18 @@
 			null
 		],
 		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/ItemNavegacaoEstrutura.hpp",
+			"MU",
+			"N4TGSUYMF2/moc_ItemNavegacaoEstrutura.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/MenuEstruturas.hpp",
+			"MU",
+			"N4TGSUYMF2/moc_MenuEstruturas.cpp",
+			null
+		],
+		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/PaginaArvore.hpp",
 			"MU",
 			"N4TGSUYMF2/moc_PaginaArvore.cpp",
@@ -416,6 +500,12 @@
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/PainelVisualizacaoArvore.hpp",
 			"MU",
 			"N4TGSUYMF2/moc_PainelVisualizacaoArvore.cpp",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/TipoEstrutura.hpp",
+			"MU",
+			"N4TGSUYMF2/moc_TipoEstrutura.cpp",
 			null
 		],
 		[
@@ -497,7 +587,11 @@
 	],
 	"MOC_PREDEFS_FILE" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : 
+	[
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/mocs_compilation.cpp",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/mocs_compilation.cpp"
+	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
 	"PARSE_CACHE_FILE" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/InterfaceMegaSena_autogen.dir/ParseCache.txt",
@@ -525,6 +619,61 @@
 		],
 		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/ambiente/EstruturaAmbiente.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/BarraFerramentasArvore.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/CampoDetalhe.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ControleExecucaoAvl.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ControleZoom.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/GrupoDezenasConcurso.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ItemLigacaoArvore.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ItemNoArvore.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/MapaArvore.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/MarcadorDezena.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/PopoverDetalhesRegistro.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/VisualizacaoArvore.cpp",
 			"MU",
 			null
 		],
@@ -614,6 +763,16 @@
 			null
 		],
 		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/ItemNavegacaoEstrutura.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/MenuEstruturas.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/PaginaArvore.cpp",
 			"MU",
 			null
@@ -626,7 +785,11 @@
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
+	"UIC_SKIP" : 
+	[
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/mocs_compilation.cpp",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/mocs_compilation.cpp"
+	],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : true,
 	"VERBOSITY" : 0

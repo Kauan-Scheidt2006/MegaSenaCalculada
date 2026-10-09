@@ -324,10 +324,14 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/mocs_compilation.cpp",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/mocs_compilation.cpp",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/mocs_compilation.cpp",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ProcessamentoHistorico_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteVisualizacaoArvore_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
@@ -350,10 +354,14 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/mocs_compilation.cpp",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/mocs_compilation.cpp",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/mocs_compilation.cpp",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ProcessamentoHistorico_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TesteVisualizacaoArvore_autogen/mocs_compilation.cpp"
 	],
 	"UIC_UI_FILES" : [],

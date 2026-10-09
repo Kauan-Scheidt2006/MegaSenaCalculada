@@ -350,6 +350,8 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/mocs_compilation.cpp",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/mocs_compilation.cpp"
 	],
@@ -378,6 +380,8 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/mocs_compilation.cpp",
+		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/mocs_compilation.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp",
 		"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/mocs_compilation.cpp"
 	],

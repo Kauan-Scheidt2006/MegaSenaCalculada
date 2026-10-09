@@ -1,6 +1,36 @@
 [
 {
   "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\ApresentacaoArvore.dir\\ApresentacaoArvore_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\ApresentacaoArvore_autogen\\mocs_compilation.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\ApresentacaoArvore_autogen\\mocs_compilation.cpp",
+  "output": "CMakeFiles\\ApresentacaoArvore.dir\\ApresentacaoArvore_autogen\\mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\ApresentacaoArvore.dir\\src\\interface\\apresentacao\\arvore\\ModeloApresentacaoArvore.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\apresentacao\\arvore\\ModeloApresentacaoArvore.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\apresentacao\\arvore\\ModeloApresentacaoArvore.cpp",
+  "output": "CMakeFiles\\ApresentacaoArvore.dir\\src\\interface\\apresentacao\\arvore\\ModeloApresentacaoArvore.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\ApresentacaoArvore.dir\\src\\interface\\apresentacao\\arvore\\ModeloVisualArvore.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\apresentacao\\arvore\\ModeloVisualArvore.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\apresentacao\\arvore\\ModeloVisualArvore.cpp",
+  "output": "CMakeFiles\\ApresentacaoArvore.dir\\src\\interface\\apresentacao\\arvore\\ModeloVisualArvore.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\DisposicaoArvore.dir\\DisposicaoArvore_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\DisposicaoArvore_autogen\\mocs_compilation.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\DisposicaoArvore_autogen\\mocs_compilation.cpp",
+  "output": "CMakeFiles\\DisposicaoArvore.dir\\DisposicaoArvore_autogen\\mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\DisposicaoArvore.dir\\src\\interface\\componentes\\arvore\\CalculadorDisposicaoArvore.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\CalculadorDisposicaoArvore.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\CalculadorDisposicaoArvore.cpp",
+  "output": "CMakeFiles\\DisposicaoArvore.dir\\src\\interface\\componentes\\arvore\\CalculadorDisposicaoArvore.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
   "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\InterfaceMegaSena_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\InterfaceMegaSena_autogen\\mocs_compilation.cpp\"",
   "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\InterfaceMegaSena_autogen\\mocs_compilation.cpp",
   "output": "CMakeFiles\\InterfaceMegaSena.dir\\InterfaceMegaSena_autogen\\mocs_compilation.cpp.obj"
@@ -79,6 +109,72 @@
 },
 {
   "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\BarraFerramentasArvore.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\BarraFerramentasArvore.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\BarraFerramentasArvore.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\BarraFerramentasArvore.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\ControleExecucaoAvl.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\ControleExecucaoAvl.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\ControleExecucaoAvl.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\ControleExecucaoAvl.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\CampoDetalhe.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\CampoDetalhe.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\CampoDetalhe.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\CampoDetalhe.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\ControleZoom.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\ControleZoom.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\ControleZoom.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\ControleZoom.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\ItemLigacaoArvore.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\ItemLigacaoArvore.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\ItemLigacaoArvore.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\ItemLigacaoArvore.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\ItemNoArvore.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\ItemNoArvore.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\ItemNoArvore.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\ItemNoArvore.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\MapaArvore.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\MapaArvore.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\MapaArvore.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\MapaArvore.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\MarcadorDezena.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\MarcadorDezena.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\MarcadorDezena.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\MarcadorDezena.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\GrupoDezenasConcurso.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\GrupoDezenasConcurso.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\GrupoDezenasConcurso.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\GrupoDezenasConcurso.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\PopoverDetalhesRegistro.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\PopoverDetalhesRegistro.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\PopoverDetalhesRegistro.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\PopoverDetalhesRegistro.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\VisualizacaoArvore.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\VisualizacaoArvore.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\componentes\\arvore\\VisualizacaoArvore.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\componentes\\arvore\\VisualizacaoArvore.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
   "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\estilos\\EstiloAplicacao.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\estilos\\EstiloAplicacao.cpp\"",
   "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\estilos\\EstiloAplicacao.cpp",
   "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\estilos\\EstiloAplicacao.cpp.obj"
@@ -133,6 +229,18 @@
 },
 {
   "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\paginas\\arvore\\ItemNavegacaoEstrutura.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\paginas\\arvore\\ItemNavegacaoEstrutura.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\paginas\\arvore\\ItemNavegacaoEstrutura.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\paginas\\arvore\\ItemNavegacaoEstrutura.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\paginas\\arvore\\MenuEstruturas.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\paginas\\arvore\\MenuEstruturas.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\paginas\\arvore\\MenuEstruturas.cpp",
+  "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\paginas\\arvore\\MenuEstruturas.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
   "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\paginas\\arvore\\PaginaArvore.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\paginas\\arvore\\PaginaArvore.cpp\"",
   "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\interface\\paginas\\arvore\\PaginaArvore.cpp",
   "output": "CMakeFiles\\InterfaceMegaSena.dir\\src\\interface\\paginas\\arvore\\PaginaArvore.cpp.obj"
@@ -178,6 +286,48 @@
   "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\InfraestruturaJson.dir\\src\\infraestrutura\\json\\LeitorConcursosJson.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\infraestrutura\\json\\LeitorConcursosJson.cpp\"",
   "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\infraestrutura\\json\\LeitorConcursosJson.cpp",
   "output": "CMakeFiles\\InfraestruturaJson.dir\\src\\infraestrutura\\json\\LeitorConcursosJson.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ProcessamentoHistorico_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\ProcessamentoHistorico.dir\\ProcessamentoHistorico_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\ProcessamentoHistorico_autogen\\mocs_compilation.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\ProcessamentoHistorico_autogen\\mocs_compilation.cpp",
+  "output": "CMakeFiles\\ProcessamentoHistorico.dir\\ProcessamentoHistorico_autogen\\mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ProcessamentoHistorico_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\ProcessamentoHistorico.dir\\src\\processamento\\ProcessadorHistorico.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\processamento\\ProcessadorHistorico.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\processamento\\ProcessadorHistorico.cpp",
+  "output": "CMakeFiles\\ProcessamentoHistorico.dir\\src\\processamento\\ProcessadorHistorico.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\CasosUsoArvore.dir\\CasosUsoArvore_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\CasosUsoArvore_autogen\\mocs_compilation.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\CasosUsoArvore_autogen\\mocs_compilation.cpp",
+  "output": "CMakeFiles\\CasosUsoArvore.dir\\CasosUsoArvore_autogen\\mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\CasosUsoArvore.dir\\src\\aplicacao\\arvore\\ConstrutorApresentacaoAvl.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\aplicacao\\arvore\\ConstrutorApresentacaoAvl.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\aplicacao\\arvore\\ConstrutorApresentacaoAvl.cpp",
+  "output": "CMakeFiles\\CasosUsoArvore.dir\\src\\aplicacao\\arvore\\ConstrutorApresentacaoAvl.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\CasosUsoArvore.dir\\src\\aplicacao\\arvore\\ConstrutorApresentacaoBst.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\aplicacao\\arvore\\ConstrutorApresentacaoBst.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\aplicacao\\arvore\\ConstrutorApresentacaoBst.cpp",
+  "output": "CMakeFiles\\CasosUsoArvore.dir\\src\\aplicacao\\arvore\\ConstrutorApresentacaoBst.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\CasosUsoArvore.dir\\src\\aplicacao\\arvore\\ConsultorDetalhesRegistro.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\aplicacao\\arvore\\ConsultorDetalhesRegistro.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\aplicacao\\arvore\\ConsultorDetalhesRegistro.cpp",
+  "output": "CMakeFiles\\CasosUsoArvore.dir\\src\\aplicacao\\arvore\\ConsultorDetalhesRegistro.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\CasosUsoArvore.dir\\src\\aplicacao\\arvore\\SessaoConstrucaoAvlPassoAPasso.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\aplicacao\\arvore\\SessaoConstrucaoAvlPassoAPasso.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\src\\aplicacao\\arvore\\SessaoConstrucaoAvlPassoAPasso.cpp",
+  "output": "CMakeFiles\\CasosUsoArvore.dir\\src\\aplicacao\\arvore\\SessaoConstrucaoAvlPassoAPasso.cpp.obj"
 },
 {
   "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
@@ -232,5 +382,41 @@
   "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesInterfaceInicial_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\TestesInterfaceInicial.dir\\testes\\testes_interface_inicial.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\testes\\testes_interface_inicial.cpp\"",
   "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\testes\\testes_interface_inicial.cpp",
   "output": "CMakeFiles\\TestesInterfaceInicial.dir\\testes\\testes_interface_inicial.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMEGASENA_DIRETORIO_FONTE=\"\\\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada\\\"\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesProcessamentoApresentacao_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\TestesProcessamentoApresentacao.dir\\TestesProcessamentoApresentacao_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\TestesProcessamentoApresentacao_autogen\\mocs_compilation.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\TestesProcessamentoApresentacao_autogen\\mocs_compilation.cpp",
+  "output": "CMakeFiles\\TestesProcessamentoApresentacao.dir\\TestesProcessamentoApresentacao_autogen\\mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMEGASENA_DIRETORIO_FONTE=\"\\\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada\\\"\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesProcessamentoApresentacao_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\TestesProcessamentoApresentacao.dir\\testes\\testes_processamento_apresentacao.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\testes\\testes_processamento_apresentacao.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\testes\\testes_processamento_apresentacao.cpp",
+  "output": "CMakeFiles\\TestesProcessamentoApresentacao.dir\\testes\\testes_processamento_apresentacao.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesModeloApresentacaoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\TestesModeloApresentacaoArvore.dir\\TestesModeloApresentacaoArvore_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\TestesModeloApresentacaoArvore_autogen\\mocs_compilation.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\TestesModeloApresentacaoArvore_autogen\\mocs_compilation.cpp",
+  "output": "CMakeFiles\\TestesModeloApresentacaoArvore.dir\\TestesModeloApresentacaoArvore_autogen\\mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesModeloApresentacaoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\TestesModeloApresentacaoArvore.dir\\testes\\testes_modelo_apresentacao_arvore.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\testes\\testes_modelo_apresentacao_arvore.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\testes\\testes_modelo_apresentacao_arvore.cpp",
+  "output": "CMakeFiles\\TestesModeloApresentacaoArvore.dir\\testes\\testes_modelo_apresentacao_arvore.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesDisposicaoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\TestesDisposicaoArvore.dir\\TestesDisposicaoArvore_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\TestesDisposicaoArvore_autogen\\mocs_compilation.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\build\\TestesDisposicaoArvore_autogen\\mocs_compilation.cpp",
+  "output": "CMakeFiles\\TestesDisposicaoArvore.dir\\TestesDisposicaoArvore_autogen\\mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesDisposicaoArvore_autogen/include\" -I\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src\" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20 -o CMakeFiles\\TestesDisposicaoArvore.dir\\testes\\testes_disposicao_arvore.cpp.obj -c \"C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\testes\\testes_disposicao_arvore.cpp\"",
+  "file": "C:\\Users\\Kauan\\Documents\\ChatGPT\\Mega Sena Calculada\\MegaSenaCalculada\\testes\\testes_disposicao_arvore.cpp",
+  "output": "CMakeFiles\\TestesDisposicaoArvore.dir\\testes\\testes_disposicao_arvore.cpp.obj"
 }
 ]

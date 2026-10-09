@@ -41,13 +41,103 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/build/
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target ApresentacaoArvore
+
+
+#############################################
+# Order-only phony target for ApresentacaoArvore
+
+build cmake_object_order_depends_target_ApresentacaoArvore: phony || ApresentacaoArvore_autogen ApresentacaoArvore_autogen/mocs_compilation.cpp ApresentacaoArvore_autogen/timestamp ApresentacaoArvore_autogen_timestamp_deps
+
+build CMakeFiles/ApresentacaoArvore.dir/ApresentacaoArvore_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__ApresentacaoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_ApresentacaoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ApresentacaoArvore.dir\ApresentacaoArvore_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\ApresentacaoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\ApresentacaoArvore.dir\ApresentacaoArvore_autogen
+
+build CMakeFiles/ApresentacaoArvore.dir/src/interface/apresentacao/arvore/ModeloApresentacaoArvore.cpp.obj: CXX_COMPILER__ApresentacaoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/apresentacao/arvore/ModeloApresentacaoArvore.cpp || cmake_object_order_depends_target_ApresentacaoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ApresentacaoArvore.dir\src\interface\apresentacao\arvore\ModeloApresentacaoArvore.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\ApresentacaoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\ApresentacaoArvore.dir\src\interface\apresentacao\arvore
+
+build CMakeFiles/ApresentacaoArvore.dir/src/interface/apresentacao/arvore/ModeloVisualArvore.cpp.obj: CXX_COMPILER__ApresentacaoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/apresentacao/arvore/ModeloVisualArvore.cpp || cmake_object_order_depends_target_ApresentacaoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ApresentacaoArvore.dir\src\interface\apresentacao\arvore\ModeloVisualArvore.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\ApresentacaoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\ApresentacaoArvore.dir\src\interface\apresentacao\arvore
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target ApresentacaoArvore
+
+
+#############################################
+# Link the static library libApresentacaoArvore.a
+
+build libApresentacaoArvore.a: CXX_STATIC_LIBRARY_LINKER__ApresentacaoArvore_Debug CMakeFiles/ApresentacaoArvore.dir/ApresentacaoArvore_autogen/mocs_compilation.cpp.obj CMakeFiles/ApresentacaoArvore.dir/src/interface/apresentacao/arvore/ModeloApresentacaoArvore.cpp.obj CMakeFiles/ApresentacaoArvore.dir/src/interface/apresentacao/arvore/ModeloVisualArvore.cpp.obj || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps
+  LANGUAGE_COMPILE_FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
+  OBJECT_DIR = CMakeFiles\ApresentacaoArvore.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libApresentacaoArvore.a
+  TARGET_PDB = ApresentacaoArvore.a.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target DisposicaoArvore
+
+
+#############################################
+# Order-only phony target for DisposicaoArvore
+
+build cmake_object_order_depends_target_DisposicaoArvore: phony || DisposicaoArvore_autogen DisposicaoArvore_autogen/mocs_compilation.cpp DisposicaoArvore_autogen/timestamp DisposicaoArvore_autogen_timestamp_deps cmake_object_order_depends_target_ApresentacaoArvore
+
+build CMakeFiles/DisposicaoArvore.dir/DisposicaoArvore_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__DisposicaoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_DisposicaoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\DisposicaoArvore.dir\DisposicaoArvore_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\DisposicaoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\DisposicaoArvore.dir\DisposicaoArvore_autogen
+
+build CMakeFiles/DisposicaoArvore.dir/src/interface/componentes/arvore/CalculadorDisposicaoArvore.cpp.obj: CXX_COMPILER__DisposicaoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/CalculadorDisposicaoArvore.cpp || cmake_object_order_depends_target_DisposicaoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\DisposicaoArvore.dir\src\interface\componentes\arvore\CalculadorDisposicaoArvore.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\DisposicaoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\DisposicaoArvore.dir\src\interface\componentes\arvore
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target DisposicaoArvore
+
+
+#############################################
+# Link the static library libDisposicaoArvore.a
+
+build libDisposicaoArvore.a: CXX_STATIC_LIBRARY_LINKER__DisposicaoArvore_Debug CMakeFiles/DisposicaoArvore.dir/DisposicaoArvore_autogen/mocs_compilation.cpp.obj CMakeFiles/DisposicaoArvore.dir/src/interface/componentes/arvore/CalculadorDisposicaoArvore.cpp.obj || DisposicaoArvore_autogen DisposicaoArvore_autogen_timestamp_deps libApresentacaoArvore.a
+  LANGUAGE_COMPILE_FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
+  OBJECT_DIR = CMakeFiles\DisposicaoArvore.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libDisposicaoArvore.a
+  TARGET_PDB = DisposicaoArvore.a.dbg
+
+# =============================================================================
 # Object build statements for STATIC_LIBRARY target InterfaceMegaSena
 
 
 #############################################
 # Order-only phony target for InterfaceMegaSena
 
-build cmake_object_order_depends_target_InterfaceMegaSena: phony || InterfaceMegaSena_autogen InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp InterfaceMegaSena_autogen/mocs_compilation.cpp InterfaceMegaSena_autogen/timestamp InterfaceMegaSena_autogen_timestamp_deps
+build cmake_object_order_depends_target_InterfaceMegaSena: phony || InterfaceMegaSena_autogen InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp InterfaceMegaSena_autogen/mocs_compilation.cpp InterfaceMegaSena_autogen/timestamp InterfaceMegaSena_autogen_timestamp_deps cmake_object_order_depends_target_ApresentacaoArvore cmake_object_order_depends_target_DisposicaoArvore
 
 build CMakeFiles/InterfaceMegaSena.dir/InterfaceMegaSena_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_InterfaceMegaSena
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -153,6 +243,94 @@ build CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Titulo.
   OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
   OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\basicos
 
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/BarraFerramentasArvore.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/BarraFerramentasArvore.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore\BarraFerramentasArvore.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore
+
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/ControleExecucaoAvl.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ControleExecucaoAvl.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore\ControleExecucaoAvl.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore
+
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/CampoDetalhe.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/CampoDetalhe.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore\CampoDetalhe.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore
+
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/ControleZoom.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ControleZoom.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore\ControleZoom.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore
+
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/ItemLigacaoArvore.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ItemLigacaoArvore.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore\ItemLigacaoArvore.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore
+
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/ItemNoArvore.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ItemNoArvore.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore\ItemNoArvore.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore
+
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/MapaArvore.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/MapaArvore.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore\MapaArvore.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore
+
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/MarcadorDezena.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/MarcadorDezena.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore\MarcadorDezena.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore
+
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/GrupoDezenasConcurso.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/GrupoDezenasConcurso.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore\GrupoDezenasConcurso.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore
+
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/PopoverDetalhesRegistro.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/PopoverDetalhesRegistro.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore\PopoverDetalhesRegistro.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore
+
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/VisualizacaoArvore.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/VisualizacaoArvore.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore\VisualizacaoArvore.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\componentes\arvore
+
 build CMakeFiles/InterfaceMegaSena.dir/src/interface/estilos/EstiloAplicacao.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/estilos/EstiloAplicacao.cpp || cmake_object_order_depends_target_InterfaceMegaSena
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\estilos\EstiloAplicacao.cpp.obj.d
@@ -225,6 +403,22 @@ build CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/ConteudoPagi
   OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
   OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\paginas\arvore
 
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/ItemNavegacaoEstrutura.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/paginas/arvore/ItemNavegacaoEstrutura.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\paginas\arvore\ItemNavegacaoEstrutura.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\paginas\arvore
+
+build CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/MenuEstruturas.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/paginas/arvore/MenuEstruturas.cpp || cmake_object_order_depends_target_InterfaceMegaSena
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\paginas\arvore\MenuEstruturas.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
+  OBJECT_FILE_DIR = CMakeFiles\InterfaceMegaSena.dir\src\interface\paginas\arvore
+
 build CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/PaginaArvore.cpp.obj: CXX_COMPILER__InterfaceMegaSena_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/interface/paginas/arvore/PaginaArvore.cpp || cmake_object_order_depends_target_InterfaceMegaSena
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\InterfaceMegaSena.dir\src\interface\paginas\arvore\PaginaArvore.cpp.obj.d
@@ -257,7 +451,7 @@ build CMakeFiles/InterfaceMegaSena.dir/InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_
 #############################################
 # Link the static library libInterfaceMegaSena.a
 
-build libInterfaceMegaSena.a: CXX_STATIC_LIBRARY_LINKER__InterfaceMegaSena_Debug CMakeFiles/InterfaceMegaSena.dir/InterfaceMegaSena_autogen/mocs_compilation.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/Ambiente.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/AreaPaginas.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/BarraEstado.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/EstruturaAmbiente.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Botao.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/BotaoIcone.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/BotaoNavegacao.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Imagem.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/IndicadorProgresso.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Subtitulo.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Texto.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Titulo.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/estilos/EstiloAplicacao.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/Barra.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/BaseContainer.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/BasePagina.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/ConfiguradorComponente.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/HospedagemRaiz.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/Painel.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/CabecalhoPaginaArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/ConteudoPaginaArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/PaginaArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/PainelVisualizacaoArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp.obj || InterfaceMegaSena_autogen InterfaceMegaSena_autogen_timestamp_deps
+build libInterfaceMegaSena.a: CXX_STATIC_LIBRARY_LINKER__InterfaceMegaSena_Debug CMakeFiles/InterfaceMegaSena.dir/InterfaceMegaSena_autogen/mocs_compilation.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/Ambiente.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/AreaPaginas.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/BarraEstado.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/ambiente/EstruturaAmbiente.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Botao.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/BotaoIcone.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/BotaoNavegacao.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Imagem.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/IndicadorProgresso.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Subtitulo.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Texto.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/basicos/Titulo.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/BarraFerramentasArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/ControleExecucaoAvl.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/CampoDetalhe.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/ControleZoom.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/ItemLigacaoArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/ItemNoArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/MapaArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/MarcadorDezena.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/GrupoDezenasConcurso.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/PopoverDetalhesRegistro.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/componentes/arvore/VisualizacaoArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/estilos/EstiloAplicacao.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/Barra.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/BaseContainer.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/BasePagina.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/ConfiguradorComponente.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/HospedagemRaiz.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/fundamentos/Painel.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/CabecalhoPaginaArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/ConteudoPaginaArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/ItemNavegacaoEstrutura.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/MenuEstruturas.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/PaginaArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/src/interface/paginas/arvore/PainelVisualizacaoArvore.cpp.obj CMakeFiles/InterfaceMegaSena.dir/InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp.obj || InterfaceMegaSena_autogen InterfaceMegaSena_autogen_timestamp_deps libApresentacaoArvore.a libDisposicaoArvore.a
   LANGUAGE_COMPILE_FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
   OBJECT_DIR = CMakeFiles\InterfaceMegaSena.dir
   POST_BUILD = cd .
@@ -272,7 +466,7 @@ build libInterfaceMegaSena.a: CXX_STATIC_LIBRARY_LINKER__InterfaceMegaSena_Debug
 #############################################
 # Order-only phony target for MegaSenaCalculada
 
-build cmake_object_order_depends_target_MegaSenaCalculada: phony || MegaSenaCalculada_autogen MegaSenaCalculada_autogen/mocs_compilation.cpp MegaSenaCalculada_autogen/timestamp MegaSenaCalculada_autogen_timestamp_deps cmake_object_order_depends_target_InterfaceMegaSena
+build cmake_object_order_depends_target_MegaSenaCalculada: phony || MegaSenaCalculada_autogen MegaSenaCalculada_autogen/mocs_compilation.cpp MegaSenaCalculada_autogen/timestamp MegaSenaCalculada_autogen_timestamp_deps cmake_object_order_depends_target_ApresentacaoArvore cmake_object_order_depends_target_CasosUsoArvore cmake_object_order_depends_target_DisposicaoArvore cmake_object_order_depends_target_InfraestruturaJson cmake_object_order_depends_target_InterfaceMegaSena cmake_object_order_depends_target_ProcessamentoHistorico
 
 build CMakeFiles/MegaSenaCalculada.dir/MegaSenaCalculada_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__MegaSenaCalculada_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_MegaSenaCalculada
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -306,10 +500,10 @@ build CMakeFiles/MegaSenaCalculada.dir/src/aplicacao/Aplicacao.cpp.obj: CXX_COMP
 #############################################
 # Link the executable MegaSenaCalculada.exe
 
-build MegaSenaCalculada.exe: CXX_EXECUTABLE_LINKER__MegaSenaCalculada_Debug CMakeFiles/MegaSenaCalculada.dir/MegaSenaCalculada_autogen/mocs_compilation.cpp.obj CMakeFiles/MegaSenaCalculada.dir/principal.cpp.obj CMakeFiles/MegaSenaCalculada.dir/src/aplicacao/Aplicacao.cpp.obj | libInterfaceMegaSena.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.11.1/mingw_64/lib/libQt6EntryPoint.a MegaSenaCalculada.exe.manifest || MegaSenaCalculada_autogen MegaSenaCalculada_autogen_timestamp_deps libInterfaceMegaSena.a
+build MegaSenaCalculada.exe: CXX_EXECUTABLE_LINKER__MegaSenaCalculada_Debug CMakeFiles/MegaSenaCalculada.dir/MegaSenaCalculada_autogen/mocs_compilation.cpp.obj CMakeFiles/MegaSenaCalculada.dir/principal.cpp.obj CMakeFiles/MegaSenaCalculada.dir/src/aplicacao/Aplicacao.cpp.obj | libCasosUsoArvore.a libInterfaceMegaSena.a libInfraestruturaJson.a libProcessamentoHistorico.a libDisposicaoArvore.a libApresentacaoArvore.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.11.1/mingw_64/lib/libQt6EntryPoint.a MegaSenaCalculada.exe.manifest || MegaSenaCalculada_autogen MegaSenaCalculada_autogen_timestamp_deps libApresentacaoArvore.a libCasosUsoArvore.a libDisposicaoArvore.a libInfraestruturaJson.a libInterfaceMegaSena.a libProcessamentoHistorico.a
   FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
   LINK_FLAGS = -mwindows
-  LINK_LIBRARIES = libInterfaceMegaSena.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.11.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = libCasosUsoArvore.a  libInterfaceMegaSena.a  libInfraestruturaJson.a  libProcessamentoHistorico.a  libDisposicaoArvore.a  libApresentacaoArvore.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  C:/Qt/6.11.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.11.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   MANIFESTS = MegaSenaCalculada.exe.manifest
   OBJECT_DIR = CMakeFiles\MegaSenaCalculada.dir
   POST_BUILD = cd .
@@ -358,6 +552,110 @@ build libInfraestruturaJson.a: CXX_STATIC_LIBRARY_LINKER__InfraestruturaJson_Deb
   PRE_LINK = cd .
   TARGET_FILE = libInfraestruturaJson.a
   TARGET_PDB = InfraestruturaJson.a.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target ProcessamentoHistorico
+
+
+#############################################
+# Order-only phony target for ProcessamentoHistorico
+
+build cmake_object_order_depends_target_ProcessamentoHistorico: phony || ProcessamentoHistorico_autogen ProcessamentoHistorico_autogen/mocs_compilation.cpp ProcessamentoHistorico_autogen/timestamp ProcessamentoHistorico_autogen_timestamp_deps
+
+build CMakeFiles/ProcessamentoHistorico.dir/ProcessamentoHistorico_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__ProcessamentoHistorico_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/build/ProcessamentoHistorico_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_ProcessamentoHistorico
+  DEP_FILE = CMakeFiles\ProcessamentoHistorico.dir\ProcessamentoHistorico_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ProcessamentoHistorico_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src"
+  OBJECT_DIR = CMakeFiles\ProcessamentoHistorico.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProcessamentoHistorico.dir\ProcessamentoHistorico_autogen
+
+build CMakeFiles/ProcessamentoHistorico.dir/src/processamento/ProcessadorHistorico.cpp.obj: CXX_COMPILER__ProcessamentoHistorico_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/processamento/ProcessadorHistorico.cpp || cmake_object_order_depends_target_ProcessamentoHistorico
+  DEP_FILE = CMakeFiles\ProcessamentoHistorico.dir\src\processamento\ProcessadorHistorico.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ProcessamentoHistorico_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src"
+  OBJECT_DIR = CMakeFiles\ProcessamentoHistorico.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProcessamentoHistorico.dir\src\processamento
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target ProcessamentoHistorico
+
+
+#############################################
+# Link the static library libProcessamentoHistorico.a
+
+build libProcessamentoHistorico.a: CXX_STATIC_LIBRARY_LINKER__ProcessamentoHistorico_Debug CMakeFiles/ProcessamentoHistorico.dir/ProcessamentoHistorico_autogen/mocs_compilation.cpp.obj CMakeFiles/ProcessamentoHistorico.dir/src/processamento/ProcessadorHistorico.cpp.obj || ProcessamentoHistorico_autogen ProcessamentoHistorico_autogen_timestamp_deps
+  LANGUAGE_COMPILE_FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
+  OBJECT_DIR = CMakeFiles\ProcessamentoHistorico.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libProcessamentoHistorico.a
+  TARGET_PDB = ProcessamentoHistorico.a.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target CasosUsoArvore
+
+
+#############################################
+# Order-only phony target for CasosUsoArvore
+
+build cmake_object_order_depends_target_CasosUsoArvore: phony || CasosUsoArvore_autogen CasosUsoArvore_autogen/mocs_compilation.cpp CasosUsoArvore_autogen/timestamp CasosUsoArvore_autogen_timestamp_deps cmake_object_order_depends_target_ApresentacaoArvore
+
+build CMakeFiles/CasosUsoArvore.dir/CasosUsoArvore_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__CasosUsoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_CasosUsoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\CasosUsoArvore.dir\CasosUsoArvore_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\CasosUsoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\CasosUsoArvore.dir\CasosUsoArvore_autogen
+
+build CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConstrutorApresentacaoAvl.cpp.obj: CXX_COMPILER__CasosUsoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoAvl.cpp || cmake_object_order_depends_target_CasosUsoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\CasosUsoArvore.dir\src\aplicacao\arvore\ConstrutorApresentacaoAvl.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\CasosUsoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\CasosUsoArvore.dir\src\aplicacao\arvore
+
+build CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConstrutorApresentacaoBst.cpp.obj: CXX_COMPILER__CasosUsoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoBst.cpp || cmake_object_order_depends_target_CasosUsoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\CasosUsoArvore.dir\src\aplicacao\arvore\ConstrutorApresentacaoBst.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\CasosUsoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\CasosUsoArvore.dir\src\aplicacao\arvore
+
+build CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConsultorDetalhesRegistro.cpp.obj: CXX_COMPILER__CasosUsoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConsultorDetalhesRegistro.cpp || cmake_object_order_depends_target_CasosUsoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\CasosUsoArvore.dir\src\aplicacao\arvore\ConsultorDetalhesRegistro.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\CasosUsoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\CasosUsoArvore.dir\src\aplicacao\arvore
+
+build CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/SessaoConstrucaoAvlPassoAPasso.cpp.obj: CXX_COMPILER__CasosUsoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/aplicacao/arvore/SessaoConstrucaoAvlPassoAPasso.cpp || cmake_object_order_depends_target_CasosUsoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\CasosUsoArvore.dir\src\aplicacao\arvore\SessaoConstrucaoAvlPassoAPasso.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\CasosUsoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\CasosUsoArvore.dir\src\aplicacao\arvore
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target CasosUsoArvore
+
+
+#############################################
+# Link the static library libCasosUsoArvore.a
+
+build libCasosUsoArvore.a: CXX_STATIC_LIBRARY_LINKER__CasosUsoArvore_Debug CMakeFiles/CasosUsoArvore.dir/CasosUsoArvore_autogen/mocs_compilation.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConstrutorApresentacaoAvl.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConstrutorApresentacaoBst.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConsultorDetalhesRegistro.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/SessaoConstrucaoAvlPassoAPasso.cpp.obj || CasosUsoArvore_autogen CasosUsoArvore_autogen_timestamp_deps libApresentacaoArvore.a
+  LANGUAGE_COMPILE_FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
+  OBJECT_DIR = CMakeFiles\CasosUsoArvore.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libCasosUsoArvore.a
+  TARGET_PDB = CasosUsoArvore.a.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TesteVisualizacaoArvore
@@ -501,7 +799,7 @@ build TestesLeitorConcursosJson.exe: CXX_EXECUTABLE_LINKER__TestesLeitorConcurso
 #############################################
 # Order-only phony target for TestesInterfaceInicial
 
-build cmake_object_order_depends_target_TestesInterfaceInicial: phony || TestesInterfaceInicial_autogen TestesInterfaceInicial_autogen/mocs_compilation.cpp TestesInterfaceInicial_autogen/timestamp TestesInterfaceInicial_autogen_timestamp_deps cmake_object_order_depends_target_InterfaceMegaSena
+build cmake_object_order_depends_target_TestesInterfaceInicial: phony || TestesInterfaceInicial_autogen TestesInterfaceInicial_autogen/mocs_compilation.cpp TestesInterfaceInicial_autogen/timestamp TestesInterfaceInicial_autogen_timestamp_deps cmake_object_order_depends_target_ApresentacaoArvore cmake_object_order_depends_target_DisposicaoArvore cmake_object_order_depends_target_InterfaceMegaSena
 
 build CMakeFiles/TestesInterfaceInicial.dir/TestesInterfaceInicial_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__TestesInterfaceInicial_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/build/TestesInterfaceInicial_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_TestesInterfaceInicial
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -527,15 +825,144 @@ build CMakeFiles/TestesInterfaceInicial.dir/testes/testes_interface_inicial.cpp.
 #############################################
 # Link the executable TestesInterfaceInicial.exe
 
-build TestesInterfaceInicial.exe: CXX_EXECUTABLE_LINKER__TestesInterfaceInicial_Debug CMakeFiles/TestesInterfaceInicial.dir/TestesInterfaceInicial_autogen/mocs_compilation.cpp.obj CMakeFiles/TestesInterfaceInicial.dir/testes/testes_interface_inicial.cpp.obj | libInterfaceMegaSena.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Core.a || TestesInterfaceInicial_autogen TestesInterfaceInicial_autogen_timestamp_deps libInterfaceMegaSena.a
+build TestesInterfaceInicial.exe: CXX_EXECUTABLE_LINKER__TestesInterfaceInicial_Debug CMakeFiles/TestesInterfaceInicial.dir/TestesInterfaceInicial_autogen/mocs_compilation.cpp.obj CMakeFiles/TestesInterfaceInicial.dir/testes/testes_interface_inicial.cpp.obj | libInterfaceMegaSena.a libDisposicaoArvore.a libApresentacaoArvore.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Core.a || TestesInterfaceInicial_autogen TestesInterfaceInicial_autogen_timestamp_deps libApresentacaoArvore.a libDisposicaoArvore.a libInterfaceMegaSena.a
   FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
-  LINK_LIBRARIES = libInterfaceMegaSena.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = libInterfaceMegaSena.a  libDisposicaoArvore.a  libApresentacaoArvore.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TestesInterfaceInicial.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
   TARGET_FILE = TestesInterfaceInicial.exe
   TARGET_IMPLIB = libTestesInterfaceInicial.dll.a
   TARGET_PDB = TestesInterfaceInicial.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TestesProcessamentoApresentacao
+
+
+#############################################
+# Order-only phony target for TestesProcessamentoApresentacao
+
+build cmake_object_order_depends_target_TestesProcessamentoApresentacao: phony || TestesProcessamentoApresentacao_autogen TestesProcessamentoApresentacao_autogen/mocs_compilation.cpp TestesProcessamentoApresentacao_autogen/timestamp TestesProcessamentoApresentacao_autogen_timestamp_deps cmake_object_order_depends_target_ApresentacaoArvore cmake_object_order_depends_target_CasosUsoArvore cmake_object_order_depends_target_InfraestruturaJson cmake_object_order_depends_target_ProcessamentoHistorico
+
+build CMakeFiles/TestesProcessamentoApresentacao.dir/TestesProcessamentoApresentacao_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__TestesProcessamentoApresentacao_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/build/TestesProcessamentoApresentacao_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_TestesProcessamentoApresentacao
+  DEFINES = -DMEGASENA_DIRETORIO_FONTE="\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada\"" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\TestesProcessamentoApresentacao.dir\TestesProcessamentoApresentacao_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesProcessamentoApresentacao_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\TestesProcessamentoApresentacao.dir
+  OBJECT_FILE_DIR = CMakeFiles\TestesProcessamentoApresentacao.dir\TestesProcessamentoApresentacao_autogen
+
+build CMakeFiles/TestesProcessamentoApresentacao.dir/testes/testes_processamento_apresentacao.cpp.obj: CXX_COMPILER__TestesProcessamentoApresentacao_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/testes/testes_processamento_apresentacao.cpp || cmake_object_order_depends_target_TestesProcessamentoApresentacao
+  DEFINES = -DMEGASENA_DIRETORIO_FONTE="\"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada\"" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\TestesProcessamentoApresentacao.dir\testes\testes_processamento_apresentacao.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesProcessamentoApresentacao_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\TestesProcessamentoApresentacao.dir
+  OBJECT_FILE_DIR = CMakeFiles\TestesProcessamentoApresentacao.dir\testes
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TestesProcessamentoApresentacao
+
+
+#############################################
+# Link the executable TestesProcessamentoApresentacao.exe
+
+build TestesProcessamentoApresentacao.exe: CXX_EXECUTABLE_LINKER__TestesProcessamentoApresentacao_Debug CMakeFiles/TestesProcessamentoApresentacao.dir/TestesProcessamentoApresentacao_autogen/mocs_compilation.cpp.obj CMakeFiles/TestesProcessamentoApresentacao.dir/testes/testes_processamento_apresentacao.cpp.obj | libApresentacaoArvore.a libCasosUsoArvore.a libInfraestruturaJson.a libProcessamentoHistorico.a libApresentacaoArvore.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Core.a || TestesProcessamentoApresentacao_autogen TestesProcessamentoApresentacao_autogen_timestamp_deps libApresentacaoArvore.a libCasosUsoArvore.a libInfraestruturaJson.a libProcessamentoHistorico.a
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
+  LINK_LIBRARIES = libApresentacaoArvore.a  libCasosUsoArvore.a  libInfraestruturaJson.a  libProcessamentoHistorico.a  libApresentacaoArvore.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TestesProcessamentoApresentacao.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TestesProcessamentoApresentacao.exe
+  TARGET_IMPLIB = libTestesProcessamentoApresentacao.dll.a
+  TARGET_PDB = TestesProcessamentoApresentacao.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TestesModeloApresentacaoArvore
+
+
+#############################################
+# Order-only phony target for TestesModeloApresentacaoArvore
+
+build cmake_object_order_depends_target_TestesModeloApresentacaoArvore: phony || TestesModeloApresentacaoArvore_autogen TestesModeloApresentacaoArvore_autogen/mocs_compilation.cpp TestesModeloApresentacaoArvore_autogen/timestamp TestesModeloApresentacaoArvore_autogen_timestamp_deps cmake_object_order_depends_target_ApresentacaoArvore
+
+build CMakeFiles/TestesModeloApresentacaoArvore.dir/TestesModeloApresentacaoArvore_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__TestesModeloApresentacaoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/build/TestesModeloApresentacaoArvore_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_TestesModeloApresentacaoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\TestesModeloApresentacaoArvore.dir\TestesModeloApresentacaoArvore_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesModeloApresentacaoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\TestesModeloApresentacaoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\TestesModeloApresentacaoArvore.dir\TestesModeloApresentacaoArvore_autogen
+
+build CMakeFiles/TestesModeloApresentacaoArvore.dir/testes/testes_modelo_apresentacao_arvore.cpp.obj: CXX_COMPILER__TestesModeloApresentacaoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/testes/testes_modelo_apresentacao_arvore.cpp || cmake_object_order_depends_target_TestesModeloApresentacaoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\TestesModeloApresentacaoArvore.dir\testes\testes_modelo_apresentacao_arvore.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesModeloApresentacaoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\TestesModeloApresentacaoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\TestesModeloApresentacaoArvore.dir\testes
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TestesModeloApresentacaoArvore
+
+
+#############################################
+# Link the executable TestesModeloApresentacaoArvore.exe
+
+build TestesModeloApresentacaoArvore.exe: CXX_EXECUTABLE_LINKER__TestesModeloApresentacaoArvore_Debug CMakeFiles/TestesModeloApresentacaoArvore.dir/TestesModeloApresentacaoArvore_autogen/mocs_compilation.cpp.obj CMakeFiles/TestesModeloApresentacaoArvore.dir/testes/testes_modelo_apresentacao_arvore.cpp.obj | libApresentacaoArvore.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Core.a || TestesModeloApresentacaoArvore_autogen TestesModeloApresentacaoArvore_autogen_timestamp_deps libApresentacaoArvore.a
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
+  LINK_LIBRARIES = libApresentacaoArvore.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TestesModeloApresentacaoArvore.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TestesModeloApresentacaoArvore.exe
+  TARGET_IMPLIB = libTestesModeloApresentacaoArvore.dll.a
+  TARGET_PDB = TestesModeloApresentacaoArvore.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TestesDisposicaoArvore
+
+
+#############################################
+# Order-only phony target for TestesDisposicaoArvore
+
+build cmake_object_order_depends_target_TestesDisposicaoArvore: phony || TestesDisposicaoArvore_autogen TestesDisposicaoArvore_autogen/mocs_compilation.cpp TestesDisposicaoArvore_autogen/timestamp TestesDisposicaoArvore_autogen_timestamp_deps cmake_object_order_depends_target_ApresentacaoArvore cmake_object_order_depends_target_DisposicaoArvore
+
+build CMakeFiles/TestesDisposicaoArvore.dir/TestesDisposicaoArvore_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__TestesDisposicaoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/build/TestesDisposicaoArvore_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_TestesDisposicaoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\TestesDisposicaoArvore.dir\TestesDisposicaoArvore_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesDisposicaoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\TestesDisposicaoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\TestesDisposicaoArvore.dir\TestesDisposicaoArvore_autogen
+
+build CMakeFiles/TestesDisposicaoArvore.dir/testes/testes_disposicao_arvore.cpp.obj: CXX_COMPILER__TestesDisposicaoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/testes/testes_disposicao_arvore.cpp || cmake_object_order_depends_target_TestesDisposicaoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\TestesDisposicaoArvore.dir\testes\testes_disposicao_arvore.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesDisposicaoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\TestesDisposicaoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\TestesDisposicaoArvore.dir\testes
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TestesDisposicaoArvore
+
+
+#############################################
+# Link the executable TestesDisposicaoArvore.exe
+
+build TestesDisposicaoArvore.exe: CXX_EXECUTABLE_LINKER__TestesDisposicaoArvore_Debug CMakeFiles/TestesDisposicaoArvore.dir/TestesDisposicaoArvore_autogen/mocs_compilation.cpp.obj CMakeFiles/TestesDisposicaoArvore.dir/testes/testes_disposicao_arvore.cpp.obj | libDisposicaoArvore.a libApresentacaoArvore.a C$:/Qt/6.11.1/mingw_64/lib/libQt6Core.a || TestesDisposicaoArvore_autogen TestesDisposicaoArvore_autogen_timestamp_deps libApresentacaoArvore.a libDisposicaoArvore.a
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
+  LINK_LIBRARIES = libDisposicaoArvore.a  libApresentacaoArvore.a  C:/Qt/6.11.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TestesDisposicaoArvore.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TestesDisposicaoArvore.exe
+  TARGET_IMPLIB = libTestesDisposicaoArvore.dll.a
+  TARGET_PDB = TestesDisposicaoArvore.exe.dbg
 
 
 #############################################
@@ -599,9 +1026,33 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 
 #############################################
+# Utility command for ApresentacaoArvore_autogen_timestamp_deps
+
+build ApresentacaoArvore_autogen_timestamp_deps: phony
+
+
+#############################################
+# Utility command for ApresentacaoArvore_autogen
+
+build ApresentacaoArvore_autogen: phony CMakeFiles/ApresentacaoArvore_autogen ApresentacaoArvore_autogen/timestamp ApresentacaoArvore_autogen/mocs_compilation.cpp ApresentacaoArvore_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for DisposicaoArvore_autogen_timestamp_deps
+
+build DisposicaoArvore_autogen_timestamp_deps: phony libApresentacaoArvore.a
+
+
+#############################################
+# Utility command for DisposicaoArvore_autogen
+
+build DisposicaoArvore_autogen: phony CMakeFiles/DisposicaoArvore_autogen DisposicaoArvore_autogen/timestamp DisposicaoArvore_autogen/mocs_compilation.cpp DisposicaoArvore_autogen_timestamp_deps
+
+
+#############################################
 # Utility command for InterfaceMegaSena_autogen_timestamp_deps
 
-build InterfaceMegaSena_autogen_timestamp_deps: phony
+build InterfaceMegaSena_autogen_timestamp_deps: phony libApresentacaoArvore.a libDisposicaoArvore.a
 
 
 #############################################
@@ -613,7 +1064,7 @@ build InterfaceMegaSena_autogen: phony CMakeFiles/InterfaceMegaSena_autogen Inte
 #############################################
 # Utility command for MegaSenaCalculada_autogen_timestamp_deps
 
-build MegaSenaCalculada_autogen_timestamp_deps: phony libInterfaceMegaSena.a
+build MegaSenaCalculada_autogen_timestamp_deps: phony libCasosUsoArvore.a libInfraestruturaJson.a libInterfaceMegaSena.a libProcessamentoHistorico.a
 
 
 #############################################
@@ -632,6 +1083,30 @@ build InfraestruturaJson_autogen_timestamp_deps: phony
 # Utility command for InfraestruturaJson_autogen
 
 build InfraestruturaJson_autogen: phony CMakeFiles/InfraestruturaJson_autogen InfraestruturaJson_autogen/timestamp InfraestruturaJson_autogen/mocs_compilation.cpp InfraestruturaJson_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for ProcessamentoHistorico_autogen_timestamp_deps
+
+build ProcessamentoHistorico_autogen_timestamp_deps: phony
+
+
+#############################################
+# Utility command for ProcessamentoHistorico_autogen
+
+build ProcessamentoHistorico_autogen: phony CMakeFiles/ProcessamentoHistorico_autogen ProcessamentoHistorico_autogen/timestamp ProcessamentoHistorico_autogen/mocs_compilation.cpp ProcessamentoHistorico_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for CasosUsoArvore_autogen_timestamp_deps
+
+build CasosUsoArvore_autogen_timestamp_deps: phony libApresentacaoArvore.a
+
+
+#############################################
+# Utility command for CasosUsoArvore_autogen
+
+build CasosUsoArvore_autogen: phony CMakeFiles/CasosUsoArvore_autogen CasosUsoArvore_autogen/timestamp CasosUsoArvore_autogen/mocs_compilation.cpp CasosUsoArvore_autogen_timestamp_deps
 
 
 #############################################
@@ -683,9 +1158,67 @@ build TestesInterfaceInicial_autogen: phony CMakeFiles/TestesInterfaceInicial_au
 
 
 #############################################
+# Utility command for TestesProcessamentoApresentacao_autogen_timestamp_deps
+
+build TestesProcessamentoApresentacao_autogen_timestamp_deps: phony libApresentacaoArvore.a libCasosUsoArvore.a libInfraestruturaJson.a libProcessamentoHistorico.a
+
+
+#############################################
+# Utility command for TestesProcessamentoApresentacao_autogen
+
+build TestesProcessamentoApresentacao_autogen: phony CMakeFiles/TestesProcessamentoApresentacao_autogen TestesProcessamentoApresentacao_autogen/timestamp TestesProcessamentoApresentacao_autogen/mocs_compilation.cpp TestesProcessamentoApresentacao_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for TestesModeloApresentacaoArvore_autogen_timestamp_deps
+
+build TestesModeloApresentacaoArvore_autogen_timestamp_deps: phony libApresentacaoArvore.a
+
+
+#############################################
+# Utility command for TestesModeloApresentacaoArvore_autogen
+
+build TestesModeloApresentacaoArvore_autogen: phony CMakeFiles/TestesModeloApresentacaoArvore_autogen TestesModeloApresentacaoArvore_autogen/timestamp TestesModeloApresentacaoArvore_autogen/mocs_compilation.cpp TestesModeloApresentacaoArvore_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for TestesDisposicaoArvore_autogen_timestamp_deps
+
+build TestesDisposicaoArvore_autogen_timestamp_deps: phony libDisposicaoArvore.a
+
+
+#############################################
+# Utility command for TestesDisposicaoArvore_autogen
+
+build TestesDisposicaoArvore_autogen: phony CMakeFiles/TestesDisposicaoArvore_autogen TestesDisposicaoArvore_autogen/timestamp TestesDisposicaoArvore_autogen/mocs_compilation.cpp TestesDisposicaoArvore_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for ApresentacaoArvore_autogen\timestamp
+
+build ApresentacaoArvore_autogen/timestamp ApresentacaoArvore_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}ApresentacaoArvore_autogen/timestamp ${cmake_ninja_workdir}ApresentacaoArvore_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || ApresentacaoArvore_autogen_timestamp_deps
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Kauan\Documents\ChatGPT\Mega Sena Calculada\MegaSenaCalculada\build" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/ApresentacaoArvore_autogen.dir/AutogenInfo.json" Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/timestamp" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ApresentacaoArvore_autogen/deps" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/d/a2911e73dac717ee388a3899ee792782b1f02d4b82e5301cdcba1cbd40566fe5.d""
+  DESC = Automatic MOC and UIC for target ApresentacaoArvore
+  depfile = CMakeFiles\d\a2911e73dac717ee388a3899ee792782b1f02d4b82e5301cdcba1cbd40566fe5.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Custom command for DisposicaoArvore_autogen\timestamp
+
+build DisposicaoArvore_autogen/timestamp DisposicaoArvore_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}DisposicaoArvore_autogen/timestamp ${cmake_ninja_workdir}DisposicaoArvore_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps DisposicaoArvore_autogen_timestamp_deps libApresentacaoArvore.a
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Kauan\Documents\ChatGPT\Mega Sena Calculada\MegaSenaCalculada\build" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/DisposicaoArvore_autogen.dir/AutogenInfo.json" Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/timestamp" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/DisposicaoArvore_autogen/deps" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/d/e97b3fd1909cc29490b237f0830687a03c62a072807702fc48e9885f8c34fadc.d""
+  DESC = Automatic MOC and UIC for target DisposicaoArvore
+  depfile = CMakeFiles\d\e97b3fd1909cc29490b237f0830687a03c62a072807702fc48e9885f8c34fadc.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
 # Custom command for InterfaceMegaSena_autogen\timestamp
 
-build InterfaceMegaSena_autogen/timestamp InterfaceMegaSena_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}InterfaceMegaSena_autogen/timestamp ${cmake_ninja_workdir}InterfaceMegaSena_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || InterfaceMegaSena_autogen_timestamp_deps
+build InterfaceMegaSena_autogen/timestamp InterfaceMegaSena_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}InterfaceMegaSena_autogen/timestamp ${cmake_ninja_workdir}InterfaceMegaSena_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps DisposicaoArvore_autogen DisposicaoArvore_autogen_timestamp_deps InterfaceMegaSena_autogen_timestamp_deps libApresentacaoArvore.a libDisposicaoArvore.a
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Kauan\Documents\ChatGPT\Mega Sena Calculada\MegaSenaCalculada\build" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/InterfaceMegaSena_autogen.dir/AutogenInfo.json" Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/timestamp" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/deps" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/d/4251c7404aaca43a2990afae9bc4e641e26463f9ac204405d79aab78f8913759.d""
   DESC = Automatic MOC and UIC for target InterfaceMegaSena
   depfile = CMakeFiles\d\4251c7404aaca43a2990afae9bc4e641e26463f9ac204405d79aab78f8913759.d
@@ -696,7 +1229,7 @@ build InterfaceMegaSena_autogen/timestamp InterfaceMegaSena_autogen/mocs_compila
 #############################################
 # Custom command for InterfaceMegaSena_autogen\7EWAGJ2TMC\qrc_recursos.cpp
 
-build InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp | ${cmake_ninja_workdir}InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp: CUSTOM_COMMAND C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/recursos/recursos.qrc CMakeFiles/InterfaceMegaSena_autogen.dir/AutoRcc_recursos_7EWAGJ2TMC_Info.json C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/recursos/estilos/tema-padrao.qss C$:/Qt/6.11.1/mingw_64/bin/rcc.exe C$:/Qt/6.11.1/mingw_64/bin/rcc.exe || InterfaceMegaSena_autogen InterfaceMegaSena_autogen_timestamp_deps
+build InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp | ${cmake_ninja_workdir}InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp: CUSTOM_COMMAND C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/recursos/recursos.qrc CMakeFiles/InterfaceMegaSena_autogen.dir/AutoRcc_recursos_7EWAGJ2TMC_Info.json C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/recursos/estilos/tema-padrao.qss C$:/Qt/6.11.1/mingw_64/bin/rcc.exe C$:/Qt/6.11.1/mingw_64/bin/rcc.exe || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps DisposicaoArvore_autogen DisposicaoArvore_autogen_timestamp_deps InterfaceMegaSena_autogen InterfaceMegaSena_autogen_timestamp_deps libApresentacaoArvore.a libDisposicaoArvore.a
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Kauan\Documents\ChatGPT\Mega Sena Calculada\MegaSenaCalculada\build" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/InterfaceMegaSena_autogen.dir/AutoRcc_recursos_7EWAGJ2TMC_Info.json" Debug"
   DESC = Automatic RCC for recursos/recursos.qrc
   restat = 1
@@ -705,7 +1238,7 @@ build InterfaceMegaSena_autogen/7EWAGJ2TMC/qrc_recursos.cpp | ${cmake_ninja_work
 #############################################
 # Custom command for MegaSenaCalculada_autogen\timestamp
 
-build MegaSenaCalculada_autogen/timestamp MegaSenaCalculada_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}MegaSenaCalculada_autogen/timestamp ${cmake_ninja_workdir}MegaSenaCalculada_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || InterfaceMegaSena_autogen InterfaceMegaSena_autogen_timestamp_deps MegaSenaCalculada_autogen_timestamp_deps libInterfaceMegaSena.a
+build MegaSenaCalculada_autogen/timestamp MegaSenaCalculada_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}MegaSenaCalculada_autogen/timestamp ${cmake_ninja_workdir}MegaSenaCalculada_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps CasosUsoArvore_autogen CasosUsoArvore_autogen_timestamp_deps DisposicaoArvore_autogen DisposicaoArvore_autogen_timestamp_deps InfraestruturaJson_autogen InfraestruturaJson_autogen_timestamp_deps InterfaceMegaSena_autogen InterfaceMegaSena_autogen_timestamp_deps MegaSenaCalculada_autogen_timestamp_deps ProcessamentoHistorico_autogen ProcessamentoHistorico_autogen_timestamp_deps libApresentacaoArvore.a libCasosUsoArvore.a libDisposicaoArvore.a libInfraestruturaJson.a libInterfaceMegaSena.a libProcessamentoHistorico.a
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Kauan\Documents\ChatGPT\Mega Sena Calculada\MegaSenaCalculada\build" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/MegaSenaCalculada_autogen.dir/AutogenInfo.json" Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/timestamp" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/MegaSenaCalculada_autogen/deps" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/d/e1bcab3c24fbef5401ad48b2748153614fd0f5be0b6943c228d0215cb09ee52d.d""
   DESC = Automatic MOC and UIC for target MegaSenaCalculada
   depfile = CMakeFiles\d\e1bcab3c24fbef5401ad48b2748153614fd0f5be0b6943c228d0215cb09ee52d.d
@@ -720,6 +1253,28 @@ build InfraestruturaJson_autogen/timestamp InfraestruturaJson_autogen/mocs_compi
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Kauan\Documents\ChatGPT\Mega Sena Calculada\MegaSenaCalculada\build" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/InfraestruturaJson_autogen.dir/AutogenInfo.json" Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/timestamp" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/InfraestruturaJson_autogen/deps" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/d/24f2f85ffa976e8e89363cee4527a5e6a62a8faa22fdd4cb46e41e474115c037.d""
   DESC = Automatic MOC and UIC for target InfraestruturaJson
   depfile = CMakeFiles\d\24f2f85ffa976e8e89363cee4527a5e6a62a8faa22fdd4cb46e41e474115c037.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Custom command for ProcessamentoHistorico_autogen\timestamp
+
+build ProcessamentoHistorico_autogen/timestamp ProcessamentoHistorico_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}ProcessamentoHistorico_autogen/timestamp ${cmake_ninja_workdir}ProcessamentoHistorico_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || ProcessamentoHistorico_autogen_timestamp_deps
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Kauan\Documents\ChatGPT\Mega Sena Calculada\MegaSenaCalculada\build" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/ProcessamentoHistorico_autogen.dir/AutogenInfo.json" Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ProcessamentoHistorico_autogen/timestamp" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/ProcessamentoHistorico_autogen/deps" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/d/58d5381e289c58dce3401125344ec7686bdcf5097400e932db148fdee7c16364.d""
+  DESC = Automatic MOC and UIC for target ProcessamentoHistorico
+  depfile = CMakeFiles\d\58d5381e289c58dce3401125344ec7686bdcf5097400e932db148fdee7c16364.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Custom command for CasosUsoArvore_autogen\timestamp
+
+build CasosUsoArvore_autogen/timestamp CasosUsoArvore_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}CasosUsoArvore_autogen/timestamp ${cmake_ninja_workdir}CasosUsoArvore_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps CasosUsoArvore_autogen_timestamp_deps libApresentacaoArvore.a
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Kauan\Documents\ChatGPT\Mega Sena Calculada\MegaSenaCalculada\build" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/CasosUsoArvore_autogen.dir/AutogenInfo.json" Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/timestamp" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/deps" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/d/ceb5c78873f50267555f0f1aea9f95efaa8b30ecf2e2566361a8a8d15a86cb30.d""
+  DESC = Automatic MOC and UIC for target CasosUsoArvore
+  depfile = CMakeFiles\d\ceb5c78873f50267555f0f1aea9f95efaa8b30ecf2e2566361a8a8d15a86cb30.d
   deps = gcc
   restat = 1
 
@@ -760,7 +1315,7 @@ build TestesLeitorConcursosJson_autogen/timestamp TestesLeitorConcursosJson_auto
 #############################################
 # Custom command for TestesInterfaceInicial_autogen\timestamp
 
-build TestesInterfaceInicial_autogen/timestamp TestesInterfaceInicial_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}TestesInterfaceInicial_autogen/timestamp ${cmake_ninja_workdir}TestesInterfaceInicial_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || InterfaceMegaSena_autogen InterfaceMegaSena_autogen_timestamp_deps TestesInterfaceInicial_autogen_timestamp_deps libInterfaceMegaSena.a
+build TestesInterfaceInicial_autogen/timestamp TestesInterfaceInicial_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}TestesInterfaceInicial_autogen/timestamp ${cmake_ninja_workdir}TestesInterfaceInicial_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps DisposicaoArvore_autogen DisposicaoArvore_autogen_timestamp_deps InterfaceMegaSena_autogen InterfaceMegaSena_autogen_timestamp_deps TestesInterfaceInicial_autogen_timestamp_deps libApresentacaoArvore.a libDisposicaoArvore.a libInterfaceMegaSena.a
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Kauan\Documents\ChatGPT\Mega Sena Calculada\MegaSenaCalculada\build" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/TestesInterfaceInicial_autogen.dir/AutogenInfo.json" Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesInterfaceInicial_autogen/timestamp" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesInterfaceInicial_autogen/deps" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/d/0bde813eb490bc25829336ffe0e7bd27c4fa10cb62b7650f615c1080226b80a7.d""
   DESC = Automatic MOC and UIC for target TestesInterfaceInicial
   depfile = CMakeFiles\d\0bde813eb490bc25829336ffe0e7bd27c4fa10cb62b7650f615c1080226b80a7.d
@@ -769,21 +1324,78 @@ build TestesInterfaceInicial_autogen/timestamp TestesInterfaceInicial_autogen/mo
 
 
 #############################################
+# Custom command for TestesProcessamentoApresentacao_autogen\timestamp
+
+build TestesProcessamentoApresentacao_autogen/timestamp TestesProcessamentoApresentacao_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}TestesProcessamentoApresentacao_autogen/timestamp ${cmake_ninja_workdir}TestesProcessamentoApresentacao_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps CasosUsoArvore_autogen CasosUsoArvore_autogen_timestamp_deps InfraestruturaJson_autogen InfraestruturaJson_autogen_timestamp_deps ProcessamentoHistorico_autogen ProcessamentoHistorico_autogen_timestamp_deps TestesProcessamentoApresentacao_autogen_timestamp_deps libApresentacaoArvore.a libCasosUsoArvore.a libInfraestruturaJson.a libProcessamentoHistorico.a
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Kauan\Documents\ChatGPT\Mega Sena Calculada\MegaSenaCalculada\build" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/TestesProcessamentoApresentacao_autogen.dir/AutogenInfo.json" Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesProcessamentoApresentacao_autogen/timestamp" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesProcessamentoApresentacao_autogen/deps" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/d/e9e71c3f914e992c2e6877a9949b795c4176cede1eb79640f7d02bd84b8cf775.d""
+  DESC = Automatic MOC and UIC for target TestesProcessamentoApresentacao
+  depfile = CMakeFiles\d\e9e71c3f914e992c2e6877a9949b795c4176cede1eb79640f7d02bd84b8cf775.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Custom command for TestesModeloApresentacaoArvore_autogen\timestamp
+
+build TestesModeloApresentacaoArvore_autogen/timestamp TestesModeloApresentacaoArvore_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}TestesModeloApresentacaoArvore_autogen/timestamp ${cmake_ninja_workdir}TestesModeloApresentacaoArvore_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps TestesModeloApresentacaoArvore_autogen_timestamp_deps libApresentacaoArvore.a
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Kauan\Documents\ChatGPT\Mega Sena Calculada\MegaSenaCalculada\build" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/TestesModeloApresentacaoArvore_autogen.dir/AutogenInfo.json" Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesModeloApresentacaoArvore_autogen/timestamp" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesModeloApresentacaoArvore_autogen/deps" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/d/f437e7d76902dc9a9ae1d0ef434cbd44a91dde35ce9fc17d97c8f96dfbe7918e.d""
+  DESC = Automatic MOC and UIC for target TestesModeloApresentacaoArvore
+  depfile = CMakeFiles\d\f437e7d76902dc9a9ae1d0ef434cbd44a91dde35ce9fc17d97c8f96dfbe7918e.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Custom command for TestesDisposicaoArvore_autogen\timestamp
+
+build TestesDisposicaoArvore_autogen/timestamp TestesDisposicaoArvore_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}TestesDisposicaoArvore_autogen/timestamp ${cmake_ninja_workdir}TestesDisposicaoArvore_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.11.1/mingw_64/bin/moc.exe C$:/Qt/6.11.1/mingw_64/bin/uic.exe || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps DisposicaoArvore_autogen DisposicaoArvore_autogen_timestamp_deps TestesDisposicaoArvore_autogen_timestamp_deps libApresentacaoArvore.a libDisposicaoArvore.a
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Kauan\Documents\ChatGPT\Mega Sena Calculada\MegaSenaCalculada\build" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/TestesDisposicaoArvore_autogen.dir/AutogenInfo.json" Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesDisposicaoArvore_autogen/timestamp" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesDisposicaoArvore_autogen/deps" "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CMakeFiles/d/8bd190e2d9e57aaa860577d9ec1ae94041d2cc33812808015758092d5e34baf8.d""
+  DESC = Automatic MOC and UIC for target TestesDisposicaoArvore
+  depfile = CMakeFiles\d\8bd190e2d9e57aaa860577d9ec1ae94041d2cc33812808015758092d5e34baf8.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Phony custom command for CMakeFiles\ApresentacaoArvore_autogen
+
+build CMakeFiles/ApresentacaoArvore_autogen | ${cmake_ninja_workdir}CMakeFiles/ApresentacaoArvore_autogen: phony ApresentacaoArvore_autogen/timestamp || ApresentacaoArvore_autogen_timestamp_deps
+
+
+#############################################
+# Phony custom command for CMakeFiles\DisposicaoArvore_autogen
+
+build CMakeFiles/DisposicaoArvore_autogen | ${cmake_ninja_workdir}CMakeFiles/DisposicaoArvore_autogen: phony DisposicaoArvore_autogen/timestamp || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps DisposicaoArvore_autogen_timestamp_deps libApresentacaoArvore.a
+
+
+#############################################
 # Phony custom command for CMakeFiles\InterfaceMegaSena_autogen
 
-build CMakeFiles/InterfaceMegaSena_autogen | ${cmake_ninja_workdir}CMakeFiles/InterfaceMegaSena_autogen: phony InterfaceMegaSena_autogen/timestamp || InterfaceMegaSena_autogen_timestamp_deps
+build CMakeFiles/InterfaceMegaSena_autogen | ${cmake_ninja_workdir}CMakeFiles/InterfaceMegaSena_autogen: phony InterfaceMegaSena_autogen/timestamp || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps DisposicaoArvore_autogen DisposicaoArvore_autogen_timestamp_deps InterfaceMegaSena_autogen_timestamp_deps libApresentacaoArvore.a libDisposicaoArvore.a
 
 
 #############################################
 # Phony custom command for CMakeFiles\MegaSenaCalculada_autogen
 
-build CMakeFiles/MegaSenaCalculada_autogen | ${cmake_ninja_workdir}CMakeFiles/MegaSenaCalculada_autogen: phony MegaSenaCalculada_autogen/timestamp || InterfaceMegaSena_autogen InterfaceMegaSena_autogen_timestamp_deps MegaSenaCalculada_autogen_timestamp_deps libInterfaceMegaSena.a
+build CMakeFiles/MegaSenaCalculada_autogen | ${cmake_ninja_workdir}CMakeFiles/MegaSenaCalculada_autogen: phony MegaSenaCalculada_autogen/timestamp || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps CasosUsoArvore_autogen CasosUsoArvore_autogen_timestamp_deps DisposicaoArvore_autogen DisposicaoArvore_autogen_timestamp_deps InfraestruturaJson_autogen InfraestruturaJson_autogen_timestamp_deps InterfaceMegaSena_autogen InterfaceMegaSena_autogen_timestamp_deps MegaSenaCalculada_autogen_timestamp_deps ProcessamentoHistorico_autogen ProcessamentoHistorico_autogen_timestamp_deps libApresentacaoArvore.a libCasosUsoArvore.a libDisposicaoArvore.a libInfraestruturaJson.a libInterfaceMegaSena.a libProcessamentoHistorico.a
 
 
 #############################################
 # Phony custom command for CMakeFiles\InfraestruturaJson_autogen
 
 build CMakeFiles/InfraestruturaJson_autogen | ${cmake_ninja_workdir}CMakeFiles/InfraestruturaJson_autogen: phony InfraestruturaJson_autogen/timestamp || InfraestruturaJson_autogen_timestamp_deps
+
+
+#############################################
+# Phony custom command for CMakeFiles\ProcessamentoHistorico_autogen
+
+build CMakeFiles/ProcessamentoHistorico_autogen | ${cmake_ninja_workdir}CMakeFiles/ProcessamentoHistorico_autogen: phony ProcessamentoHistorico_autogen/timestamp || ProcessamentoHistorico_autogen_timestamp_deps
+
+
+#############################################
+# Phony custom command for CMakeFiles\CasosUsoArvore_autogen
+
+build CMakeFiles/CasosUsoArvore_autogen | ${cmake_ninja_workdir}CMakeFiles/CasosUsoArvore_autogen: phony CasosUsoArvore_autogen/timestamp || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps CasosUsoArvore_autogen_timestamp_deps libApresentacaoArvore.a
 
 
 #############################################
@@ -807,10 +1419,34 @@ build CMakeFiles/TestesLeitorConcursosJson_autogen | ${cmake_ninja_workdir}CMake
 #############################################
 # Phony custom command for CMakeFiles\TestesInterfaceInicial_autogen
 
-build CMakeFiles/TestesInterfaceInicial_autogen | ${cmake_ninja_workdir}CMakeFiles/TestesInterfaceInicial_autogen: phony TestesInterfaceInicial_autogen/timestamp || InterfaceMegaSena_autogen InterfaceMegaSena_autogen_timestamp_deps TestesInterfaceInicial_autogen_timestamp_deps libInterfaceMegaSena.a
+build CMakeFiles/TestesInterfaceInicial_autogen | ${cmake_ninja_workdir}CMakeFiles/TestesInterfaceInicial_autogen: phony TestesInterfaceInicial_autogen/timestamp || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps DisposicaoArvore_autogen DisposicaoArvore_autogen_timestamp_deps InterfaceMegaSena_autogen InterfaceMegaSena_autogen_timestamp_deps TestesInterfaceInicial_autogen_timestamp_deps libApresentacaoArvore.a libDisposicaoArvore.a libInterfaceMegaSena.a
+
+
+#############################################
+# Phony custom command for CMakeFiles\TestesProcessamentoApresentacao_autogen
+
+build CMakeFiles/TestesProcessamentoApresentacao_autogen | ${cmake_ninja_workdir}CMakeFiles/TestesProcessamentoApresentacao_autogen: phony TestesProcessamentoApresentacao_autogen/timestamp || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps CasosUsoArvore_autogen CasosUsoArvore_autogen_timestamp_deps InfraestruturaJson_autogen InfraestruturaJson_autogen_timestamp_deps ProcessamentoHistorico_autogen ProcessamentoHistorico_autogen_timestamp_deps TestesProcessamentoApresentacao_autogen_timestamp_deps libApresentacaoArvore.a libCasosUsoArvore.a libInfraestruturaJson.a libProcessamentoHistorico.a
+
+
+#############################################
+# Phony custom command for CMakeFiles\TestesModeloApresentacaoArvore_autogen
+
+build CMakeFiles/TestesModeloApresentacaoArvore_autogen | ${cmake_ninja_workdir}CMakeFiles/TestesModeloApresentacaoArvore_autogen: phony TestesModeloApresentacaoArvore_autogen/timestamp || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps TestesModeloApresentacaoArvore_autogen_timestamp_deps libApresentacaoArvore.a
+
+
+#############################################
+# Phony custom command for CMakeFiles\TestesDisposicaoArvore_autogen
+
+build CMakeFiles/TestesDisposicaoArvore_autogen | ${cmake_ninja_workdir}CMakeFiles/TestesDisposicaoArvore_autogen: phony TestesDisposicaoArvore_autogen/timestamp || ApresentacaoArvore_autogen ApresentacaoArvore_autogen_timestamp_deps DisposicaoArvore_autogen DisposicaoArvore_autogen_timestamp_deps TestesDisposicaoArvore_autogen_timestamp_deps libApresentacaoArvore.a libDisposicaoArvore.a
 
 # =============================================================================
 # Target aliases.
+
+build ApresentacaoArvore: phony libApresentacaoArvore.a
+
+build CasosUsoArvore: phony libCasosUsoArvore.a
+
+build DisposicaoArvore: phony libDisposicaoArvore.a
 
 build InfraestruturaJson: phony libInfraestruturaJson.a
 
@@ -818,13 +1454,21 @@ build InterfaceMegaSena: phony libInterfaceMegaSena.a
 
 build MegaSenaCalculada: phony MegaSenaCalculada.exe
 
+build ProcessamentoHistorico: phony libProcessamentoHistorico.a
+
 build TesteVisualizacaoArvore: phony TesteVisualizacaoArvore.exe
+
+build TestesDisposicaoArvore: phony TestesDisposicaoArvore.exe
 
 build TestesEstruturaInicial: phony TestesEstruturaInicial.exe
 
 build TestesInterfaceInicial: phony TestesInterfaceInicial.exe
 
 build TestesLeitorConcursosJson: phony TestesLeitorConcursosJson.exe
+
+build TestesModeloApresentacaoArvore: phony TestesModeloApresentacaoArvore.exe
+
+build TestesProcessamentoApresentacao: phony TestesProcessamentoApresentacao.exe
 
 # =============================================================================
 # Folder targets.
@@ -834,7 +1478,7 @@ build TestesLeitorConcursosJson: phony TestesLeitorConcursosJson.exe
 #############################################
 # Folder: C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build
 
-build all: phony libInterfaceMegaSena.a MegaSenaCalculada.exe libInfraestruturaJson.a TesteVisualizacaoArvore.exe TestesEstruturaInicial.exe TestesLeitorConcursosJson.exe TestesInterfaceInicial.exe
+build all: phony libApresentacaoArvore.a libDisposicaoArvore.a libInterfaceMegaSena.a MegaSenaCalculada.exe libInfraestruturaJson.a libProcessamentoHistorico.a libCasosUsoArvore.a TesteVisualizacaoArvore.exe TestesEstruturaInicial.exe TestesLeitorConcursosJson.exe TestesInterfaceInicial.exe TestesProcessamentoApresentacao.exe TestesModeloApresentacaoArvore.exe TestesDisposicaoArvore.exe
 
 # =============================================================================
 # Built-in targets
