@@ -2,10 +2,12 @@
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoAvl.hpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoBst.hpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConsultorDetalhesRegistro.hpp
-C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoAvl.cpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/DetalhesConstrucaoModelo.hpp
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoAvl.cpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoBst.cpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConsultorDetalhesRegistro.cpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/SessaoConstrucaoAvlPassoAPasso.hpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/estruturas/ArvoreAvlPassoAPasso.hpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/SessaoConstrucaoAvlPassoAPasso.cpp
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoRubroNegra.hpp
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoRubroNegra.cpp

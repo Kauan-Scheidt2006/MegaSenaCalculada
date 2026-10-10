@@ -60,6 +60,12 @@ template <> constexpr inline auto VisualizacaoArvore::qt_create_metaobjectdata<q
         "corFundoNoSelecionado",
         "corBordaNoSelecionado",
         "corTextoNoSelecionado",
+        "corFundoNoVermelho",
+        "corBordaNoVermelho",
+        "corTextoNoVermelho",
+        "corFundoNoVermelhoSelecionado",
+        "corBordaNoVermelhoSelecionado",
+        "corTextoNoVermelhoSelecionado",
         "tamanhoFonteNumeroNo",
         "tamanhoFonteFrequenciaNo"
     };
@@ -103,10 +109,22 @@ template <> constexpr inline auto VisualizacaoArvore::qt_create_metaobjectdata<q
         QtMocHelpers::PropertyData<QColor>(20, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::Writable | QMC::EnumOrFlag),
         // property 'corTextoNoSelecionado'
         QtMocHelpers::PropertyData<QColor>(21, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::Writable | QMC::EnumOrFlag),
+        // property 'corFundoNoVermelho'
+        QtMocHelpers::PropertyData<QColor>(22, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::Writable | QMC::EnumOrFlag),
+        // property 'corBordaNoVermelho'
+        QtMocHelpers::PropertyData<QColor>(23, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::Writable | QMC::EnumOrFlag),
+        // property 'corTextoNoVermelho'
+        QtMocHelpers::PropertyData<QColor>(24, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::Writable | QMC::EnumOrFlag),
+        // property 'corFundoNoVermelhoSelecionado'
+        QtMocHelpers::PropertyData<QColor>(25, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::Writable | QMC::EnumOrFlag),
+        // property 'corBordaNoVermelhoSelecionado'
+        QtMocHelpers::PropertyData<QColor>(26, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::Writable | QMC::EnumOrFlag),
+        // property 'corTextoNoVermelhoSelecionado'
+        QtMocHelpers::PropertyData<QColor>(27, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::Writable | QMC::EnumOrFlag),
         // property 'tamanhoFonteNumeroNo'
-        QtMocHelpers::PropertyData<qreal>(22, QMetaType::QReal, QMC::DefaultPropertyFlags | QMC::Writable),
+        QtMocHelpers::PropertyData<qreal>(28, QMetaType::QReal, QMC::DefaultPropertyFlags | QMC::Writable),
         // property 'tamanhoFonteFrequenciaNo'
-        QtMocHelpers::PropertyData<qreal>(23, QMetaType::QReal, QMC::DefaultPropertyFlags | QMC::Writable),
+        QtMocHelpers::PropertyData<qreal>(29, QMetaType::QReal, QMC::DefaultPropertyFlags | QMC::Writable),
     };
     QtMocHelpers::UintData qt_enums {
     };
@@ -170,8 +188,14 @@ void VisualizacaoArvore::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         case 10: *reinterpret_cast<QColor*>(_v) = _t->corFundoNoSelecionado(); break;
         case 11: *reinterpret_cast<QColor*>(_v) = _t->corBordaNoSelecionado(); break;
         case 12: *reinterpret_cast<QColor*>(_v) = _t->corTextoNoSelecionado(); break;
-        case 13: *reinterpret_cast<qreal*>(_v) = _t->tamanhoFonteNumeroNo(); break;
-        case 14: *reinterpret_cast<qreal*>(_v) = _t->tamanhoFonteFrequenciaNo(); break;
+        case 13: *reinterpret_cast<QColor*>(_v) = _t->corFundoNoVermelho(); break;
+        case 14: *reinterpret_cast<QColor*>(_v) = _t->corBordaNoVermelho(); break;
+        case 15: *reinterpret_cast<QColor*>(_v) = _t->corTextoNoVermelho(); break;
+        case 16: *reinterpret_cast<QColor*>(_v) = _t->corFundoNoVermelhoSelecionado(); break;
+        case 17: *reinterpret_cast<QColor*>(_v) = _t->corBordaNoVermelhoSelecionado(); break;
+        case 18: *reinterpret_cast<QColor*>(_v) = _t->corTextoNoVermelhoSelecionado(); break;
+        case 19: *reinterpret_cast<qreal*>(_v) = _t->tamanhoFonteNumeroNo(); break;
+        case 20: *reinterpret_cast<qreal*>(_v) = _t->tamanhoFonteFrequenciaNo(); break;
         default: break;
         }
     }
@@ -191,8 +215,14 @@ void VisualizacaoArvore::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         case 10: _t->definirCorFundoNoSelecionado(*reinterpret_cast<QColor*>(_v)); break;
         case 11: _t->definirCorBordaNoSelecionado(*reinterpret_cast<QColor*>(_v)); break;
         case 12: _t->definirCorTextoNoSelecionado(*reinterpret_cast<QColor*>(_v)); break;
-        case 13: _t->definirTamanhoFonteNumeroNo(*reinterpret_cast<qreal*>(_v)); break;
-        case 14: _t->definirTamanhoFonteFrequenciaNo(*reinterpret_cast<qreal*>(_v)); break;
+        case 13: _t->definirCorFundoNoVermelho(*reinterpret_cast<QColor*>(_v)); break;
+        case 14: _t->definirCorBordaNoVermelho(*reinterpret_cast<QColor*>(_v)); break;
+        case 15: _t->definirCorTextoNoVermelho(*reinterpret_cast<QColor*>(_v)); break;
+        case 16: _t->definirCorFundoNoVermelhoSelecionado(*reinterpret_cast<QColor*>(_v)); break;
+        case 17: _t->definirCorBordaNoVermelhoSelecionado(*reinterpret_cast<QColor*>(_v)); break;
+        case 18: _t->definirCorTextoNoVermelhoSelecionado(*reinterpret_cast<QColor*>(_v)); break;
+        case 19: _t->definirTamanhoFonteNumeroNo(*reinterpret_cast<qreal*>(_v)); break;
+        case 20: _t->definirTamanhoFonteFrequenciaNo(*reinterpret_cast<qreal*>(_v)); break;
         default: break;
         }
     }
@@ -230,7 +260,7 @@ int VisualizacaoArvore::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
             || _c == QMetaObject::RegisterPropertyMetaType) {
         qt_static_metacall(this, _c, _id, _a);
-        _id -= 15;
+        _id -= 21;
     }
     return _id;
 }

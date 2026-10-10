@@ -18,28 +18,28 @@
 	[
 		{
 			"backtrace" : 0,
-			"id" : "ApresentacaoArvore::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
 			"id" : "CasosUsoArvore::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
-			"id" : "InfraestruturaJson::@6890427a1f51a3e7e1df"
+			"id" : "ProcessamentoHistorico::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
-			"id" : "ProcessamentoHistorico::@6890427a1f51a3e7e1df"
+			"id" : "InterfaceMegaSena::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "InfraestruturaJson::@6890427a1f51a3e7e1df"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "QtInternalTargets"
 	},
-	"id" : "TestesProcessamentoApresentacao_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+	"id" : "MegaSenaCalculada_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "TestesProcessamentoApresentacao_autogen_timestamp_deps",
+	"name" : "MegaSenaCalculada_autogen_timestamp_deps",
 	"paths" : 
 	{
 		"build" : ".",

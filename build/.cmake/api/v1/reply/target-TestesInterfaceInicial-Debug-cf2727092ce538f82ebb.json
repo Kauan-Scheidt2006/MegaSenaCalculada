@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "TestesModeloApresentacaoArvore.exe"
+			"path" : "TestesInterfaceInicial.exe"
 		},
 		{
-			"path" : "TestesModeloApresentacaoArvore.pdb"
+			"path" : "TestesInterfaceInicial.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -17,14 +17,23 @@
 			"target_link_libraries",
 			"set_target_properties",
 			"include",
-			"find_package"
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies"
 		],
 		"files" : 
 		[
 			"CMakeLists.txt",
+			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
 			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
 			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/Qt6Config.cmake"
+			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake"
 		],
 		"nodes" : 
 		[
@@ -34,19 +43,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 246,
+				"line" : 224,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 249,
+				"line" : 227,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 30,
+				"line" : 129,
 				"parent" : 0
 			},
 			{
@@ -72,7 +81,7 @@
 			{
 				"command" : 3,
 				"file" : 2,
-				"line" : 57,
+				"line" : 55,
 				"parent" : 7
 			},
 			{
@@ -84,6 +93,80 @@
 				"file" : 1,
 				"line" : 61,
 				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 253,
+				"parent" : 5
+			},
+			{
+				"file" : 5,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 57,
+				"parent" : 12
+			},
+			{
+				"file" : 4,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 40,
+				"parent" : 7
+			},
+			{
+				"file" : 10,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 50,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 142,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 19
+			},
+			{
+				"file" : 7,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 55,
+				"parent" : 21
+			},
+			{
+				"file" : 6,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 61,
+				"parent" : 23
 			}
 		]
 	},
@@ -105,6 +188,14 @@
 				{
 					"backtrace" : 2,
 					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
 				},
 				{
 					"backtrace" : 2,
@@ -135,7 +226,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesModeloApresentacaoArvore_autogen/include"
+					"path" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesInterfaceInicial_autogen/include"
 				},
 				{
 					"backtrace" : 2,
@@ -155,6 +246,16 @@
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.11.1/mingw_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.11.1/mingw_64/include/QtGui"
 				}
 			],
 			"language" : "CXX",
@@ -181,14 +282,22 @@
 			"id" : "ApresentacaoArvore::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "TestesModeloApresentacaoArvore_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 2,
+			"id" : "DisposicaoArvore::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "InterfaceMegaSena::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "TestesInterfaceInicial_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
-			"id" : "TestesModeloApresentacaoArvore_autogen::@6890427a1f51a3e7e1df"
+			"id" : "TestesInterfaceInicial_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "TestesModeloApresentacaoArvore::@6890427a1f51a3e7e1df",
+	"id" : "TestesInterfaceInicial::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -203,7 +312,27 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "libInterfaceMegaSena.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libDisposicaoArvore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
 				"fragment" : "libApresentacaoArvore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Qt\\6.11.1\\mingw_64\\lib\\libQt6Widgets.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "C:\\Qt\\6.11.1\\mingw_64\\lib\\libQt6Gui.a",
 				"role" : "libraries"
 			},
 			{
@@ -212,13 +341,33 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 10,
+				"backtrace" : 15,
 				"fragment" : "-lmpr",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 10,
+				"backtrace" : 15,
 				"fragment" : "-luserenv",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "-ld3d11",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "-ldxgi",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "-ldxguid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "-ld3d12",
 				"role" : "libraries"
 			},
 			{
@@ -228,8 +377,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "TestesModeloApresentacaoArvore",
-	"nameOnDisk" : "TestesModeloApresentacaoArvore.exe",
+	"name" : "TestesInterfaceInicial",
+	"nameOnDisk" : "TestesInterfaceInicial.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -266,25 +415,25 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/TestesModeloApresentacaoArvore_autogen/mocs_compilation.cpp",
+			"path" : "build/TestesInterfaceInicial_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "testes/testes_modelo_apresentacao_arvore.cpp",
+			"path" : "testes/testes_interface_inicial.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/TestesModeloApresentacaoArvore_autogen/timestamp",
+			"path" : "build/TestesInterfaceInicial_autogen/timestamp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/TestesModeloApresentacaoArvore_autogen/timestamp.rule",
+			"path" : "build/TestesInterfaceInicial_autogen/timestamp.rule",
 			"sourceGroupIndex" : 2
 		}
 	],

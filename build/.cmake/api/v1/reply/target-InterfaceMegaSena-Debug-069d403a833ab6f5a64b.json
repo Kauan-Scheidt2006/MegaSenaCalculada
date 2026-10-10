@@ -196,11 +196,11 @@
 			"id" : "DisposicaoArvore::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "InterfaceMegaSena_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "InterfaceMegaSena_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "InterfaceMegaSena_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "InterfaceMegaSena::@6890427a1f51a3e7e1df",

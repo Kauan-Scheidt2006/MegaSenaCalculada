@@ -431,9 +431,9 @@ C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/inter
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/fundamentos/Barra.hpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/ambiente/Ambiente.hpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/ambiente/AreaPaginas.hpp
-C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/estilos/EstiloAplicacao.cpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/ambiente/BarraEstado.hpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/paginas/arvore/CabecalhoPaginaArvore.cpp
+C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/estilos/EstiloAplicacao.cpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/basicos/Texto.cpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/basicos/Botao.hpp
 C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/ambiente/EstruturaAmbiente.hpp

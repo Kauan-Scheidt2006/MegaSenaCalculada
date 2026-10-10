@@ -625,6 +625,14 @@ build CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConstrutorApresentacaoB
   OBJECT_DIR = CMakeFiles\CasosUsoArvore.dir
   OBJECT_FILE_DIR = CMakeFiles\CasosUsoArvore.dir\src\aplicacao\arvore
 
+build CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConstrutorApresentacaoRubroNegra.cpp.obj: CXX_COMPILER__CasosUsoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoRubroNegra.cpp || cmake_object_order_depends_target_CasosUsoArvore
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\CasosUsoArvore.dir\src\aplicacao\arvore\ConstrutorApresentacaoRubroNegra.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=c++20
+  INCLUDES = -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/CasosUsoArvore_autogen/include" -I"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src" -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\CasosUsoArvore.dir
+  OBJECT_FILE_DIR = CMakeFiles\CasosUsoArvore.dir\src\aplicacao\arvore
+
 build CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConsultorDetalhesRegistro.cpp.obj: CXX_COMPILER__CasosUsoArvore_unscanned_Debug C$:/Users/Kauan/Documents/ChatGPT/Mega$ Sena$ Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConsultorDetalhesRegistro.cpp || cmake_object_order_depends_target_CasosUsoArvore
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\CasosUsoArvore.dir\src\aplicacao\arvore\ConsultorDetalhesRegistro.cpp.obj.d
@@ -649,7 +657,7 @@ build CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/SessaoConstrucaoAvlPass
 #############################################
 # Link the static library libCasosUsoArvore.a
 
-build libCasosUsoArvore.a: CXX_STATIC_LIBRARY_LINKER__CasosUsoArvore_Debug CMakeFiles/CasosUsoArvore.dir/CasosUsoArvore_autogen/mocs_compilation.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConstrutorApresentacaoAvl.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConstrutorApresentacaoBst.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConsultorDetalhesRegistro.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/SessaoConstrucaoAvlPassoAPasso.cpp.obj || CasosUsoArvore_autogen CasosUsoArvore_autogen_timestamp_deps libApresentacaoArvore.a
+build libCasosUsoArvore.a: CXX_STATIC_LIBRARY_LINKER__CasosUsoArvore_Debug CMakeFiles/CasosUsoArvore.dir/CasosUsoArvore_autogen/mocs_compilation.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConstrutorApresentacaoAvl.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConstrutorApresentacaoBst.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConstrutorApresentacaoRubroNegra.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/ConsultorDetalhesRegistro.cpp.obj CMakeFiles/CasosUsoArvore.dir/src/aplicacao/arvore/SessaoConstrucaoAvlPassoAPasso.cpp.obj || CasosUsoArvore_autogen CasosUsoArvore_autogen_timestamp_deps libApresentacaoArvore.a
   LANGUAGE_COMPILE_FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
   OBJECT_DIR = CMakeFiles\CasosUsoArvore.dir
   POST_BUILD = cd .

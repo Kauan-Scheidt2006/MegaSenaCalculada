@@ -293,6 +293,12 @@
 			null
 		],
 		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoRubroNegra.hpp",
+			"MU",
+			"LB3NK72MOZ/moc_ConstrutorApresentacaoRubroNegra.cpp",
+			null
+		],
+		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConsultorDetalhesRegistro.hpp",
 			"MU",
 			"LB3NK72MOZ/moc_ConsultorDetalhesRegistro.cpp",
@@ -400,6 +406,11 @@
 		],
 		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoBst.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConstrutorApresentacaoRubroNegra.cpp",
 			"MU",
 			null
 		],
