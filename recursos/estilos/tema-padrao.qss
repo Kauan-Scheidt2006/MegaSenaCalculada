@@ -23,10 +23,69 @@
     background-color: transparent;
 }
 
-#painelMenuEstruturas {
+#menuEstruturas {
     background-color: #EAF3F8;
     border: 0;
     border-right: 1px solid #B8C9D9;
+}
+
+#tituloMenuEstruturas {
+    background-color: transparent;
+    color: #102A43;
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+#itemBuscaBinaria,
+#itemAvl,
+#itemRubroNegra,
+#itemAvlPassoAPasso {
+    background-color: transparent;
+    color: #163A5F;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 11pt;
+}
+
+#itemBuscaBinaria:hover,
+#itemAvl:hover,
+#itemRubroNegra:hover,
+#itemAvlPassoAPasso:hover {
+    background-color: #D8EAF4;
+}
+
+#itemBuscaBinaria:focus,
+#itemAvl:focus,
+#itemRubroNegra:focus,
+#itemAvlPassoAPasso:focus {
+    border: 2px solid #005EA8;
+}
+
+#itemBuscaBinaria:pressed,
+#itemAvl:pressed,
+#itemRubroNegra:pressed,
+#itemAvlPassoAPasso:pressed {
+    background-color: #C5DFED;
+}
+
+#itemBuscaBinaria:checked,
+#itemAvl:checked,
+#itemRubroNegra:checked,
+#itemAvlPassoAPasso:checked {
+    background-color: #087EA4;
+    color: #FFFFFF;
+    border-color: #056B8D;
+    font-weight: 600;
+}
+
+#itemBuscaBinaria:disabled,
+#itemAvl:disabled,
+#itemRubroNegra:disabled,
+#itemAvlPassoAPasso:disabled {
+    background-color: transparent;
+    color: #829AB1;
 }
 
 #conteudoPaginaArvore {
@@ -55,6 +114,368 @@
     background-color: #FFFFFF;
     border: 1px solid #B8C9D9;
     border-radius: 8px;
+}
+
+#metricasArvore {
+    background-color: transparent;
+    color: #334E68;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+#metricasPeriodicasArvore,
+#resultadoOperacaoArvore {
+    background-color: #F4F8FC;
+    border: 1px solid #D8E2EC;
+    border-radius: 6px;
+}
+
+#resumoMetricasPeriodicasArvore,
+#resumoResultadoOperacaoArvore {
+    background-color: transparent;
+    color: #163A5F;
+    border: 0;
+    padding: 7px 10px;
+    text-align: left;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+#resumoMetricasPeriodicasArvore:hover,
+#resumoResultadoOperacaoArvore:hover {
+    background-color: #E8F1F7;
+}
+
+#resumoMetricasPeriodicasArvore:focus,
+#resumoResultadoOperacaoArvore:focus {
+    border: 2px solid #005EA8;
+}
+
+#detalhesMetricasPeriodicasArvore,
+#detalhesResultadoOperacaoArvore {
+    background-color: transparent;
+    color: #163A5F;
+    padding: 8px 12px 12px 28px;
+    font-size: 10pt;
+}
+
+#rolagemMetricasPeriodicasArvore,
+#rolagemResultadoOperacaoArvore {
+    background-color: transparent;
+    border: 0;
+}
+
+#rolagemMetricasPeriodicasArvore QScrollBar:vertical,
+#rolagemResultadoOperacaoArvore QScrollBar:vertical {
+    background-color: #E8F1F7;
+    width: 12px;
+    margin: 0;
+}
+
+#rolagemMetricasPeriodicasArvore QScrollBar::handle:vertical,
+#rolagemResultadoOperacaoArvore QScrollBar::handle:vertical {
+    background-color: #7896AD;
+    border-radius: 5px;
+    min-height: 28px;
+}
+
+#rolagemMetricasPeriodicasArvore QScrollBar::add-line:vertical,
+#rolagemMetricasPeriodicasArvore QScrollBar::sub-line:vertical,
+#rolagemResultadoOperacaoArvore QScrollBar::add-line:vertical,
+#rolagemResultadoOperacaoArvore QScrollBar::sub-line:vertical {
+    height: 0;
+}
+
+#barraFerramentasArvore {
+    background-color: transparent;
+}
+
+#controleExecucaoAvl {
+    background-color: #EDF4F8;
+    border: 1px solid #B8C9D9;
+    border-radius: 7px;
+}
+
+#proximoPassoAvl,
+#reproduzirAvl,
+#pausarAvl,
+#reiniciarAvl {
+    background-color: #FFFFFF;
+    color: #163A5F;
+    border: 1px solid #9FB3C8;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+#proximoPassoAvl:hover,
+#reproduzirAvl:hover,
+#pausarAvl:hover,
+#reiniciarAvl:hover { background-color: #D8EAF4; }
+
+#proximoPassoAvl:focus,
+#reproduzirAvl:focus,
+#pausarAvl:focus,
+#reiniciarAvl:focus { border: 2px solid #005EA8; }
+
+#proximoPassoAvl:pressed,
+#reproduzirAvl:pressed,
+#pausarAvl:pressed,
+#reiniciarAvl:pressed { background-color: #C5DFED; }
+
+#proximoPassoAvl:disabled,
+#reproduzirAvl:disabled,
+#pausarAvl:disabled,
+#reiniciarAvl:disabled {
+    background-color: #E6ECF2;
+    color: #829AB1;
+    border-color: #C7D3DF;
+}
+
+#progressoPassoAvl {
+    background-color: transparent;
+    color: #163A5F;
+    font-size: 10pt;
+    font-weight: 700;
+}
+
+#descricaoPassoAvl {
+    background-color: transparent;
+    color: #334E68;
+    font-size: 10pt;
+}
+
+#controleZoomArvore {
+    background-color: #EAF3F8;
+    border: 1px solid #B8C9D9;
+    border-radius: 6px;
+}
+
+#reduzirZoomArvore,
+#aumentarZoomArvore,
+#enquadrarArvore,
+#modoArrastoArvore,
+#modoFocoArvore,
+#recolherSelecaoArvore,
+#expandirTodaArvore,
+#percorrerEmOrdemArvore,
+#percorrerPreOrdemArvore,
+#percorrerPosOrdemArvore,
+#buscarNaArvore,
+#removerDaArvore {
+    background-color: #FFFFFF;
+    color: #163A5F;
+    border: 1px solid #9FB3C8;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+#reduzirZoomArvore:hover,
+#aumentarZoomArvore:hover,
+#enquadrarArvore:hover,
+#modoArrastoArvore:hover,
+#modoFocoArvore:hover,
+#recolherSelecaoArvore:hover,
+#expandirTodaArvore:hover,
+#percorrerEmOrdemArvore:hover,
+#percorrerPreOrdemArvore:hover,
+#percorrerPosOrdemArvore:hover,
+#buscarNaArvore:hover,
+#removerDaArvore:hover {
+    background-color: #D8EAF4;
+}
+
+#reduzirZoomArvore:focus,
+#aumentarZoomArvore:focus,
+#enquadrarArvore:focus,
+#modoArrastoArvore:focus,
+#modoFocoArvore:focus,
+#recolherSelecaoArvore:focus,
+#expandirTodaArvore:focus,
+#percorrerEmOrdemArvore:focus,
+#percorrerPreOrdemArvore:focus,
+#percorrerPosOrdemArvore:focus,
+#buscarNaArvore:focus,
+#removerDaArvore:focus {
+    border: 2px solid #005EA8;
+}
+
+#reduzirZoomArvore:pressed,
+#aumentarZoomArvore:pressed,
+#enquadrarArvore:pressed,
+#modoArrastoArvore:pressed,
+#modoFocoArvore:pressed,
+#recolherSelecaoArvore:pressed,
+#expandirTodaArvore:pressed,
+#percorrerEmOrdemArvore:pressed,
+#percorrerPreOrdemArvore:pressed,
+#percorrerPosOrdemArvore:pressed,
+#buscarNaArvore:pressed,
+#removerDaArvore:pressed {
+    background-color: #C5DFED;
+}
+
+#chaveBuscaArvore {
+    background-color: #FFFFFF;
+    color: #102A43;
+    border: 1px solid #9FB3C8;
+    border-radius: 5px;
+    padding: 6px 8px;
+    font-size: 10pt;
+}
+
+#chaveBuscaArvore:focus {
+    border: 2px solid #005EA8;
+}
+
+#modoArrastoArvore:checked,
+#modoFocoArvore:checked {
+    background-color: #087EA4;
+    color: #FFFFFF;
+    border-color: #056B8D;
+}
+
+#percentualZoomArvore {
+    background-color: transparent;
+    color: #163A5F;
+    padding: 6px 10px;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+#visualizacaoArvore {
+    background-color: #F4F7FB;
+    border: 1px solid #D8E2EC;
+    border-radius: 8px;
+    font-size: 11pt;
+    font-weight: 700;
+    qproperty-diametroNo: 72;
+    qproperty-espacamentoHorizontal: 100;
+    qproperty-espacamentoVertical: 112;
+    qproperty-larguraLigacao: 2;
+    qproperty-larguraBordaNo: 2;
+    qproperty-larguraBordaNoFoco: 4;
+    qproperty-corLigacao: #91A4B7;
+    qproperty-corFundoNo: #E8F3FA;
+    qproperty-corBordaNo: #39728F;
+    qproperty-corTextoNo: #17324D;
+    qproperty-corFundoNoSelecionado: #D6EAF5;
+    qproperty-corBordaNoSelecionado: #0B5F87;
+    qproperty-corTextoNoSelecionado: #0A2A3D;
+    qproperty-corFundoNoVermelho: #B4232F;
+    qproperty-corBordaNoVermelho: #7F1D1D;
+    qproperty-corTextoNoVermelho: #FFFFFF;
+    qproperty-corFundoNoVermelhoSelecionado: #8F1D2C;
+    qproperty-corBordaNoVermelhoSelecionado: #5C1018;
+    qproperty-corTextoNoVermelhoSelecionado: #FFFFFF;
+    qproperty-tamanhoFonteNumeroNo: 16;
+    qproperty-tamanhoFonteFrequenciaNo: 9;
+}
+
+#popoverDetalhesRegistro {
+    background-color: #FFFFFF;
+    border: 2px solid #087EA4;
+    border-radius: 10px;
+}
+
+#cabecalhoPopoverDetalhes,
+#grupoDezenasConcurso {
+    background-color: transparent;
+}
+
+#tituloPopoverDetalhes {
+    background-color: transparent;
+    color: #102A43;
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+#fecharPopoverDetalhes {
+    background-color: #EAF3F8;
+    color: #163A5F;
+    border: 1px solid #9FB3C8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+#fecharPopoverDetalhes:hover { background-color: #D8EAF4; }
+#fecharPopoverDetalhes:focus { border: 2px solid #005EA8; }
+#fecharPopoverDetalhes:pressed { background-color: #C5DFED; }
+
+#campoDezenaDetalhes,
+#campoFrequenciaDetalhes,
+#campoConcursoDetalhes,
+#campoDataDetalhes {
+    background-color: #F4F8FC;
+    border-radius: 6px;
+    padding: 5px 8px;
+}
+
+#campoDezenaDetalhesRotulo,
+#campoFrequenciaDetalhesRotulo,
+#campoConcursoDetalhesRotulo,
+#campoDataDetalhesRotulo {
+    background-color: transparent;
+    color: #526D82;
+    font-size: 9pt;
+    font-weight: 600;
+}
+
+#campoDezenaDetalhesValor,
+#campoFrequenciaDetalhesValor,
+#campoConcursoDetalhesValor,
+#campoDataDetalhesValor {
+    background-color: transparent;
+    color: #102A43;
+    font-size: 11pt;
+    font-weight: 700;
+}
+
+#marcadorDezena1,
+#marcadorDezena2,
+#marcadorDezena3,
+#marcadorDezena4,
+#marcadorDezena5,
+#marcadorDezena6 {
+    background-color: #E8F3FA;
+    color: #17324D;
+    border: 1px solid #39728F;
+    border-radius: 17px;
+    min-width: 34px;
+    max-width: 34px;
+    min-height: 34px;
+    max-height: 34px;
+    font-size: 10pt;
+    font-weight: 700;
+}
+
+#marcadorDezena1[correspondente="true"],
+#marcadorDezena2[correspondente="true"],
+#marcadorDezena3[correspondente="true"],
+#marcadorDezena4[correspondente="true"],
+#marcadorDezena5[correspondente="true"],
+#marcadorDezena6[correspondente="true"] {
+    background-color: #087EA4;
+    color: #FFFFFF;
+    border: 2px solid #056B8D;
+}
+
+#mapaArvore {
+    background-color: #EDF4F8;
+    border: 1px solid #9FB3C8;
+    border-radius: 6px;
+    min-width: 260px;
+    max-width: 260px;
+    min-height: 150px;
+    max-height: 150px;
+    qproperty-corAreaVisivel: rgba(0, 94, 168, 70);
+    qproperty-corBordaAreaVisivel: #005EA8;
+    qproperty-larguraBordaAreaVisivel: 3;
 }
 
 #barraEstado {

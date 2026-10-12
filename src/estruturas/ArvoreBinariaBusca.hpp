@@ -1,5 +1,8 @@
 #pragma once
 
+#include "dominio/AmostraAlturaArvore.hpp"
+#include "estruturas/MetricasNavegacaoArvore.hpp"
+
 #include <algorithm>
 #include <cstddef>
 #include <functional>
@@ -53,24 +56,38 @@ public:
 
         *posicao = std::make_unique<No>(valor);
         ++quantidade_;
+        //calcularMetricasPeriodicas();
+        return true;
+    }
+
+    [[nodiscard]] bool remover(const Valor& valor)
+    {
+        MetricasNavegacaoArvore metricas;
+        return remover(valor, metricas);
+    }
+
+    [[nodiscard]] bool remover(
+        const Valor& valor, MetricasNavegacaoArvore& metricas)
+    {
+        metricas = {};
+        if (!removerNaSubarvore(raiz_, valor, metricas)) {
+            return false;
+        }
+        --quantidade_;
         return true;
     }
 
     [[nodiscard]] const Valor* buscar(const Valor& valor) const noexcept
     {
-        const No* atual = raiz_.get();
+        MetricasNavegacaoArvore metricas;
+        return buscarNaSubarvore(raiz_.get(), valor, metricas);
+    }
 
-        while (atual) {
-            if (comparador_(valor, atual->valor)) {
-                atual = atual->esquerdo.get();
-            } else if (comparador_(atual->valor, valor)) {
-                atual = atual->direito.get();
-            } else {
-                return &atual->valor;
-            }
-        }
-
-        return nullptr;
+    [[nodiscard]] const Valor* buscar(
+        const Valor& valor, MetricasNavegacaoArvore& metricas) const noexcept
+    {
+        metricas = {};
+        return buscarNaSubarvore(raiz_.get(), valor, metricas);
     }
 
     [[nodiscard]] bool contem(const Valor& valor) const noexcept
@@ -93,11 +110,38 @@ public:
         return calcularAltura(raiz_.get());
     }
 
+    [[nodiscard]] const std::vector<megasena::AmostraAlturaArvore>&
+    metricasPeriodicas() const noexcept
+    {
+        return metricasPeriodicas_;
+    }
+
+    [[nodiscard]] bool metricasPeriodicasCalculadas() const noexcept
+    {
+        return metricasPeriodicasCalculadas_;
+    }
+
     [[nodiscard]] std::vector<Valor> percorrerEmOrdem() const
     {
         std::vector<Valor> valores;
         valores.reserve(quantidade_);
         adicionarEmOrdem(raiz_.get(), valores);
+        return valores;
+    }
+
+    [[nodiscard]] std::vector<Valor> percorrerPreOrdem() const
+    {
+        std::vector<Valor> valores;
+        valores.reserve(quantidade_);
+        adicionarPreOrdem(raiz_.get(), valores);
+        return valores;
+    }
+
+    [[nodiscard]] std::vector<Valor> percorrerPosOrdem() const
+    {
+        std::vector<Valor> valores;
+        valores.reserve(quantidade_);
+        adicionarPosOrdem(raiz_.get(), valores);
         return valores;
     }
 
@@ -108,6 +152,84 @@ public:
     }
 
 private:
+    [[nodiscard]] bool removerNaSubarvore(
+        std::unique_ptr<No>& no, const Valor& valor,
+        MetricasNavegacaoArvore& metricas)
+    {
+        if (!no) {
+            return false;
+        }
+
+        ++metricas.nosVisitados;
+        ++metricas.comparacoes;
+        if (comparador_(valor, no->valor)) {
+            return removerNaSubarvore(no->esquerdo, valor, metricas);
+        }
+        ++metricas.comparacoes;
+        if (comparador_(no->valor, valor)) {
+            return removerNaSubarvore(no->direito, valor, metricas);
+        }
+
+        if (!no->esquerdo) {
+            no = std::move(no->direito);
+            return true;
+        }
+        if (!no->direito) {
+            no = std::move(no->esquerdo);
+            return true;
+        }
+
+        auto removido = std::move(no);
+        auto sucessor = extrairMinimo(removido->direito, metricas);
+        sucessor->esquerdo = std::move(removido->esquerdo);
+        sucessor->direito = std::move(removido->direito);
+        no = std::move(sucessor);
+        return true;
+    }
+
+    [[nodiscard]] static std::unique_ptr<No> extrairMinimo(
+        std::unique_ptr<No>& subarvore,
+        MetricasNavegacaoArvore& metricas)
+    {
+        ++metricas.nosVisitados;
+        if (subarvore->esquerdo) {
+            return extrairMinimo(subarvore->esquerdo, metricas);
+        }
+
+        auto minimo = std::move(subarvore);
+        subarvore = std::move(minimo->direito);
+        return minimo;
+    }
+
+    void calcularMetricasPeriodicas()
+    {
+        metricasPeriodicasCalculadas_ = true;
+        if (quantidade_ % IntervaloMetricasPeriodicas == 0) {
+            metricasPeriodicas_.push_back({quantidade_, altura()});
+        }
+    }
+
+    [[nodiscard]] const Valor* buscarNaSubarvore(
+        const No* no, const Valor& valor,
+        MetricasNavegacaoArvore& metricas) const noexcept
+    {
+        if (!no) {
+            return nullptr;
+        }
+        ++metricas.nosVisitados;
+        ++metricas.comparacoes;
+        if (comparador_(valor, no->valor)) {
+            return buscarNaSubarvore(
+                no->esquerdo.get(), valor, metricas);
+        }
+        ++metricas.comparacoes;
+        if (comparador_(no->valor, valor)) {
+            return buscarNaSubarvore(
+                no->direito.get(), valor, metricas);
+        }
+        return &no->valor;
+    }
+
     [[nodiscard]] static std::size_t calcularAltura(const No* no) noexcept
     {
         if (!no) {
@@ -129,6 +251,28 @@ private:
         adicionarEmOrdem(no->direito.get(), valores);
     }
 
+    static void adicionarPreOrdem(const No* no, std::vector<Valor>& valores)
+    {
+        if (!no) {
+            return;
+        }
+
+        valores.push_back(no->valor);
+        adicionarPreOrdem(no->esquerdo.get(), valores);
+        adicionarPreOrdem(no->direito.get(), valores);
+    }
+
+    static void adicionarPosOrdem(const No* no, std::vector<Valor>& valores)
+    {
+        if (!no) {
+            return;
+        }
+
+        adicionarPosOrdem(no->esquerdo.get(), valores);
+        adicionarPosOrdem(no->direito.get(), valores);
+        valores.push_back(no->valor);
+    }
+
     template<typename Visitante>
     static void visitarNosEmOrdem(const No* no, const No* pai,
                                   bool filhoEsquerdo, std::size_t profundidade,
@@ -148,6 +292,9 @@ private:
 
     std::unique_ptr<No> raiz_;
     std::size_t quantidade_ = 0;
+    static constexpr std::size_t IntervaloMetricasPeriodicas = 600;
+    std::vector<megasena::AmostraAlturaArvore> metricasPeriodicas_;
+    bool metricasPeriodicasCalculadas_ = false;
     [[no_unique_address]] Comparador comparador_;
 };
 

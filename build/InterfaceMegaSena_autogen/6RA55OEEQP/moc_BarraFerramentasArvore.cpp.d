@@ -1,6 +1,7 @@
 C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/6RA55OEEQP/moc_BarraFerramentasArvore.cpp: C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/BarraFerramentasArvore.hpp \
   C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/moc_predefs.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/QMargins \
+  C:/Qt/6.11.1/mingw_64/include/QtCore/QMetaType \
   C:/Qt/6.11.1/mingw_64/include/QtCore/QSize \
   C:/Qt/6.11.1/mingw_64/include/QtCore/QString \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q17memory.h \
@@ -418,6 +419,7 @@ C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/build/I
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/apresentacao/arvore/IdentificadorRegistro.hpp \
   C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/fundamentos/Barra.hpp \
   C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/fundamentos/BaseContainer.hpp \
   C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/parametros/ParametrosComponente.hpp \

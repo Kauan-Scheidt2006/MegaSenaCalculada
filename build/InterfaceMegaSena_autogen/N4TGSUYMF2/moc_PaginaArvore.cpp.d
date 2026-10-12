@@ -419,6 +419,7 @@ C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/build/I
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/dominio/AmostraAlturaArvore.hpp \
   C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/apresentacao/arvore/DadosDetalhesRegistro.hpp \
   C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/apresentacao/arvore/IdentificadorRegistro.hpp \
   C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/apresentacao/arvore/ModeloLigacaoArvore.hpp \

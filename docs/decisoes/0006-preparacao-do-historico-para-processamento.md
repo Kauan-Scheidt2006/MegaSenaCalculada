@@ -1,9 +1,9 @@
 # 0006 — Preparação do histórico para processamento
 
-- Estado: Aceita
+- Estado: Substituída
 - Data: 2026-09-28
 - Substitui: não se aplica
-- Substituída por: não se aplica
+- Substituída por: [0011](0011-ordem-do-json-nos-experimentos.md)
 
 ## Contexto
 
@@ -58,4 +58,3 @@ histórico.
   frequências acumuladas incorretas nos concursos seguintes.
 - **Preservar a ordem das colunas das dezenas:** rejeitada porque arquivos com
   os mesmos concursos poderiam gerar sequências de inserção diferentes.
-

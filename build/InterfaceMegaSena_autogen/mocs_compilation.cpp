@@ -6,6 +6,7 @@
 #include "6RA55OEEQP/moc_MapaArvore.cpp"
 #include "6RA55OEEQP/moc_MarcadorDezena.cpp"
 #include "6RA55OEEQP/moc_PopoverDetalhesRegistro.cpp"
+#include "6RA55OEEQP/moc_ResultadoOperacaoArvore.cpp"
 #include "6RA55OEEQP/moc_VisualizacaoArvore.cpp"
 #include "N4TGSUYMF2/moc_ConteudoPaginaArvore.cpp"
 #include "N4TGSUYMF2/moc_MenuEstruturas.cpp"

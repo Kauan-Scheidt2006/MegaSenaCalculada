@@ -1,4 +1,5 @@
 <RCC>
+    <!-- Recursos visuais compilados no executável. -->
     <qresource prefix="/">
         <file alias="estilos/tema-padrao.qss">estilos/tema-padrao.qss</file>
     </qresource>

@@ -2,7 +2,7 @@
 
 #include "interface/componentes/basicos/Botao.hpp"
 
-class BotaoNavegacao final : public Botao
+class BotaoNavegacao : public Botao
 {
 public:
     explicit BotaoNavegacao(const QString& texto, const ParametrosComponente& parametros,

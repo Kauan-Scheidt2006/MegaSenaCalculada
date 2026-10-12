@@ -39,6 +39,10 @@ Este documento é o acompanhamento duradouro da implementação. As decisões ar
 - criar componentes sem consumidor real;
 - apresentar frequência histórica como previsão de resultados futuros.
 
+O limite acima descreve a primeira evolução visual já implementada. A integração da
+árvore rubro-negra é uma evolução posterior, detalhada na Etapa 12, e não altera as
+fronteiras entre estruturas, aplicação e interface.
+
 ## Etapas
 
 ### [x] Etapa 0 — Consolidar a arquitetura
@@ -151,7 +155,7 @@ Entregas:
 
 Critério de conclusão: menu, cabeçalho e área da árvore se adaptam ao tamanho da janela e mantêm ordem lógica de foco.
 
-### [ ] Etapa 6 — Implementar o menu contextual de estruturas
+### [x] Etapa 6 — Implementar o menu contextual de estruturas
 
 Entregas:
 
@@ -162,7 +166,7 @@ Entregas:
 
 Critério de conclusão: o menu comunica intenção sem construir ou conhecer a implementação interna das árvores.
 
-### [ ] Etapa 7 — Definir o modelo de apresentação da árvore
+### [x] Etapa 7 — Definir o modelo de apresentação da árvore
 
 Área prevista:
 
@@ -180,7 +184,7 @@ Entregas:
 
 Gate: os contratos do modelo visual e dos detalhes devem ser aprovados antes da adaptação das árvores e da GUI gráfica.
 
-### [ ] Etapa 8 — Adaptar BST e AVL para a apresentação
+### [x] Etapa 8 — Adaptar BST e AVL para a apresentação
 
 Entregas:
 
@@ -198,7 +202,7 @@ Critérios de conclusão:
 Dependência: caso o processamento histórico necessário ainda não exista, implementá-lo como incremento de domínio
 separado antes de concluir esta etapa.
 
-### [ ] Etapa 9 — Implementar a visualização gráfica
+### [x] Etapa 9 — Implementar a visualização gráfica
 
 Área prevista:
 
@@ -216,7 +220,7 @@ Entregas:
 
 Critério de conclusão: nenhuma leitura, regra de negócio ou construção da árvore acontece durante a pintura.
 
-### [ ] Etapa 10 — Implementar controles e minimapa
+### [x] Etapa 10 — Implementar controles e minimapa
 
 Entregas:
 
@@ -227,7 +231,7 @@ Entregas:
 
 Critério de conclusão: todos os controles são acessíveis por teclado e não ocultam conteúdo essencial.
 
-### [ ] Etapa 11 — Implementar o popover de detalhes
+### [x] Etapa 11 — Implementar o popover de detalhes
 
 Entregas:
 
@@ -245,74 +249,181 @@ Critérios de conclusão:
 - zoom, rolagem e redimensionamento reposicionam o popover;
 - troca de página, estrutura ou modelo fecha detalhes obsoletos.
 
-### [ ] Etapa 12 — Consolidar as camadas locais da árvore
+### [ ] Etapa 12 — Integrar a árvore rubro-negra à interface
 
-Entregas:
+Objetivo: permitir selecionar e visualizar a estrutura final da árvore
+rubro-negra com os mesmos registros, detalhes e controles já disponíveis para BST
+e AVL. A primeira entrega não precisa diferenciar visualmente nós vermelhos e
+pretos.
 
-- `CamadaVisualizacaoArvore`;
-- `GestorCamadasArvore`, com uma instância por painel;
-- ordem e posicionamento de árvore, controles, detalhes e estado.
+#### 12.1 — Completar o contrato de leitura da estrutura
 
-Critério de conclusão: o gestor é local, não é singleton, não cria componentes e não conhece dados de domínio.
-
-### [ ] Etapa 13 — Implementar estados e execução assíncrona
-
-Entregas:
-
-- apresentações para vazio, construindo, disponível, erro e cancelado;
-- coordenador de carregamento e construção fora da thread visual;
-- progresso e cancelamento quando aplicáveis;
-- descarte de resultados obsoletos.
-
-Critérios de conclusão:
-
-- a janela permanece responsiva;
-- erro explica o problema e uma ação possível;
-- métricas algorítmicas não incluem renderização nem agendamento da GUI.
-
-### [ ] Etapa 14 — Consolidar estilo e recursos
-
-Áreas previstas:
+Arquivos previstos:
 
 ```text
-src/interface/estilos/
-recursos/estilos/
-recursos/icones/
-recursos/recursos.qrc
+src/estruturas/ArvoreRubroNegra.hpp
+testes/testes_estrutura_inicial.cpp
 ```
 
 Entregas:
 
-- estilo global inicial;
-- recursos registrados no QRC;
-- foco visível, contraste e ícones com alternativas textuais;
-- nomes e propriedades semânticas estáveis para estilização.
+- expor `altura()` sem revelar nós ou ponteiros;
+- expor visita em ordem com valor, pai, lado e profundidade, compatível com a
+  construção dos modelos de BST e AVL;
+- contabilizar e expor a quantidade de rotações executadas, para que a métrica
+  apresentada não use um valor fictício;
+- preservar as invariantes rubro-negras, a ordem e a rejeição de duplicatas.
 
-### [ ] Etapa 15 — Validar comportamento e apresentação
+Critérios de conclusão:
 
-Verificações:
+- a estrutura continua genérica e sem dependência de Qt ou da apresentação;
+- uma sequência pequena calculada manualmente confirma topologia, altura, cores e
+  rotações;
+- os testes atuais de invariantes continuam aprovados.
 
-- testes de modelos e transições sem abrir janelas;
-- testes de cálculo de posições e limites de zoom;
-- testes de seleção, popover, foco e teclado;
-- fluxo integrado de BST e AVL;
-- estados vazio, sucesso, erro e cancelamento;
-- inspeção visual em tamanhos e escalas diferentes.
+#### 12.2 — Construir o modelo de apresentação rubro-negro
 
-Gate: impacto arquitetural, domínio e algoritmos exigem revisão independente proporcional antes da conclusão.
+Arquivos previstos:
 
-### [ ] Etapa 16 — Substituir o protótipo temporário
+```text
+src/aplicacao/arvore/ConstrutorApresentacaoRubroNegra.hpp
+src/aplicacao/arvore/ConstrutorApresentacaoRubroNegra.cpp
+src/aplicacao/arvore/DetalhesConstrucaoModelo.hpp
+testes/testes_processamento_apresentacao.cpp
+CMakeLists.txt
+```
 
 Entregas:
 
-- confirmar equivalência funcional com o protótipo;
-- retirar o alvo `TesteVisualizacaoArvore`;
-- remover ou arquivar os arquivos temporários de apresentação;
-- preservar fixtures que permaneçam úteis;
-- atualizar README e instruções de build.
+- inserir os registros processados, na ordem do arquivo JSON, em uma
+  `ArvoreRubroNegra<Registro, ComparadorRegistroContabilizado>`;
+- converter sua topologia para `ModeloVisualArvore`, reutilizando identificadores,
+  ligações e métricas existentes;
+- manter a consulta de detalhes independente da estrutura selecionada.
 
-Critério de conclusão: nenhuma funcionalidade exclusiva permanece no protótipo e o executável final passa por compilação,
-testes e revisão.
+Critérios de conclusão:
+
+- quantidade de nós, raiz, altura, ligações, comparações e rotações representam a
+  árvore rubro-negra realmente construída;
+- o modelo contém todos os registros e mantém a mesma travessia em ordem das
+  demais estruturas;
+- nenhuma classe da interface depende de `ArvoreRubroNegra`.
+
+#### 12.3 — Propagar a seleção pela interface
+
+Arquivos previstos:
+
+```text
+src/interface/paginas/arvore/TipoEstrutura.hpp
+src/interface/paginas/arvore/MenuEstruturas.hpp
+src/interface/paginas/arvore/MenuEstruturas.cpp
+src/interface/paginas/arvore/CabecalhoPaginaArvore.cpp
+testes/testes_interface_inicial.cpp
+```
+
+Entregas:
+
+- adicionar `TipoEstrutura::RubroNegra`;
+- criar o item navegável “Rubro-negra”, com nome acessível, ordem de foco e estado
+  de seleção exclusiva;
+- fazer `selecionar()` tratar explicitamente os quatro valores, sem usar a última
+  opção como fallback implícito;
+- continuar emitindo o sinal genérico `estruturaSelecionada(TipoEstrutura)` do
+  menu para `PaginaArvore`, que o retransmite para `Aplicacao`;
+- atualizar título e subtítulo quando a opção rubro-negra for selecionada.
+
+Critérios de conclusão:
+
+- mouse e teclado selecionam o novo item;
+- apenas um item permanece selecionado;
+- uma mudança efetiva emite o sinal uma vez e selecionar novamente o item atual
+  não o reemite;
+- `PaginaArvore` fecha detalhes obsoletos, atualiza o cabeçalho e retransmite a
+  seleção como já faz para as demais estruturas.
+
+#### 12.4 — Carregar e apresentar pela raiz de composição
+
+Arquivos previstos:
+
+```text
+src/aplicacao/Aplicacao.hpp
+src/aplicacao/Aplicacao.cpp
+```
+
+Entregas:
+
+- reutilizar os registros já carregados e processados durante a inicialização;
+- construir e manter vivo `modeloRubroNegra_` junto aos modelos BST e AVL;
+- tratar explicitamente todos os valores de `TipoEstrutura` em
+  `apresentarEstrutura()`;
+- pausar a reprodução AVL e desativar seus controles antes de apresentar a
+  rubro-negra;
+- apresentar o modelo rubro-negro pelo mesmo fluxo de `PaginaArvore::apresentar()`.
+
+Critérios de conclusão da primeira implementação:
+
+- a aplicação inicia mostrando BST como hoje;
+- selecionar “Rubro-negra” apresenta sua topologia, métricas e detalhes sem
+  recriar nem reler o histórico;
+- alternar entre BST, AVL, AVL passo a passo e rubro-negra não deixa temporizador,
+  controles ou detalhes em estado incompatível;
+- compilar o executável e aprovar os testes de estrutura, apresentação e
+  interface relacionados ao incremento.
+
+#### 12.5 — Diferenciar visualmente nós vermelhos e pretos
+
+Esta é a última fase e não bloqueia a conclusão funcional das fases 12.1 a 12.4.
+
+Arquivos previstos:
+
+```text
+src/interface/apresentacao/arvore/ModeloNoArvore.hpp
+src/aplicacao/arvore/DetalhesConstrucaoModelo.hpp
+src/aplicacao/arvore/ConstrutorApresentacaoRubroNegra.cpp
+src/interface/componentes/arvore/VisualizacaoArvore.hpp
+src/interface/componentes/arvore/VisualizacaoArvore.cpp
+src/interface/componentes/arvore/ItemNoArvore.hpp
+src/interface/componentes/arvore/ItemNoArvore.cpp
+recursos/estilos/tema-padrao.qss
+testes/testes_modelo_apresentacao_arvore.cpp
+testes/testes_processamento_apresentacao.cpp
+testes/testes_interface_inicial.cpp
+```
+
+Entregas:
+
+- acrescentar ao modelo do nó uma semântica visual neutra, por exemplo
+  `Padrao`, `RubroNegroPreto` e `RubroNegroVermelho`, sem importar o enum da
+  estrutura para a camada de apresentação;
+- manter BST e AVL no estilo padrão atual e mapear as cores internas da
+  rubro-negra durante a construção do modelo;
+- fazer a visualização escolher o fundo do item conforme essa semântica;
+- manter a cor atual para nós pretos e declarar no QSS a nova cor de fundo dos
+  nós vermelhos, incluindo contraste de texto, borda, foco e seleção;
+- complementar a descrição acessível do nó com “vermelho” ou “preto”, pois a
+  informação não pode depender exclusivamente da cor.
+
+Critérios de conclusão:
+
+- a cor do nó percorre o fluxo estrutura → caso de uso → modelo → item gráfico,
+  sem a interface consultar a árvore concreta;
+- BST e AVL não sofrem alteração visual;
+- nós rubro-negros permanecem legíveis nos estados normal, foco, hover e seleção;
+- testes validam o mapeamento semântico e uma inspeção visual confirma contraste
+  e diferenciação.
+
+Riscos e cuidados:
+
+- a visita genérica usada por BST e AVL não conhece cor; a rubro-negra deve
+  acrescentar essa informação sem tornar o helper comum dependente de uma
+  estrutura concreta;
+- cadeias condicionais que hoje assumem apenas três tipos devem ser substituídas
+  por tratamento explícito para evitar que valores futuros caiam silenciosamente
+  em AVL passo a passo;
+- alterações em contagem de rotações e visita da estrutura exigem revisão
+  independente, pois afetam um algoritmo e seu contrato público;
+- toda cor nova pertence ao QSS, conforme a decisão 0010.
+
 
 ## Ordem de execução e propriedade
 
@@ -335,7 +446,21 @@ Papéis previstos conforme a necessidade:
 | integração | coordenador |
 | avaliação final relevante | revisor independente |
 
+## Evolução da exploração visual — layout compacto e contexto
+
+Decisão associada: `0013-visualizacao-compacta-e-exploracao-contextual.md`.
+
+- [x] substituir a disposição em ordem por disposição compacta por contornos;
+- [x] reduzir progressivamente o conteúdo textual em escalas pequenas;
+- [x] destacar o caminho do nó selecionado até a raiz;
+- [x] oferecer modo de foco com ancestrais e contexto descendente;
+- [x] permitir recolher, expandir e restaurar subárvores;
+- [x] oferecer navegação estrutural por teclado;
+- [x] recalcular os limites usados pelo minimapa após recolhimento;
+- [ ] avaliar animação entre disposições somente após validação de usabilidade.
+
 ## Próxima etapa
 
-A próxima entrega é a **Etapa 6 — Implementar o menu contextual de estruturas**. Ela deverá introduzir a seleção entre
-BST e AVL sem construir árvores nem conhecer suas implementações internas.
+A próxima entrega é a **Etapa 12.1 — Completar o contrato de leitura da estrutura rubro-negra**. Ela prepara altura,
+topologia e métricas verificáveis antes de conectar a nova opção à interface. A diferenciação visual entre nós vermelhos
+e pretos fica deliberadamente para a Etapa 12.5 e não bloqueia a primeira visualização funcional.

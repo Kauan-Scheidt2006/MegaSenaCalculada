@@ -1,32 +1,48 @@
-Start testing: Oct 10 10:24 Hora oficial do Brasil
+Start testing: Oct 11 15:43 Hora oficial do Brasil
 ----------------------------------------------------------
 1/6 Testing: estrutura_inicial
 1/6 Test: estrutura_inicial
 Command: "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesEstruturaInicial.exe"
 Directory: C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build
-"estrutura_inicial" start time: Oct 10 10:24 Hora oficial do Brasil
+"estrutura_inicial" start time: Oct 11 15:43 Hora oficial do Brasil
+Output:
+----------------------------------------------------------
+Assertion failed: arvore.metricasPeriodicasCalculadas(), file C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/testes/testes_estrutura_inicial.cpp, line 123
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Failed.
+"estrutura_inicial" end time: Oct 11 15:43 Hora oficial do Brasil
+"estrutura_inicial" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: leitor_concursos_json
+2/6 Test: leitor_concursos_json
+Command: "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesLeitorConcursosJson.exe"
+Directory: C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build
+"leitor_concursos_json" start time: Oct 11 15:43 Hora oficial do Brasil
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.06 sec
+Test time =   0.31 sec
 ----------------------------------------------------------
 Test Passed.
-"estrutura_inicial" end time: Oct 10 10:24 Hora oficial do Brasil
-"estrutura_inicial" time elapsed: 00:00:00
+"leitor_concursos_json" end time: Oct 11 15:43 Hora oficial do Brasil
+"leitor_concursos_json" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 3/6 Testing: interface_inicial
 3/6 Test: interface_inicial
 Command: "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesInterfaceInicial.exe"
 Directory: C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build
-"interface_inicial" start time: Oct 10 10:24 Hora oficial do Brasil
+"interface_inicial" start time: Oct 11 15:43 Hora oficial do Brasil
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.12 sec
+Test time =   0.18 sec
 ----------------------------------------------------------
 Test Passed.
-"interface_inicial" end time: Oct 10 10:24 Hora oficial do Brasil
+"interface_inicial" end time: Oct 11 15:43 Hora oficial do Brasil
 "interface_inicial" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -34,14 +50,15 @@ Test Passed.
 4/6 Test: processamento_apresentacao
 Command: "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesProcessamentoApresentacao.exe"
 Directory: C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build
-"processamento_apresentacao" start time: Oct 10 10:24 Hora oficial do Brasil
+"processamento_apresentacao" start time: Oct 11 15:43 Hora oficial do Brasil
 Output:
 ----------------------------------------------------------
+Assertion failed: modelo.metricas().metricasPeriodicasCalculadas, file C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/testes/testes_processamento_apresentacao.cpp, line 49
 <end of output>
-Test time =   0.42 sec
+Test time =   0.44 sec
 ----------------------------------------------------------
-Test Passed.
-"processamento_apresentacao" end time: Oct 10 10:24 Hora oficial do Brasil
+Test Failed.
+"processamento_apresentacao" end time: Oct 11 15:43 Hora oficial do Brasil
 "processamento_apresentacao" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -49,14 +66,14 @@ Test Passed.
 5/6 Test: modelo_apresentacao_arvore
 Command: "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesModeloApresentacaoArvore.exe"
 Directory: C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build
-"modelo_apresentacao_arvore" start time: Oct 10 10:24 Hora oficial do Brasil
+"modelo_apresentacao_arvore" start time: Oct 11 15:43 Hora oficial do Brasil
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.08 sec
+Test time =   0.26 sec
 ----------------------------------------------------------
 Test Passed.
-"modelo_apresentacao_arvore" end time: Oct 10 10:24 Hora oficial do Brasil
+"modelo_apresentacao_arvore" end time: Oct 11 15:43 Hora oficial do Brasil
 "modelo_apresentacao_arvore" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -64,15 +81,15 @@ Test Passed.
 6/6 Test: disposicao_arvore
 Command: "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build/TestesDisposicaoArvore.exe"
 Directory: C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build
-"disposicao_arvore" start time: Oct 10 10:24 Hora oficial do Brasil
+"disposicao_arvore" start time: Oct 11 15:43 Hora oficial do Brasil
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.07 sec
+Test time =   0.21 sec
 ----------------------------------------------------------
 Test Passed.
-"disposicao_arvore" end time: Oct 10 10:24 Hora oficial do Brasil
+"disposicao_arvore" end time: Oct 11 15:43 Hora oficial do Brasil
 "disposicao_arvore" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 10 10:24 Hora oficial do Brasil
+End testing: Oct 11 15:43 Hora oficial do Brasil

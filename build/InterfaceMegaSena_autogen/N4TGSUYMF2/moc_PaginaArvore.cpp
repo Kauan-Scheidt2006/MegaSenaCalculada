@@ -49,7 +49,12 @@ template <> constexpr inline auto PaginaArvore::qt_create_metaobjectdata<qt_meta
         "proximoPassoAvlSolicitado",
         "reproducaoAvlSolicitada",
         "pausaAvlSolicitada",
-        "reinicioAvlSolicitado"
+        "reinicioAvlSolicitado",
+        "percursoEmOrdemSolicitado",
+        "percursoPreOrdemSolicitado",
+        "percursoPosOrdemSolicitado",
+        "buscaSolicitada",
+        "remocaoSolicitada"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -69,6 +74,20 @@ template <> constexpr inline auto PaginaArvore::qt_create_metaobjectdata<qt_meta
         QtMocHelpers::SignalData<void()>(10, 2, QMC::AccessPublic, QMetaType::Void),
         // Signal 'reinicioAvlSolicitado'
         QtMocHelpers::SignalData<void()>(11, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'percursoEmOrdemSolicitado'
+        QtMocHelpers::SignalData<void()>(12, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'percursoPreOrdemSolicitado'
+        QtMocHelpers::SignalData<void()>(13, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'percursoPosOrdemSolicitado'
+        QtMocHelpers::SignalData<void()>(14, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'buscaSolicitada'
+        QtMocHelpers::SignalData<void(apresentacao::arvore::IdentificadorRegistro)>(15, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { 0x80000000 | 6, 7 },
+        }}),
+        // Signal 'remocaoSolicitada'
+        QtMocHelpers::SignalData<void(apresentacao::arvore::IdentificadorRegistro)>(16, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { 0x80000000 | 6, 7 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -98,6 +117,11 @@ void PaginaArvore::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 3: _t->reproducaoAvlSolicitada(); break;
         case 4: _t->pausaAvlSolicitada(); break;
         case 5: _t->reinicioAvlSolicitado(); break;
+        case 6: _t->percursoEmOrdemSolicitado(); break;
+        case 7: _t->percursoPreOrdemSolicitado(); break;
+        case 8: _t->percursoPosOrdemSolicitado(); break;
+        case 9: _t->buscaSolicitada((*reinterpret_cast<std::add_pointer_t<apresentacao::arvore::IdentificadorRegistro>>(_a[1]))); break;
+        case 10: _t->remocaoSolicitada((*reinterpret_cast<std::add_pointer_t<apresentacao::arvore::IdentificadorRegistro>>(_a[1]))); break;
         default: ;
         }
     }
@@ -105,6 +129,20 @@ void PaginaArvore::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         switch (_id) {
         default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
         case 1:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+            case 0:
+                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< apresentacao::arvore::IdentificadorRegistro >(); break;
+            }
+            break;
+        case 9:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+            case 0:
+                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< apresentacao::arvore::IdentificadorRegistro >(); break;
+            }
+            break;
+        case 10:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
             case 0:
@@ -125,6 +163,16 @@ void PaginaArvore::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         if (QtMocHelpers::indexOfMethod<void (PaginaArvore::*)()>(_a, &PaginaArvore::pausaAvlSolicitada, 4))
             return;
         if (QtMocHelpers::indexOfMethod<void (PaginaArvore::*)()>(_a, &PaginaArvore::reinicioAvlSolicitado, 5))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (PaginaArvore::*)()>(_a, &PaginaArvore::percursoEmOrdemSolicitado, 6))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (PaginaArvore::*)()>(_a, &PaginaArvore::percursoPreOrdemSolicitado, 7))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (PaginaArvore::*)()>(_a, &PaginaArvore::percursoPosOrdemSolicitado, 8))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (PaginaArvore::*)(apresentacao::arvore::IdentificadorRegistro )>(_a, &PaginaArvore::buscaSolicitada, 9))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (PaginaArvore::*)(apresentacao::arvore::IdentificadorRegistro )>(_a, &PaginaArvore::remocaoSolicitada, 10))
             return;
     }
 }
@@ -148,14 +196,14 @@ int PaginaArvore::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 11;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 11;
     }
     return _id;
 }
@@ -194,5 +242,35 @@ void PaginaArvore::pausaAvlSolicitada()
 void PaginaArvore::reinicioAvlSolicitado()
 {
     QMetaObject::activate(this, &staticMetaObject, 5, nullptr);
+}
+
+// SIGNAL 6
+void PaginaArvore::percursoEmOrdemSolicitado()
+{
+    QMetaObject::activate(this, &staticMetaObject, 6, nullptr);
+}
+
+// SIGNAL 7
+void PaginaArvore::percursoPreOrdemSolicitado()
+{
+    QMetaObject::activate(this, &staticMetaObject, 7, nullptr);
+}
+
+// SIGNAL 8
+void PaginaArvore::percursoPosOrdemSolicitado()
+{
+    QMetaObject::activate(this, &staticMetaObject, 8, nullptr);
+}
+
+// SIGNAL 9
+void PaginaArvore::buscaSolicitada(apresentacao::arvore::IdentificadorRegistro _t1)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 9, nullptr, _t1);
+}
+
+// SIGNAL 10
+void PaginaArvore::remocaoSolicitada(apresentacao::arvore::IdentificadorRegistro _t1)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 10, nullptr, _t1);
 }
 QT_WARNING_POP

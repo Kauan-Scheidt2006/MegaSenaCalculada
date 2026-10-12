@@ -26,14 +26,14 @@ BarraEstado& Ambiente::barraEstado() const noexcept
 {
     return estrutura_->barraEstado();
 }
-
+    
 void Ambiente::configurarJanela()
 {
     setObjectName(QStringLiteral("ambiente"));
     setAttribute(Qt::WA_StyledBackground, false);
     setWindowTitle(QStringLiteral("Mega Sena Calculada"));
     setMinimumSize(960, 640);
-    resize(1440, 900);
+    showMaximized();
 }
 
 void Ambiente::criarEstrutura()

@@ -1,9 +1,16 @@
 #include "dominio/Registro.hpp"
 #include "estruturas/ArvoreAvl.hpp"
+#include "estruturas/ArvoreAvlPassoAPasso.hpp"
 #include "estruturas/ArvoreBinariaBusca.hpp"
+#include "estruturas/ArvoreRubroNegra.hpp"
 
+#include <algorithm>
 #include <cassert>
 #include <memory>
+#include <numeric>
+#include <optional>
+#include <random>
+#include <set>
 #include <type_traits>
 #include <vector>
 
@@ -11,6 +18,9 @@ namespace {
 
 using estruturas::ArvoreBinariaBusca;
 using estruturas::ArvoreAvl;
+using estruturas::ArvoreRubroNegra;
+using estruturas::CorNoRubroNegro;
+using estruturas::MetricasNavegacaoArvore;
 using estruturas::NoAvl;
 using megasena::Chave;
 using megasena::ComparadorChave;
@@ -90,6 +100,47 @@ void testarAlturaDaArvoreNaoBalanceada()
     assert(arvore.altura() == 3);
 }
 
+template<typename Arvore>
+void testarBuscaRecursivaEPercursos()
+{
+    Arvore arvore;
+    for (int numero : {20, 10, 30}) {
+        assert(arvore.inserir(Chave{1, numero}));
+    }
+
+    const Chave* encontrada = arvore.buscar(Chave{1, 10});
+    assert(encontrada != nullptr);
+    assert(encontrada->numero == 10);
+    assert(arvore.contem(Chave{1, 30}));
+    assert(!arvore.contem(Chave{1, 99}));
+    MetricasNavegacaoArvore metricas{99, 99};
+    assert(arvore.buscar(Chave{1, 10}, metricas) != nullptr);
+    assert(metricas.nosVisitados == 2);
+    assert(metricas.comparacoes == 3);
+    assert(arvore.buscar(Chave{1, 99}, metricas) == nullptr);
+    assert(metricas.nosVisitados == 2);
+    assert(metricas.comparacoes == 4);
+    assert(arvore.metricasPeriodicasCalculadas());
+    assert(arvore.metricasPeriodicas().empty());
+    assert((arvore.percorrerPreOrdem()
+            == std::vector<Chave>{{1, 20}, {1, 10}, {1, 30}}));
+    assert((arvore.percorrerPosOrdem()
+            == std::vector<Chave>{{1, 10}, {1, 30}, {1, 20}}));
+}
+
+template<typename Arvore>
+void testarAlturaPeriodica()
+{
+    Arvore arvore;
+    for (int numero = 1; numero <= 800; ++numero) {
+        assert(arvore.inserir(Chave{numero, numero % 60 + 1}));
+    }
+    assert(arvore.metricasPeriodicasCalculadas());
+    assert(arvore.metricasPeriodicas().size() == 1);
+    assert(arvore.metricasPeriodicas()[0].quantidadeInserida == 800);
+    assert(arvore.metricasPeriodicas()[0].altura == arvore.altura());
+}
+
 void testarVisitaDaTopologiaEmOrdem()
 {
     ArvoreBinariaBusca<Chave, ComparadorChave> arvore;
@@ -139,7 +190,8 @@ void testarEstruturaInicialDaAvl()
     assert(arvore.quantidade() == 0);
 }
 
-void verificarRotacaoAvl(const std::vector<int>& numeros)
+void verificarRotacaoAvl(const std::vector<int>& numeros,
+                         std::size_t quantidadeRotacoesEsperada)
 {
     ArvoreAvl<Chave, ComparadorChave> arvore;
     for (int numero : numeros) {
@@ -148,16 +200,17 @@ void verificarRotacaoAvl(const std::vector<int>& numeros)
 
     assert(arvore.quantidade() == 3);
     assert(arvore.altura() == 2);
+    assert(arvore.quantidadeRotacoes() == quantidadeRotacoesEsperada);
     assert((arvore.percorrerEmOrdem()
             == std::vector<Chave>{{1, 10}, {1, 20}, {1, 30}}));
 }
 
 void testarRotacoesDaAvl()
 {
-    verificarRotacaoAvl({30, 20, 10}); // RD
-    verificarRotacaoAvl({10, 20, 30}); // RE
-    verificarRotacaoAvl({30, 10, 20}); // ED
-    verificarRotacaoAvl({10, 30, 20}); // DE
+    verificarRotacaoAvl({30, 20, 10}, 1); // RD
+    verificarRotacaoAvl({10, 20, 30}, 1); // RE
+    verificarRotacaoAvl({30, 10, 20}, 2); // ED
+    verificarRotacaoAvl({10, 30, 20}, 2); // DE
 }
 
 void testarDuplicataNaAvl()
@@ -190,6 +243,353 @@ void testarSequenciaOrdenadaNaAvl()
     }
 }
 
+void testarAvlPassoAPasso()
+{
+    const std::vector<std::vector<int>> casos{
+        {30, 20, 10}, {10, 20, 30}, {30, 10, 20}, {10, 30, 20}};
+    const std::vector<std::size_t> rotacoesEsperadas{1, 1, 2, 2};
+
+    for (std::size_t caso = 0; caso < casos.size(); ++caso) {
+        estruturas::ArvoreAvlPassoAPasso<Chave, ComparadorChave> didatica;
+        ArvoreAvl<Chave, ComparadorChave> final;
+        std::size_t eventosRotacao = 0;
+
+        for (int numero : casos[caso]) {
+            const Chave chave{1, numero};
+            assert(final.inserir(chave));
+            didatica.prepararInsercao(chave);
+            do {
+                const auto evento = didatica.avancar();
+                if (evento.tipo == estruturas::TipoEventoPassoAvl::RotacaoEsquerda
+                    || evento.tipo == estruturas::TipoEventoPassoAvl::RotacaoDireita) {
+                    ++eventosRotacao;
+                    assert(evento.raizSubarvoreAntes.has_value());
+                    assert(evento.raizSubarvoreDepois.has_value());
+                    assert(evento.valor == evento.raizSubarvoreDepois);
+                    assert(evento.raizSubarvoreAntes
+                           != evento.raizSubarvoreDepois);
+                }
+            } while (didatica.insercaoEmAndamento());
+        }
+
+        std::vector<Chave> ordenadas;
+        std::optional<Chave> raiz;
+        didatica.visitarNosEmOrdem(
+            [&](const Chave& chave, const Chave* pai, bool, std::size_t) {
+                ordenadas.push_back(chave);
+                if (!pai) raiz = chave;
+            });
+        assert((ordenadas == final.percorrerEmOrdem()));
+        assert((raiz == Chave{1, 20}));
+        assert(didatica.altura() == final.altura());
+        assert(didatica.quantidadeRotacoes() == final.quantidadeRotacoes());
+        assert(eventosRotacao == rotacoesEsperadas[caso]);
+    }
+
+    estruturas::ArvoreAvlPassoAPasso<Chave, ComparadorChave> duplicata;
+    duplicata.prepararInsercao(Chave{1, 10});
+    while (duplicata.insercaoEmAndamento()) (void)duplicata.avancar();
+    duplicata.prepararInsercao(Chave{1, 10});
+    while (duplicata.insercaoEmAndamento()) (void)duplicata.avancar();
+    assert(duplicata.quantidade() == 1);
+}
+
+void testarInsercaoRubroNegraPreservaInvariantes()
+{
+    const std::vector<std::vector<int>> sequencias{
+        {30, 20, 10},
+        {10, 20, 30},
+        {30, 10, 20},
+        {10, 30, 20},
+        {7, 3, 18, 10, 22, 8, 11, 26, 2, 6, 13},
+    };
+
+    for (const auto& sequencia : sequencias) {
+        ArvoreRubroNegra<Chave, ComparadorChave> arvore;
+        assert(arvore.vazia());
+        assert(arvore.invariantesPreservadas());
+
+        for (int numero : sequencia) {
+            assert(arvore.inserir(Chave{1, numero}));
+            assert(arvore.invariantesPreservadas());
+        }
+
+        assert(!arvore.vazia());
+        assert(arvore.quantidade() == sequencia.size());
+        auto ordenadas = arvore.percorrerEmOrdem();
+        assert(std::is_sorted(ordenadas.begin(), ordenadas.end(),
+                              ComparadorChave{}));
+    }
+}
+
+void testarLeituraDaTopologiaRubroNegra()
+{
+    ArvoreRubroNegra<Chave, ComparadorChave> arvore;
+    assert(arvore.altura() == 0);
+    assert(arvore.quantidadeRotacoes() == 0);
+
+    assert(arvore.inserir(Chave{1, 30}));
+    assert(arvore.inserir(Chave{1, 20}));
+    assert(arvore.inserir(Chave{1, 10}));
+
+    struct NoVisitado {
+        int numero;
+        int numeroPai;
+        bool filhoEsquerdo;
+        std::size_t profundidade;
+        CorNoRubroNegro cor;
+    };
+    std::vector<NoVisitado> visitados;
+    arvore.visitarNosComCorEmOrdem(
+        [&](const Chave& chave, const Chave* pai, bool filhoEsquerdo,
+            std::size_t profundidade, CorNoRubroNegro cor) {
+            visitados.push_back(
+                {chave.numero, pai ? pai->numero : 0,
+                 filhoEsquerdo, profundidade, cor});
+        });
+
+    assert(arvore.altura() == 2);
+    assert(arvore.quantidadeRotacoes() == 1);
+    assert(visitados.size() == 3);
+    assert(visitados[0].numero == 10);
+    assert(visitados[0].numeroPai == 20);
+    assert(visitados[0].filhoEsquerdo);
+    assert(visitados[0].profundidade == 1);
+    assert(visitados[0].cor == CorNoRubroNegro::Vermelho);
+    assert(visitados[1].numero == 20);
+    assert(visitados[1].numeroPai == 0);
+    assert(visitados[1].profundidade == 0);
+    assert(visitados[1].cor == CorNoRubroNegro::Preto);
+    assert(visitados[2].numero == 30);
+    assert(visitados[2].numeroPai == 20);
+    assert(!visitados[2].filhoEsquerdo);
+    assert(visitados[2].profundidade == 1);
+    assert(visitados[2].cor == CorNoRubroNegro::Vermelho);
+}
+
+void testarCasosTradicionaisDaInsercaoRubroNegra()
+{
+    const std::vector<std::vector<int>> casos{
+        {30, 20, 10}, {10, 20, 30}, {30, 10, 20}, {10, 30, 20}};
+    const std::vector<std::size_t> rotacoesEsperadas{1, 1, 2, 2};
+
+    for (std::size_t indice = 0; indice < casos.size(); ++indice) {
+        ArvoreRubroNegra<Chave, ComparadorChave> arvore;
+        for (int numero : casos[indice]) {
+            const auto rotacoesAntes = arvore.quantidadeRotacoes();
+            assert(arvore.inserir(Chave{1, numero}));
+            assert(arvore.quantidadeRotacoes() - rotacoesAntes <= 2);
+            assert(arvore.invariantesPreservadas());
+        }
+
+        std::vector<std::pair<int, CorNoRubroNegro>> nos;
+        arvore.visitarNosComCorEmOrdem(
+            [&](const Chave& chave, const Chave*, bool, std::size_t,
+                CorNoRubroNegro cor) {
+                nos.emplace_back(chave.numero, cor);
+            });
+
+        assert(arvore.quantidadeRotacoes() == rotacoesEsperadas[indice]);
+        assert(nos.size() == 3);
+        assert(nos[0] == std::make_pair(10, CorNoRubroNegro::Vermelho));
+        assert(nos[1] == std::make_pair(20, CorNoRubroNegro::Preto));
+        assert(nos[2] == std::make_pair(30, CorNoRubroNegro::Vermelho));
+    }
+
+    ArvoreRubroNegra<Chave, ComparadorChave> recoloracao;
+    for (int numero : {20, 10, 30}) {
+        assert(recoloracao.inserir(Chave{1, numero}));
+    }
+    const auto rotacoesAntes = recoloracao.quantidadeRotacoes();
+    assert(recoloracao.inserir(Chave{1, 5}));
+    assert(recoloracao.quantidadeRotacoes() == rotacoesAntes);
+    assert(recoloracao.invariantesPreservadas());
+
+    std::vector<std::pair<int, CorNoRubroNegro>> nos;
+    recoloracao.visitarNosComCorEmOrdem(
+        [&](const Chave& chave, const Chave*, bool, std::size_t,
+            CorNoRubroNegro cor) {
+            nos.emplace_back(chave.numero, cor);
+        });
+    assert(nos.size() == 4);
+    assert(nos[0] == std::make_pair(5, CorNoRubroNegro::Vermelho));
+    assert(nos[1] == std::make_pair(10, CorNoRubroNegro::Preto));
+    assert(nos[2] == std::make_pair(20, CorNoRubroNegro::Preto));
+    assert(nos[3] == std::make_pair(30, CorNoRubroNegro::Preto));
+}
+
+void testarVisitaCompativelEContagemDeRotacaoDuplaRubroNegra()
+{
+    ArvoreRubroNegra<Chave, ComparadorChave> arvore;
+    assert(arvore.inserir(Chave{1, 10}));
+    assert(arvore.inserir(Chave{1, 30}));
+    assert(arvore.inserir(Chave{1, 20}));
+
+    std::vector<int> ordem;
+    arvore.visitarNosEmOrdem(
+        [&](const Chave& chave, const Chave*, bool, std::size_t) {
+            ordem.push_back(chave.numero);
+        });
+
+    assert((ordem == std::vector<int>{10, 20, 30}));
+    assert(arvore.altura() == 2);
+    assert(arvore.quantidadeRotacoes() == 2);
+    assert(arvore.invariantesPreservadas());
+}
+
+void testarDuplicataNaRubroNegra()
+{
+    ArvoreRubroNegra<Registro, ComparadorRegistro> arvore;
+    assert(arvore.inserir(Registro{{1, 4}, 1}));
+    const auto antes = arvore.percorrerEmOrdem();
+    const auto rotacoesAntes = arvore.quantidadeRotacoes();
+
+    assert(!arvore.inserir(Registro{{1, 4}, 999}));
+    assert(arvore.quantidade() == 1);
+    const auto depois = arvore.percorrerEmOrdem();
+    assert(depois.size() == antes.size());
+    assert(depois.front().chave == antes.front().chave);
+    assert(depois.front().numeroConcurso == antes.front().numeroConcurso);
+    assert(depois.front().numeroConcurso == 1);
+    assert(arvore.quantidadeRotacoes() == rotacoesAntes);
+    assert(arvore.invariantesPreservadas());
+}
+
+void testarSequenciaExtensaNaRubroNegra()
+{
+    ArvoreRubroNegra<Chave, ComparadorChave> arvore;
+    for (int numero = 1; numero <= 1000; ++numero) {
+        assert(arvore.inserir(Chave{1, numero}));
+        assert(arvore.invariantesPreservadas());
+    }
+
+    assert(arvore.quantidade() == 1000);
+    const auto ordenadas = arvore.percorrerEmOrdem();
+    assert(ordenadas.front() == (Chave{1, 1}));
+    assert(ordenadas.back() == (Chave{1, 1000}));
+}
+
+void testarPermutacoesDeterministicasNaRubroNegra()
+{
+    std::vector<int> numeros(128);
+    std::iota(numeros.begin(), numeros.end(), 1);
+    std::mt19937 gerador(20261008);
+
+    for (int repeticao = 0; repeticao < 50; ++repeticao) {
+        std::shuffle(numeros.begin(), numeros.end(), gerador);
+        ArvoreRubroNegra<Chave, ComparadorChave> arvore;
+        for (int numero : numeros) {
+            const auto rotacoesAntes = arvore.quantidadeRotacoes();
+            assert(arvore.inserir(Chave{1, numero}));
+            assert(arvore.quantidadeRotacoes() - rotacoesAntes <= 2);
+            assert(arvore.invariantesPreservadas());
+        }
+        assert(arvore.quantidade() == numeros.size());
+    }
+}
+
+template<typename Arvore>
+void testarRemocoesBasicas()
+{
+    Arvore arvore;
+    MetricasNavegacaoArvore metricas{99, 99};
+    assert(!arvore.remover(Chave{1, 10}, metricas));
+    assert(metricas.nosVisitados == 0);
+    assert(metricas.comparacoes == 0);
+
+    for (int numero : {40, 20, 60, 10, 30, 50, 70, 25}) {
+        assert(arvore.inserir(Chave{1, numero}));
+    }
+
+    assert(arvore.remover(Chave{1, 10}, metricas));
+    assert(metricas.nosVisitados == 3);
+    assert(metricas.comparacoes == 4);
+    assert(arvore.remover(Chave{1, 30}, metricas));
+    assert(metricas.nosVisitados > 0);
+    assert(metricas.comparacoes > 0);
+    assert(arvore.remover(Chave{1, 60}, metricas));
+    assert(metricas.nosVisitados > 0);
+    assert(metricas.comparacoes > 0);
+    assert(arvore.remover(Chave{1, 40}, metricas));
+    assert(metricas.nosVisitados > 0);
+    assert(metricas.comparacoes > 0);
+    assert(!arvore.remover(Chave{1, 99}, metricas));
+    assert(metricas.nosVisitados > 0);
+    assert(metricas.comparacoes > 0);
+    assert(arvore.quantidade() == 4);
+    assert((arvore.percorrerEmOrdem()
+            == std::vector<Chave>{{1, 20}, {1, 25}, {1, 50}, {1, 70}}));
+
+    for (int numero : {20, 25, 50, 70}) {
+        assert(arvore.remover(Chave{1, numero}));
+    }
+    assert(arvore.vazia());
+    assert(arvore.quantidade() == 0);
+}
+
+template<typename Arvore>
+void testarRemocaoContabilizaSucessor()
+{
+    Arvore arvore;
+    for (int numero : {20, 10, 30}) {
+        assert(arvore.inserir(Chave{1, numero}));
+    }
+
+    MetricasNavegacaoArvore metricas{99, 99};
+    assert(arvore.remover(Chave{1, 20}, metricas));
+    assert(metricas.nosVisitados == 2);
+    assert(metricas.comparacoes == 2);
+}
+
+void testarRemocoesAvlPreservamBalanceamento()
+{
+    ArvoreAvl<Chave, ComparadorChave> arvore;
+    for (int numero = 1; numero <= 200; ++numero) {
+        assert(arvore.inserir(Chave{1, numero}));
+    }
+    for (int numero = 1; numero <= 200; numero += 2) {
+        assert(arvore.remover(Chave{1, numero}));
+        assert(arvore.altura() <= 8);
+    }
+    for (int numero = 2; numero <= 200; numero += 2) {
+        assert(arvore.remover(Chave{1, numero}));
+    }
+    assert(arvore.vazia());
+}
+
+void testarRemocoesRubroNegrasContraConjuntoOrdenado()
+{
+    std::vector<int> numeros(256);
+    std::iota(numeros.begin(), numeros.end(), 1);
+    std::mt19937 gerador(20261010);
+    std::shuffle(numeros.begin(), numeros.end(), gerador);
+
+    ArvoreRubroNegra<Chave, ComparadorChave> arvore;
+    std::set<int> referencia;
+    for (int numero : numeros) {
+        assert(arvore.inserir(Chave{1, numero}));
+        referencia.insert(numero);
+    }
+
+    std::shuffle(numeros.begin(), numeros.end(), gerador);
+    for (int numero : numeros) {
+        const auto rotacoesAntes = arvore.quantidadeRotacoes();
+        assert(arvore.remover(Chave{1, numero}));
+        assert(arvore.quantidadeRotacoes() - rotacoesAntes <= 3);
+        referencia.erase(numero);
+        assert(arvore.invariantesPreservadas());
+        assert(arvore.quantidade() == referencia.size());
+        const auto valores = arvore.percorrerEmOrdem();
+        assert(valores.size() == referencia.size());
+        auto esperado = referencia.begin();
+        for (const auto& valor : valores) {
+            assert(esperado != referencia.end());
+            assert(valor.numero == *esperado++);
+        }
+    }
+    assert(arvore.vazia());
+}
+
 } // namespace
 
 int main()
@@ -198,10 +598,41 @@ int main()
     testarInsercaoBuscaEPercurso();
     testarRejeicaoDeChaveDuplicada();
     testarAlturaDaArvoreNaoBalanceada();
+    testarBuscaRecursivaEPercursos<
+        ArvoreBinariaBusca<Chave, ComparadorChave>>();
+    testarBuscaRecursivaEPercursos<ArvoreAvl<Chave, ComparadorChave>>();
+    testarBuscaRecursivaEPercursos<
+        ArvoreRubroNegra<Chave, ComparadorChave>>();
+    testarAlturaPeriodica<
+        ArvoreBinariaBusca<Chave, ComparadorChave>>();
+    testarAlturaPeriodica<ArvoreAvl<Chave, ComparadorChave>>();
+    testarAlturaPeriodica<
+        ArvoreRubroNegra<Chave, ComparadorChave>>();
     testarVisitaDaTopologiaEmOrdem();
     testarEstruturaInicialDaAvl();
     testarRotacoesDaAvl();
     testarDuplicataNaAvl();
     testarSequenciaOrdenadaNaAvl();
+    testarAvlPassoAPasso();
+    testarInsercaoRubroNegraPreservaInvariantes();
+    testarLeituraDaTopologiaRubroNegra();
+    testarCasosTradicionaisDaInsercaoRubroNegra();
+    testarVisitaCompativelEContagemDeRotacaoDuplaRubroNegra();
+    testarDuplicataNaRubroNegra();
+    testarSequenciaExtensaNaRubroNegra();
+    testarPermutacoesDeterministicasNaRubroNegra();
+    testarRemocoesBasicas<
+        ArvoreBinariaBusca<Chave, ComparadorChave>>();
+    testarRemocoesBasicas<ArvoreAvl<Chave, ComparadorChave>>();
+    testarRemocoesBasicas<
+        ArvoreRubroNegra<Chave, ComparadorChave>>();
+    testarRemocaoContabilizaSucessor<
+        ArvoreBinariaBusca<Chave, ComparadorChave>>();
+    testarRemocaoContabilizaSucessor<
+        ArvoreAvl<Chave, ComparadorChave>>();
+    testarRemocaoContabilizaSucessor<
+        ArvoreRubroNegra<Chave, ComparadorChave>>();
+    testarRemocoesAvlPreservamBalanceamento();
+    testarRemocoesRubroNegrasContraConjuntoOrdenado();
     return 0;
 }

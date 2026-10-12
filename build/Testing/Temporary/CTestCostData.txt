@@ -1,8 +1,10 @@
-estrutura_inicial 36 0.00166174
+estrutura_inicial 54 0
 leitor_planilha_xlsx 2 0.0524565
-leitor_concursos_json 15 0.00402744
-interface_inicial 21 0.00565631
-modelo_apresentacao_arvore 19 0.00440583
-processamento_apresentacao 21 0.0200494
-disposicao_arvore 10 0.00746642
+leitor_concursos_json 30 0.0104777
+interface_inicial 45 0.00392691
+modelo_apresentacao_arvore 35 0.00732229
+processamento_apresentacao 46 0
+disposicao_arvore 27 0.00772079
 ---
+estrutura_inicial
+processamento_apresentacao

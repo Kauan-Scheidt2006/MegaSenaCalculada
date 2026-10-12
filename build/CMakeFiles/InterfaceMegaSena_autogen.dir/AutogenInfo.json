@@ -371,6 +371,12 @@
 			null
 		],
 		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ResultadoOperacaoArvore.hpp",
+			"MU",
+			"6RA55OEEQP/moc_ResultadoOperacaoArvore.cpp",
+			null
+		],
+		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/VisualizacaoArvore.hpp",
 			"MU",
 			"6RA55OEEQP/moc_VisualizacaoArvore.cpp",
@@ -669,6 +675,11 @@
 		],
 		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/PopoverDetalhesRegistro.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ResultadoOperacaoArvore.cpp",
 			"MU",
 			null
 		],

@@ -311,6 +311,12 @@
 			null
 		],
 		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ExecutorPercursosArvore.hpp",
+			"MU",
+			"LB3NK72MOZ/moc_ExecutorPercursosArvore.cpp",
+			null
+		],
+		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/SessaoConstrucaoAvlPassoAPasso.hpp",
 			"MU",
 			"LB3NK72MOZ/moc_SessaoConstrucaoAvlPassoAPasso.cpp",
@@ -416,6 +422,11 @@
 		],
 		[
 			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ConsultorDetalhesRegistro.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/src/aplicacao/arvore/ExecutorPercursosArvore.cpp",
 			"MU",
 			null
 		],

@@ -37,8 +37,14 @@ Não registre conversas, planos temporários, detalhes evidentes da implementaç
 | [0003](0003-governanca-escalavel-de-agentes.md) | Governança escalável de agentes | Aceita |
 | [0004](0004-arquitetura-inicial-da-arvore-avl.md) | Arquitetura inicial da árvore AVL | Aceita |
 | [0005](0005-insercao-e-rotacoes-da-arvore-avl.md) | Inserção e rotações da árvore AVL | Aceita |
-| [0006](0006-preparacao-do-historico-para-processamento.md) | Preparação do histórico para processamento | Aceita |
+| [0006](0006-preparacao-do-historico-para-processamento.md) | Preparação do histórico para processamento | Substituída |
 | [0007](0007-encapsulamento-da-leitura-xlsx.md) | Encapsulamento da leitura XLSX | Substituída |
 | [0008](0008-arquivo-json-como-fonte-dos-concursos.md) | Arquivo JSON como fonte dos concursos | Aceita |
 | [0009](0009-arquitetura-inicial-da-interface-qt.md) | Arquitetura inicial da interface Qt | Aceita |
 | [0010](0010-estilos-visuais-exclusivamente-em-qss.md) | Estilos visuais exclusivamente em QSS | Aceita |
+| [0011](0011-ordem-do-json-nos-experimentos.md) | Ordem do JSON nos experimentos de árvores | Aceita |
+| [0012](0012-execucao-avl-passo-a-passo.md) | Execução da AVL passo a passo | Aceita |
+| [0013](0013-visualizacao-compacta-e-exploracao-contextual.md) | Visualização compacta e exploração contextual das árvores | Aceita |
+| [0014](0014-remocao-nas-arvores.md) | Remoção nas árvores e métricas da operação | Aceita |
+| [0015](0015-insercao-tradicional-rubro-negra.md) | Inserção tradicional da árvore rubro-negra | Aceita |
+| [0016](0016-metricas-navegacao-arvores.md) | Métricas de navegação das árvores | Aceita |

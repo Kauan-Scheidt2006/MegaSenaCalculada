@@ -1,0 +1,429 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MegaSenaCalculada",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ApresentacaoArvore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ApresentacaoArvore-Debug-3ce26537c3a4a4aea234.json",
+					"name" : "ApresentacaoArvore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ApresentacaoArvore_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ApresentacaoArvore_autogen-Debug-66c82e904e82ccd118b1.json",
+					"name" : "ApresentacaoArvore_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ApresentacaoArvore_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ApresentacaoArvore_autogen_timestamp_deps-Debug-cfaf8b98982426bdd726.json",
+					"name" : "ApresentacaoArvore_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CasosUsoArvore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CasosUsoArvore-Debug-9dc79fff5cb6b17f516a.json",
+					"name" : "CasosUsoArvore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CasosUsoArvore_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CasosUsoArvore_autogen-Debug-3178232ee251f740b88a.json",
+					"name" : "CasosUsoArvore_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CasosUsoArvore_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CasosUsoArvore_autogen_timestamp_deps-Debug-c2d25a5dbac21e06aafe.json",
+					"name" : "CasosUsoArvore_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DisposicaoArvore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DisposicaoArvore-Debug-ada74ed055b128273213.json",
+					"name" : "DisposicaoArvore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DisposicaoArvore_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DisposicaoArvore_autogen-Debug-f6e5a5f806dc09851e3a.json",
+					"name" : "DisposicaoArvore_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DisposicaoArvore_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DisposicaoArvore_autogen_timestamp_deps-Debug-df9e7bae7dd6e1490fb1.json",
+					"name" : "DisposicaoArvore_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InfraestruturaJson::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InfraestruturaJson-Debug-9551c7108f9f418c1f5c.json",
+					"name" : "InfraestruturaJson",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InfraestruturaJson_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InfraestruturaJson_autogen-Debug-5d959458c934ede04650.json",
+					"name" : "InfraestruturaJson_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InfraestruturaJson_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InfraestruturaJson_autogen_timestamp_deps-Debug-8b04e9d222e8d06a892a.json",
+					"name" : "InfraestruturaJson_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InterfaceMegaSena::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InterfaceMegaSena-Debug-28afc296d669ffd8327f.json",
+					"name" : "InterfaceMegaSena",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InterfaceMegaSena_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InterfaceMegaSena_autogen-Debug-6bcfe90ae1359dbeb08e.json",
+					"name" : "InterfaceMegaSena_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InterfaceMegaSena_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InterfaceMegaSena_autogen_timestamp_deps-Debug-907291dcf33a4be90423.json",
+					"name" : "InterfaceMegaSena_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MegaSenaCalculada::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MegaSenaCalculada-Debug-46d1a192ea5f72f1c043.json",
+					"name" : "MegaSenaCalculada",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MegaSenaCalculada_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MegaSenaCalculada_autogen-Debug-79abb28f22fad1f0e82d.json",
+					"name" : "MegaSenaCalculada_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MegaSenaCalculada_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MegaSenaCalculada_autogen_timestamp_deps-Debug-824e54198594618ea908.json",
+					"name" : "MegaSenaCalculada_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProcessamentoHistorico::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProcessamentoHistorico-Debug-f9ea86f036af3deddc16.json",
+					"name" : "ProcessamentoHistorico",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProcessamentoHistorico_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProcessamentoHistorico_autogen-Debug-9c89bc08ead4ab653557.json",
+					"name" : "ProcessamentoHistorico_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProcessamentoHistorico_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProcessamentoHistorico_autogen_timestamp_deps-Debug-07d0affd48529a0fc502.json",
+					"name" : "ProcessamentoHistorico_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TesteVisualizacaoArvore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TesteVisualizacaoArvore-Debug-e8d95ca07cb1e00195ef.json",
+					"name" : "TesteVisualizacaoArvore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TesteVisualizacaoArvore_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TesteVisualizacaoArvore_autogen-Debug-90738512b9d0a0663fff.json",
+					"name" : "TesteVisualizacaoArvore_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TesteVisualizacaoArvore_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TesteVisualizacaoArvore_autogen_timestamp_deps-Debug-03ccb2f8bdf365f3b788.json",
+					"name" : "TesteVisualizacaoArvore_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesDisposicaoArvore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesDisposicaoArvore-Debug-e2cefb8d0dfa70556bad.json",
+					"name" : "TestesDisposicaoArvore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesDisposicaoArvore_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesDisposicaoArvore_autogen-Debug-3828fea65214dd378c45.json",
+					"name" : "TestesDisposicaoArvore_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesDisposicaoArvore_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesDisposicaoArvore_autogen_timestamp_deps-Debug-d970a0c83d2441f3dddb.json",
+					"name" : "TestesDisposicaoArvore_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesEstruturaInicial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesEstruturaInicial-Debug-c5f49e62c921e32c1f58.json",
+					"name" : "TestesEstruturaInicial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesEstruturaInicial_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesEstruturaInicial_autogen-Debug-7e007065b4429ec5824c.json",
+					"name" : "TestesEstruturaInicial_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesEstruturaInicial_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesEstruturaInicial_autogen_timestamp_deps-Debug-04c7991efa69a2eb371f.json",
+					"name" : "TestesEstruturaInicial_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesInterfaceInicial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesInterfaceInicial-Debug-3f6bd935e40f63573e99.json",
+					"name" : "TestesInterfaceInicial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesInterfaceInicial_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesInterfaceInicial_autogen-Debug-83b6ca83fbe2198c08d3.json",
+					"name" : "TestesInterfaceInicial_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesInterfaceInicial_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesInterfaceInicial_autogen_timestamp_deps-Debug-58ecad387f2529eed2ca.json",
+					"name" : "TestesInterfaceInicial_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesLeitorConcursosJson::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesLeitorConcursosJson-Debug-d7808e9f453fd42fd7bc.json",
+					"name" : "TestesLeitorConcursosJson",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesLeitorConcursosJson_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesLeitorConcursosJson_autogen-Debug-146ac74fbaeee9681d0e.json",
+					"name" : "TestesLeitorConcursosJson_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesLeitorConcursosJson_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesLeitorConcursosJson_autogen_timestamp_deps-Debug-f50d29d0e12d6ba8f926.json",
+					"name" : "TestesLeitorConcursosJson_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesModeloApresentacaoArvore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesModeloApresentacaoArvore-Debug-ddb5bc9390efd0e5dde2.json",
+					"name" : "TestesModeloApresentacaoArvore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesModeloApresentacaoArvore_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesModeloApresentacaoArvore_autogen-Debug-93fbd55c30a3d3eb7634.json",
+					"name" : "TestesModeloApresentacaoArvore_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesModeloApresentacaoArvore_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesModeloApresentacaoArvore_autogen_timestamp_deps-Debug-f027808e56d49b66a477.json",
+					"name" : "TestesModeloApresentacaoArvore_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesProcessamentoApresentacao::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesProcessamentoApresentacao-Debug-b3c0e318aeab80c965c5.json",
+					"name" : "TestesProcessamentoApresentacao",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesProcessamentoApresentacao_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesProcessamentoApresentacao_autogen-Debug-f286dba7695a3f2ba534.json",
+					"name" : "TestesProcessamentoApresentacao_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestesProcessamentoApresentacao_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestesProcessamentoApresentacao_autogen_timestamp_deps-Debug-74481017177681bf2648.json",
+					"name" : "TestesProcessamentoApresentacao_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada/build",
+		"source" : "C:/Users/Kauan/Documents/ChatGPT/Mega Sena Calculada/MegaSenaCalculada"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

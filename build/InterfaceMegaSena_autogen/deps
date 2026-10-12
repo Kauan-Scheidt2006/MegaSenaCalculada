@@ -646,6 +646,7 @@ InterfaceMegaSena_autogen/timestamp: \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/build/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/build/InterfaceMegaSena_autogen/moc_predefs.h \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/recursos/recursos.qrc \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/dominio/AmostraAlturaArvore.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/ambiente/Ambiente.cpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/ambiente/Ambiente.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/ambiente/AreaPaginas.cpp \
@@ -680,6 +681,8 @@ InterfaceMegaSena_autogen/timestamp: \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/MarcadorDezena.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/PopoverDetalhesRegistro.cpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/PopoverDetalhesRegistro.hpp \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ResultadoOperacaoArvore.cpp \
+	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/ResultadoOperacaoArvore.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/VisualizacaoArvore.cpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/componentes/arvore/VisualizacaoArvore.hpp \
 	C:/Users/Kauan/Documents/ChatGPT/Mega\ Sena\ Calculada/MegaSenaCalculada/src/interface/componentes/basicos/Botao.cpp \

@@ -40,11 +40,8 @@ separadas.
 - OpenXLSX deixa de ser dependência do projeto.
 - Arquivos XLSX não serão aceitos como entrada.
 - Erros de leitura informarão o arquivo e a posição lógica do valor no JSON.
-- A política de tudo ou nada da decisão 0006 permanece vigente.
-- As referências a linhas, colunas e XLSX na decisão 0006 passam a
-  corresponder aos itens, campos e ao arquivo JSON definidos nesta decisão.
-- A ordem dos itens e das dezenas no JSON não substitui a normalização
-  posterior definida na decisão 0006.
+- A política de tudo ou nada e a ordem de processamento são definidas pela
+  decisão 0011.
 
 ## Alternativas consideradas
 

@@ -19,6 +19,11 @@ struct ComparadorChave {
     }
 };
 
+
+
+
+
+
 [[nodiscard]] constexpr bool operator==(const Chave& esquerda,
                                         const Chave& direita) noexcept
 {
